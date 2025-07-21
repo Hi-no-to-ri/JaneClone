@@ -20,6 +20,8 @@
  */
 
 #include "janecloneutil.hpp"
+#include "enums.hpp"
+
 
 #if defined(__APPLE__)
 #  define COMMON_DIGEST_FOR_OPENSSL
