@@ -20,6 +20,7 @@
  */
 
 #include "janecloneuiutil.hpp"
+#include "enums.hpp"
 #include "janecloneutil.hpp"
 #include "janeclone.hpp"
 
