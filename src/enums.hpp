@@ -31,8 +31,8 @@
 
 // 使いたい列挙型を定義する.バックスラッシュの後ろに文字があるとコンパイルエラーになるので注意
 #define X_TABLE \
-X_TABLE_ITEM(ID_Restart)			/* 再起動						　　　　*/ \
-X_TABLE_ITEM(ID_Test)				/* テスト用						　　　　*/ \
+X_TABLE_ITEM(ID_Restart)			/* 再起動						        */ \
+X_TABLE_ITEM(ID_Test)				/* テスト用						        */ \
 X_TABLE_ITEM(ID_Logging)			/* ログ出力制御用						*/ \
 X_TABLE_ITEM(ID_WindowMinimize)			/* ウィンドウを最小化する					*/ \
 X_TABLE_ITEM(ID_GetBoardList)			/* 板一覧情報取得						*/ \
