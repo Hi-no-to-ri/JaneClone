@@ -325,6 +325,7 @@ enum JANECLONE_ENUMS {
     ID_Quit = 1,
     #define X(Enum, String) Enum,
     X_TABLE
+,
     #undef X
     ID_UserLastClosedThreadClick = 1000,  // ユーザーが最後に閉じたスレッドの情報をクリックした(動的なIDのため1000~)
     ID_UserLastClosedBoardClick	 = 1100,  // ユーザーが最後に閉じた板の情報をクリックした(動的なIDのため1100~)
