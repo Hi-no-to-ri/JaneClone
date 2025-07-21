@@ -118,11 +118,7 @@
 #define BOARD_TREE_NOTEBOOK    wxT("boardTreeNoteBook")
 
 // ユーザーエージェント
-#ifdef PACKAGE_VERSION
-static const std::string userAgent = std::string("Monazilla/1.00 JaneClone(" PACKAGE_VERSION ")" );
-#else
-static const std::string userAgent = std::string("Monazilla/1.00 JaneClone(Unknown)");
-#endif
+static const std::string userAgent = std::string("Monazilla/1.00 JaneClone(" PACKAGE_VERSION ")");
 
 // バージョン
 static const wxString janecloneVersion = wxT( PACKAGE_VERSION );
