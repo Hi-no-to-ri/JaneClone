@@ -19,6 +19,10 @@
  *	Hiroyuki Nagata <idiotpanzer@gmail.com>
  */
 
+#ifndef PACKAGE_VERSION
+#define PACKAGE_VERSION "Unknown"
+#endif
+
 #ifndef DATATYPE_HPP_
 #define DATATYPE_HPP_
 
@@ -35,9 +39,6 @@
 #include <wx/filefn.h>
 #include <wx/stdpaths.h>
 #include <wx/filename.h>
-#ifndef PACKAGE_VERSION
-#define PACKAGE_VERSION "Unknown"
-#endif
 
 // マクロ置換用マクロ
 #define XSTR(x) #x
