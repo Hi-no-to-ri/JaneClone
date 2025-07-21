@@ -1,4 +1,3 @@
-#include "curlpp/internal/global.h"
 #include "curlpp/internal/SList.hpp"
 
 #include "curlpp/Info.hpp"
@@ -13,7 +12,7 @@ namespace curlpp
 
 template<>
 void
-InfoTypeConverter<std::string>::get(curlpp::Easy & handle, 
+InfoTypeConverter<std::string>::get(const curlpp::Easy & handle, 
 				      CURLINFO info,
 				      std::string & value)
 {
@@ -25,7 +24,7 @@ InfoTypeConverter<std::string>::get(curlpp::Easy & handle,
 
 template<>
 void 
-InfoTypeConverter<std::list<std::string> >::get(curlpp::Easy & handle,
+InfoTypeConverter<std::list<std::string> >::get(const curlpp::Easy & handle,
 						   CURLINFO info,
 						   std::list<std::string> & value)
 { 
@@ -38,7 +37,7 @@ InfoTypeConverter<std::list<std::string> >::get(curlpp::Easy & handle,
 
 template<>
 void
-InfoTypeConverter<long>::get(curlpp::Easy & handle, 
+InfoTypeConverter<long>::get(const curlpp::Easy & handle, 
 			       CURLINFO info,
 			       long & value)
 {
@@ -48,7 +47,7 @@ InfoTypeConverter<long>::get(curlpp::Easy & handle,
 
 template<>
 void
-InfoTypeConverter<double>::get(curlpp::Easy & handle, 
+InfoTypeConverter<double>::get(const curlpp::Easy & handle, 
 				 CURLINFO info,
 				 double & value)
 {

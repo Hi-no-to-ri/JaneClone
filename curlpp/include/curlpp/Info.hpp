@@ -26,7 +26,6 @@
 #define CURLPP_INFO_HPP
 
 
-#include "internal/buildconfig.h"
 
 #include "Easy.hpp"
 
@@ -42,10 +41,10 @@ namespace curlpp
 	*/
 
 	template<CURLINFO info, typename T>
-	struct CURLPPAPI Info 
+	struct Info 
 	{
-		static void get(curlpp::Easy & handle, T & value);
-		static T get(curlpp::Easy & handle);
+		static void get(const curlpp::Easy & handle, T & value);
+		static T get(const curlpp::Easy & handle);
 	};
 
 
@@ -55,10 +54,10 @@ namespace curlpp
 	*/
 
 	template<CURLINFO info, typename T>
-	struct CURLPPAPI NotAvailableInfo : Info<info, T>
+	struct NotAvailableInfo : Info<info, T>
 	{
-		static void get(curlpp::Easy & handle, T & value);
-		static T get(curlpp::Easy & handle);
+		static void get(const curlpp::Easy & handle, T & value);
+		static T get(const curlpp::Easy & handle);
 	};
 
 
@@ -70,30 +69,30 @@ namespace curlpp
 	*/
 
 	template<typename T>
-	struct CURLPPAPI InfoTypeConverter
+	struct InfoTypeConverter
 	{
-		static void get(curlpp::Easy & handle, CURLINFO info, T & value);
+		static void get(const curlpp::Easy & handle, CURLINFO info, T & value);
 	}; 
 
 
 	template<>
 	void InfoTypeConverter<std::string>
-		::get(curlpp::Easy & handle, CURLINFO info, std::string & value);
+		::get(const curlpp::Easy & handle, CURLINFO info, std::string & value);
 
 
 	template<>
 	void InfoTypeConverter<std::list<std::string> >
-		::get(curlpp::Easy & handle, CURLINFO info, std::list<std::string> & value);
+		::get(const curlpp::Easy & handle, CURLINFO info, std::list<std::string> & value);
 
 
 	template<>
 	void InfoTypeConverter<long>
-		::get(curlpp::Easy & handle, CURLINFO info, long & value);
+		::get(const curlpp::Easy & handle, CURLINFO info, long & value);
 
 
 	template<>
 	void InfoTypeConverter<double>
-		::get(curlpp::Easy & handle, CURLINFO info, double & value);
+		::get(const curlpp::Easy & handle, CURLINFO info, double & value);
 
 
 	/**
@@ -105,10 +104,10 @@ namespace curlpp
 	* private data.
 	*/
 
-	struct CURLPPAPI InfoGetter
+	struct InfoGetter
 	{
 		template<typename T>
-		static void get(curlpp::Easy & handle, CURLINFO info, T & value);
+		static void get(const curlpp::Easy & handle, CURLINFO info, T & value);
 	};
 
 
@@ -117,9 +116,6 @@ namespace curlpp
 namespace cURLpp = curlpp;
 
 
-#ifdef CURLPP_INCLUDE_TEMPLATE_DEFINITIONS
-	#include "Info.inl"
-#endif
-
+#include "Info.inl"
 
 #endif // #ifndef CURLPP_INFO_HPP

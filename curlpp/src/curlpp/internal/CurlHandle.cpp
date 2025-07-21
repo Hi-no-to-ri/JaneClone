@@ -1,27 +1,26 @@
 /*
 *    Copyright (c) <2002-2009> <Jean-Philippe Barrette-LaPierre>
-*
+*    
 *    Permission is hereby granted, free of charge, to any person obtaining
-*    a copy of this software and associated documentation files
-*    (curlpp), to deal in the Software without restriction,
+*    a copy of this software and associated documentation files 
+*    (curlpp), to deal in the Software without restriction, 
 *    including without limitation the rights to use, copy, modify, merge,
 *    publish, distribute, sublicense, and/or sell copies of the Software,
-*    and to permit persons to whom the Software is furnished to do so,
+*    and to permit persons to whom the Software is furnished to do so, 
 *    subject to the following conditions:
-*
+*    
 *    The above copyright notice and this permission notice shall be included
 *    in all copies or substantial portions of the Software.
-*
+*    
 *    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
 *    OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-*    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-*    IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-*    CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+*    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+*    IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY 
+*    CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
 *    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 *    SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
-#include "curlpp/internal/global.h"
 #include "curlpp/internal/CurlHandle.hpp"
 
 #include "curlpp/cURLpp.hpp"
@@ -69,34 +68,34 @@ CURL * CurlHandle::getHandle() const
 }
 
 
-CurlHandle::CurlHandle()
-	: mException(NULL)
+CurlHandle::CurlHandle() 
+	: mException(nullptr)
 {
 	memset(mErrorBuffer,0,CURL_ERROR_SIZE + 1);
 	mCurl = curl_easy_init();
-	runtimeAssert("Error when trying to curl_easy_init() a handle", mCurl != NULL);
+	runtimeAssert("Error when trying to curl_easy_init() a handle", mCurl != nullptr);
 	errorBuffer(mErrorBuffer);
 }
 
 
-CurlHandle::CurlHandle(CURL * handle)
-	: mException(NULL)
+CurlHandle::CurlHandle(CURL * handle) 
+	: mException(nullptr)
 {
 	memset(mErrorBuffer,0,CURL_ERROR_SIZE + 1);
 	mCurl = handle;
-	runtimeAssert("Error when trying to curl_easy_init() a handle", mCurl != NULL);
+	runtimeAssert("Error when trying to curl_easy_init() a handle", mCurl != nullptr);
 	errorBuffer(mErrorBuffer);
 }
 
 
-std::unique_ptr<CurlHandle>
+std::unique_ptr<CurlHandle> 
 CurlHandle::clone() const
 {
 	CURL * cHandle = curl_easy_duphandle(mCurl);
-	runtimeAssert("Error when trying to curl_easy_duphandle() a handle", cHandle != NULL);
+	runtimeAssert("Error when trying to curl_easy_duphandle() a handle", cHandle != nullptr);
 	unique_ptr<CurlHandle> newHandle(new CurlHandle(cHandle));
 
-	return std::move(newHandle);
+	return newHandle;
 }
 
 
@@ -105,13 +104,13 @@ CurlHandle::~CurlHandle()
 	if (mException)
 	{
 		delete mException;
-		mException = NULL;
+		mException = nullptr;
 	}
 	curl_easy_cleanup(mCurl);
 }
 
 void
-CurlHandle::setException(curlpp::CallbackExceptionBase * e)
+CurlHandle::setException(curlpp::CallbackExceptionBase * e) 
 {
 	if(mException)
 	{
@@ -129,7 +128,7 @@ CurlHandle::errorBuffer(char * buffer)
 
 
 template<typename FunctorType>
-typename FunctorType::ResultType
+typename FunctorType::ResultType 
 CurlHandle::execute(FunctorType functor, typename FunctorType::ParamList params)
 {
 	if (!functor)
@@ -157,7 +156,7 @@ CurlHandle::execute(FunctorType functor, typename FunctorType::ParamList params)
 }
 
 
-size_t
+size_t 
 CurlHandle::executeWriteFunctor(char * buffer, size_t size, size_t nitems)
 {
 	if (!mWriteFunctor)
@@ -185,7 +184,7 @@ CurlHandle::executeWriteFunctor(char * buffer, size_t size, size_t nitems)
 }
 
 
-size_t
+size_t 
 CurlHandle::executeHeaderFunctor(char * buffer, size_t size, size_t nitems)
 {
 	if (!mHeaderFunctor)
@@ -213,7 +212,7 @@ CurlHandle::executeHeaderFunctor(char * buffer, size_t size, size_t nitems)
 }
 
 
-size_t
+size_t 
 CurlHandle::executeReadFunctor(char * buffer, size_t size, size_t nitems)
 {
 	if(!mReadFunctor)
@@ -242,9 +241,9 @@ CurlHandle::executeReadFunctor(char * buffer, size_t size, size_t nitems)
 
 
 int
-CurlHandle::executeProgressFunctor(double dltotal,
-																	 double dlnow,
-																	 double ultotal,
+CurlHandle::executeProgressFunctor(double dltotal, 
+																	 double dlnow, 
+																	 double ultotal, 
 																	 double ulnow)
 {
 	if (!mProgressFunctor)
@@ -272,7 +271,7 @@ CurlHandle::executeProgressFunctor(double dltotal,
 }
 
 
-int
+int 
 CurlHandle::executeDebugFunctor(curl_infotype info, char * buffer, size_t size)
 {
 	if (!mDebugFunctor)
@@ -300,7 +299,7 @@ CurlHandle::executeDebugFunctor(curl_infotype info, char * buffer, size_t size)
 }
 
 
-CURLcode
+CURLcode 
 CurlHandle::executeSslCtxFunctor(void * ssl_ctx)
 {
 	if (!mSslFunctor)
@@ -331,10 +330,10 @@ CurlHandle::executeSslCtxFunctor(void * ssl_ctx)
 void
 CurlHandle::throwException()
 {
-  if(mException)
+  if(mException) 
   {
     std::unique_ptr< cURLpp::CallbackExceptionBase > e(mException);
-    mException = NULL;
+    mException = nullptr;
     e->throwMe();
   }
 }

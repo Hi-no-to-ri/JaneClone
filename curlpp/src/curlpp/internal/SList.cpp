@@ -1,5 +1,4 @@
 #include "curlpp/internal/SList.hpp"
-#include "curlpp/internal/global.h"
 
 #include <ostream>
 #include <string>
