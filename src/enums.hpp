@@ -1,4 +1,4 @@
-﻿#ifndef STR
+#ifndef STR
 #define STR(x) #x
 #endif
 
@@ -7,13 +7,17 @@
 
 enum JANECLONE_ENUMS {
     ID_Quit = 1,
-    #define X(Enum, String) Enum,
+#ifndef X
+#define X(Enum, String) Enum
+#endif
     X_TABLE
     #undef X
 };
 
 Begin_Enum_String(JANECLONE_ENUMS)
-    #define X(Enum, String) Enum_String(Enum)
+#ifndef X
+#define X(Enum, String) Enum
+#endif
     X_TABLE
     #undef X
 End_Enum_String
@@ -596,9 +600,10 @@ X_TABLE_ITEM(ID_Connection_Timeout_Sec)		  \
 X_TABLE_ITEM(ID_JaneCloneEnumsEnd)
 
 // 列挙型の実体をマクロで生成する
-enum JANECLONE_ENUMS {
     ID_Quit = 1,
-    #define X(Enum, String) Enum,
+#ifndef X
+#define X(Enum, String) Enum
+#endif
     X_TABLE
 ,
     #undef X
@@ -611,7 +616,9 @@ enum JANECLONE_ENUMS {
 // 列挙型を文字列化
 Begin_Enum_String( JANECLONE_ENUMS )
 {
-#define X(Enum, String) \
+#ifndef X
+#define X(Enum, String) Enum
+#endif
     Enum_String( Enum ) \
 
     X_TABLE
