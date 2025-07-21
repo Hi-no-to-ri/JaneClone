@@ -25,6 +25,7 @@
 #define ENUMS_HPP_
 
 #include "enumstring.hpp"
+#include "datatype.hpp"
 
 // テーブル要素
 #define X_TABLE_ITEM(x) X(x, STR(x))
