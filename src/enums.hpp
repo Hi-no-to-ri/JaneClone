@@ -1,4 +1,4 @@
-#ifndef STR
+﻿#ifndef STR
 #define STR(x) #x
 #endif
 
