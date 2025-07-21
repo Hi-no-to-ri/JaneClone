@@ -69,7 +69,7 @@ Crystal Project (crystal)
 	formats: png, ico
 	subdirectory: open_icon_library-devel/icons/crystal
 
-Technische Regeln f ArbeitsstËà©ten (DIN Standard) (din)
+Technische Regeln f¸r Arbeitsst‰tten (DIN Standard) (din)
 	link: http://www.baua.de/nn_56926/de/Themen-von-A-Z/Arbeitsstaetten/ASR/pdf/ASR-A1-3.pdf
 	license: Public Domain
 	license link: http://en.wikipedia.org/wiki/Public_domain
@@ -5908,8 +5908,8 @@ flag-cr.ico / wiki_commons_pd / PD
 flag-cr.png / wiki_commons_pd / PD
 flag-cu.ico / wiki_commons_pd / PD
 flag-cu.png / wiki_commons_pd / PD
-flag-cura„ÉÜ„Ç°ao.ico / wiki_commons_pd / PD
-flag-cura„ÉÜ„Ç°ao.png / wiki_commons_pd / PD
+flag-cura√ßao.ico / wiki_commons_pd / PD
+flag-cura√ßao.png / wiki_commons_pd / PD
 flag-cv.ico / wiki_commons_pd / PD
 flag-cv.png / wiki_commons_pd / PD
 flag-cx.ico / wiki_commons_pd / PD
@@ -6390,7 +6390,7 @@ flags-costa_rica.png / wiki_commons_pd / PD
 flags-cote_d'ivoire.png / wiki_commons_pd / PD
 flags-croatia.png / wiki_commons_pd / PD
 flags-cuba.png / wiki_commons_pd / PD
-flags-cura„ÉÜ„Ç°ao.png / wiki_commons_pd / PD
+flags-cura√ßao.png / wiki_commons_pd / PD
 flags-cyprus.png / wiki_commons_pd / PD
 flags-czech_republic.png / wiki_commons_pd / PD
 flags-democratic_republic_of_the_congo.png / wiki_commons_pd / PD
@@ -20572,7 +20572,7 @@ zynaddsubfx.png / app-install / See Below
 
 
 Smultron.png
-(128 „É© 128 pixels, file size: 24 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 24 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -20586,7 +20586,7 @@ BSD
 ******************************************************************
 
 Smultron_Command.png
-(128 „É© 128 pixels, file size: 8 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 8 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -20600,7 +20600,7 @@ BSD
 ******************************************************************
 
 Smultron_Document.png
-(128 „É© 128 pixels, file size: 13 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 13 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -20614,7 +20614,7 @@ BSD
 ******************************************************************
 
 Smultron_Project.png
-(128 „É© 128 pixels, file size: 8 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 8 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -20627,7 +20627,7 @@ BSD
 
 ******************************************************************
 Smultron_Snippets.png
-(128 „É© 128 pixels, file size: 8 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 8 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -20641,7 +20641,7 @@ BSD
 ******************************************************************
 
 BitRocket.png
-(128 „É© 128 pixels, file size: 13 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 13 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -20655,7 +20655,7 @@ BSD
 ******************************************************************
 
 Fugu_icon.png
-(128 „É© 128 pixels, file size: 16 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 16 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Converted to SVG.svg 	This symbol image should be recreated using vector graphics as an SVG file. This has several advantages; see Commons:Media for cleanup for more information. If an SVG form of this image is already available, please upload it. After uploading an SVG, replace this template with {{vector version available|new image name.svg}}.
@@ -20671,7 +20671,7 @@ BSD
 
 ******************************************************************
 Growl.png
-(128 „É© 128 pixels, file size: 24 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 24 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -20685,7 +20685,7 @@ BSD
 ******************************************************************
 
 IComic.png
-(128 „É© 128 pixels, file size: 31 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 31 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -20700,7 +20700,7 @@ BSD
 ******************************************************************
 
 IEatBrainz.png
-(128 „É© 128 pixels, file size: 29 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 29 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -20713,7 +20713,7 @@ BSD
 
 ******************************************************************
 IStumbler.png
-(128 „É© 128 pixels, file size: 8 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 8 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -20727,9 +20727,9 @@ BSD
 ******************************************************************
 
 Musikcube-icon.png
-(128 „É© 128 pixels, file size: 23 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 23 KB, MIME type: image/png)
  Help about image annotations
-SumÁñµio
+Sum·rio
 
 Icon of MusikCube software licensed on BSD License.
 Licensing
@@ -20738,7 +20738,7 @@ BSD
 ******************************************************************
 
 Neveredit.png
-(128 „É© 128 pixels, file size: 23 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 23 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -20751,7 +20751,7 @@ BSD
 ******************************************************************
 
 Smultron2.png
-(512 „É© 512 pixels, file size: 184 KB, MIME type: image/png)
+(512 ◊ 512 pixels, file size: 184 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -20765,7 +20765,7 @@ BSD
 ******************************************************************
 
 Xee.png
-(128 „É© 128 pixels, file size: 15 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 15 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -20791,7 +20791,7 @@ BSD
 
 Shiira.png
 
- (128 „É© 128 pixels, file size: 24 KB, MIME type: image/png)
+ (128 ◊ 128 pixels, file size: 24 KB, MIME type: image/png)
  Help about image annotations
 
 Summary
@@ -20799,7 +20799,7 @@ Shiira web browser icon.
     * http://hmdt-web.net/shiira/en
 
 Licensing
-BSD 		Copyright „Ç• Shiira Project, all rights reserved. 
+BSD 		Copyright © Shiira Project, all rights reserved. 
 
 *****************************************************************
 
@@ -20810,14 +20810,14 @@ BSD 		Copyright „Ç• Shiira Project, all rights reserved.
 
 Tomato-Torrent-Icon.png
 
- (128 „É© 128 pixels, file size: 19 KB, MIME type: image/png)
+ (128 ◊ 128 pixels, file size: 19 KB, MIME type: image/png)
  Help about image annotations
 
 Summary
 Programm Icon of the Bittorrent Client Tomato Torrent
 
 Licensing
-BSD wordmark.svg 		Copyright „Ç• belongs to the uploader, all rights reserved. 
+BSD wordmark.svg 		Copyright © belongs to the uploader, all rights reserved. 
 
 
 
@@ -20829,7 +20829,7 @@ BSD wordmark.svg 		Copyright „Ç• belongs to the uploader, all rights reserved.
 
 
 ATCalcIcon.gif
-(32 „É© 32 pixels, file size: 1 KB, MIME type: image/gif)
+(32 ◊ 32 pixels, file size: 1 KB, MIME type: image/gif)
  Help about image annotations
 Summary
 Description 	ATCalcIcon.gif
@@ -20847,7 +20847,7 @@ Creative Commons Attribution ShareAlike 3.0 License
 ******************************************************************
 
 Krita_Application_Logo.svg
-(SVG file, nominally 480 „É© 655 pixels, file size: 17 KB)
+(SVG file, nominally 480 ◊ 655 pixels, file size: 17 KB)
 Description 	Krita Application Logo.svg
 
 Krita logo
@@ -20864,7 +20864,7 @@ Creative Commons Attribution 2.5 License
 ******************************************************************
 
 Koffice-logo-alpha.png
-(216 „É© 241 pixels, file size: 20 KB, MIME type: image/png)
+(216 ◊ 241 pixels, file size: 20 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Koffice-logo-alpha.png
@@ -20883,7 +20883,7 @@ Creative Commons Attribution 3.0 Unported License
 ******************************************************************
 
 Kexi_Application_Logo.svg
-(SVG file, nominally 480 „É© 655 pixels, file size: 20 KB)
+(SVG file, nominally 480 ◊ 655 pixels, file size: 20 KB)
 Description 	Kexi Application Logo.svg
 
 Kexi logo
@@ -20900,7 +20900,7 @@ Creative Commons Attribution 2.5 License
 ******************************************************************
 
 Karbon14_Application_Logo.svg
-(SVG file, nominally 839 „É© 656 pixels, file size: 20 KB)
+(SVG file, nominally 839 ◊ 656 pixels, file size: 20 KB)
 Description 	Karbon14 Application Logo.svg
 
 Karbon14 logo
@@ -20917,7 +20917,7 @@ Creative Commons Attribution 2.5 License
 ******************************************************************
 
 KWord_Application_Logo.svg
-(SVG file, nominally 583 „É© 655 pixels, file size: 22 KB)
+(SVG file, nominally 583 ◊ 655 pixels, file size: 22 KB)
 Summary
 Description 	KWord Application Logo.svg
 
@@ -20935,7 +20935,7 @@ Creative Commons Attribution 2.5 License
 ******************************************************************
 
 KSpread_Application_Logo.svg
-(SVG file, nominally 671 „É© 656 pixels, file size: 25 KB)
+(SVG file, nominally 671 ◊ 656 pixels, file size: 25 KB)
 Description 	KSpread Application Logo.svg
 
 KSpread logo
@@ -20952,7 +20952,7 @@ Creative Commons Attribution 2.5 License
 ******************************************************************
 
 KPresenter_Application_Logo.svg
-(SVG file, nominally 888 „É© 656 pixels, file size: 29 KB)
+(SVG file, nominally 888 ◊ 656 pixels, file size: 29 KB)
 Description 	KPresenter Application Logo.svg
 
 KPresenter logo
@@ -20969,7 +20969,7 @@ Creative Commons Attribution 2.5 License
 ******************************************************************
 
 KPlato_Application_Logo.svg
-(SVG file, nominally 571 „É© 656 pixels, file size: 22 KB)
+(SVG file, nominally 571 ◊ 656 pixels, file size: 22 KB)
 Description 	KPlato Application Logo.svg
 
 KPlato logo
@@ -20986,7 +20986,7 @@ Creative Commons Attribution 2.5 License
 ******************************************************************
 
 KFormula_Application_Logo.svg
-(SVG file, nominally 821 „É© 656 pixels, file size: 24 KB)
+(SVG file, nominally 821 ◊ 656 pixels, file size: 24 KB)
 Description 	KFormula Application Logo.svg
 
 KFormula logo
@@ -21003,7 +21003,7 @@ Creative Commons Attribution 2.5 License
 ******************************************************************
 
 KChart_Application_Logo.svg
-(SVG file, nominally 594 „É© 656 pixels, file size: 20 KB)
+(SVG file, nominally 594 ◊ 656 pixels, file size: 20 KB)
 Description 	KChart Application Logo.svg
 
 KChart logo
@@ -21020,7 +21020,7 @@ Creative Commons Attribution 2.5 License
 ******************************************************************
 
 Kivio_Application_Logo.svg
-(SVG file, nominally 480 „É© 656 pixels, file size: 18 KB)
+(SVG file, nominally 480 ◊ 656 pixels, file size: 18 KB)
 Description 	Kivio Application Logo.svg
 
 Kivio logo
@@ -21037,12 +21037,12 @@ Creative Commons Attribution 2.5 License
 ******************************************************************
 
 Perl.jpg
-(279 „É© 303 pixels, file size: 28 KB, MIME type: image/jpeg)
+(279 ◊ 303 pixels, file size: 28 KB, MIME type: image/jpeg)
  Help about image annotations
 Summary
 Description 	Perl.jpg
 English: O'Reilly created Programming Republic of Perl logos and Powered by Perl buttons. However, the Camel has never been meant to be an official Perl symbol, and if one is to be considered instead, it's an onion.
-PortuguÈªå: O'Reilly criou os logotipos da "repÁÇªlica de programaÈà¨o do Perl" e os botÓèës "Feito por Perl". Contudo, o camelo nunca foi o sÂåábolo oficial da linguagem, sendo este o desenho de uma cebola.
+PortuguÍs: O'Reilly criou os logotipos da "rep˙blica de programaÁ„o do Perl" e os botıes "Feito por Perl". Contudo, o camelo nunca foi o sÌmbolo oficial da linguagem, sendo este o desenho de uma cebola.
 Date: 1993(1993)
 Source: http://oreilly.com/perl/
 Author: Criado por O'Reilly
@@ -21055,7 +21055,7 @@ Creative Commons Attribution ShareAlike 3.0 License
 ******************************************************************
 
 Scratch_Logo.png
-(213 „É© 197 pixels, file size: 9 KB, MIME type: image/png)
+(213 ◊ 197 pixels, file size: 9 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Scratch Logo.png
@@ -21075,7 +21075,7 @@ Creative Commons - Attribute - Share Alike 2.0 license
 ******************************************************************
 
 Vandal_proof_super.PNG
-(422 „É© 406 pixels, file size: 180 KB, MIME type: image/png)
+(422 ◊ 406 pixels, file size: 180 KB, MIME type: image/png)
  Help about image annotations
 Description 	Vandal proof super.PNG
 
@@ -21101,7 +21101,7 @@ Creative Commons Attribution ShareAlike 3.0 License
 ******************************************************************
 
 Bonjour_Browser.png
-(128 „É© 128 pixels, file size: 25 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 25 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -21115,7 +21115,7 @@ Licensing
 ******************************************************************
 
 Chandler-superdog.png
-(64 „É© 64 pixels, file size: 6 KB, MIME type: image/png)
+(64 ◊ 64 pixels, file size: 6 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -21126,7 +21126,7 @@ Creative Commons Attribution ShareAlike 3.0 License
 ******************************************************************
 
 InfraRecorder_icon.png
-(128 „É© 128 pixels, file size: 19 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 19 KB, MIME type: image/png)
  Help about image annotations
 Converted to SVG.svg 	This image should be recreated using vector graphics as an SVG file. This has several advantages; see Commons:Media for cleanup for more information. If an SVG form of this image is already available, please upload it. After uploading an SVG, replace this template with {{vector version available|new image name.svg}}.
 
@@ -21142,7 +21142,7 @@ Creative Commons Attribution ShareAlike 2.5 License
 
 ******************************************************************
 MusicBrainz_Picard.svg
-(SVG file, nominally 1,000 „É© 1,000 pixels, file size: 91 KB)
+(SVG file, nominally 1,000 ◊ 1,000 pixels, file size: 91 KB)
 Summary
 Description 	MusicBrainz Picard.svg
 English: MusicBrainz Picard Tagger icon.
@@ -21161,7 +21161,7 @@ Creative Commons Attribution ShareAlike 2.0 License
 ******************************************************************
 
 Postgresql_32x32.png
-(32 „É© 32 pixels, file size: 1 KB, MIME type: image/png)
+(32 ◊ 32 pixels, file size: 1 KB, MIME type: image/png)
  Help about image annotations
 Converted to SVG.svg 	This logo image should be recreated using vector graphics as an SVG file. This has several advantages; see Commons:Media for cleanup for more information. If an SVG form of this image is already available, please upload it. After uploading an SVG, replace this template with {{vector version available|new image name.svg}}.
 
@@ -21175,7 +21175,7 @@ Creative Commons Attribution ShareAlike 2.5 License
 ******************************************************************
 
 SaintIcon.PNG
-(107 „É© 107 pixels, file size: 16 KB, MIME type: image/png)
+(107 ◊ 107 pixels, file size: 16 KB, MIME type: image/png)
  Help about image annotations
 Description 	SaintIcon.PNG
 English: icon saint
@@ -21190,7 +21190,7 @@ Creative Commons Attribution 3.0 Unported License
 ******************************************************************
 
 Scummvm_icon.svg
-(SVG file, nominally 512 „É© 512 pixels, file size: 238 KB)
+(SVG file, nominally 512 ◊ 512 pixels, file size: 238 KB)
 Description 	Scummvm icon.svg
 
 ScummVM icon
@@ -21205,7 +21205,7 @@ Creative Commons Attribution ShareAlike 3.0 License
 ******************************************************************
 
 Xkill.png
-(57 „É© 60 pixels, file size: 2 KB, MIME type: image/png)
+(57 ◊ 60 pixels, file size: 2 KB, MIME type: image/png)
  Help about image annotations
 Description 	Xkill.png
 
@@ -21228,7 +21228,7 @@ Creative Commons Attribution ShareAlike 2.5 License
 
 Logo_der_Software_collectd.svg
 
- (SVG file, nominally 171 „É© 167 pixels, file size: 17 KB)
+ (SVG file, nominally 171 ◊ 167 pixels, file size: 17 KB)
 
 Description 	Logo der Software collectd.svg
 English: Logo of the free software project \u201ccollectd\u201d.
@@ -21252,7 +21252,7 @@ Permission
 
 QuasselIrc.svg
 
- (SVG file, nominally 128 „É© 128 pixels, file size: 776 KB)
+ (SVG file, nominally 128 ◊ 128 pixels, file size: 776 KB)
 
 Description 	QuasselIrc.svg
 Quassel IRC Logo
@@ -21278,7 +21278,7 @@ GNU Lesser General Public License
 
 Comix.svg
 
- (SVG file, nominally 48 „É© 48 pixels, file size: 51 KB)
+ (SVG file, nominally 48 ◊ 48 pixels, file size: 51 KB)
 
 Summary
 
@@ -21308,7 +21308,7 @@ Creative Commons Attribution ShareAlike 3.0 License
 
 Luciole-192.png
 
- (192 „É© 192 pixels, file size: 45 KB, MIME type: image/png)
+ (192 ◊ 192 pixels, file size: 45 KB, MIME type: image/png)
  Help about image annotations
 
 Summary
@@ -21341,7 +21341,7 @@ Creative Commons Attribution ShareAlike 3.0, Attribution ShareAlike 2.5, Attribu
 
 Qutim_64.png
 
- (64 „É© 64 pixels, file size: 7 KB, MIME type: image/png)
+ (64 ◊ 64 pixels, file size: 7 KB, MIME type: image/png)
  Help about image annotations
 Contents
 [hide]
@@ -21376,7 +21376,7 @@ Creative Commons ShareAlike 1.0 License
 
 WxWidgets.svg
 
- (SVG file, nominally 525 „É© 380 pixels, file size: 8 KB)
+ (SVG file, nominally 525 ◊ 380 pixels, file size: 8 KB)
 
 Description 	WxWidgets.svg
 Blocks icon for wxWidgets
@@ -21401,7 +21401,7 @@ Creative Commons Attribution ShareAlike 1.0 License
 
 Wmii-logo.svg
 
- (SVG file, nominally 277 „É© 143 pixels, file size: 3 KB)
+ (SVG file, nominally 277 ◊ 143 pixels, file size: 3 KB)
 
 Description 	Wmii-logo.svg
 wmii logo
@@ -21426,7 +21426,7 @@ Creative Commons Attribution 2.5 License
 
 Chromium_Icon.png
 
- (450 „É© 431 pixels, file size: 152 KB, MIME type: image/png)
+ (450 ◊ 431 pixels, file size: 152 KB, MIME type: image/png)
  Help about image annotations
 
 Summary
@@ -21448,7 +21448,7 @@ Permission
 The Chromium project is published under Creative Commons attribution 2.5 and BSD (see below):
 
 Licensing
-BSD 		Copyright „Ç• Chromium Project, all rights reserved. 
+BSD 		Copyright © Chromium Project, all rights reserved. 
 Creative Commons Attribution 2.5 License
 
 
@@ -21458,7 +21458,7 @@ Creative Commons Attribution 2.5 License
 
 Application-x-geda-schematic.svg
 
- (SVG file, nominally 48 „É© 48 pixels, file size: 22 KB)
+ (SVG file, nominally 48 ◊ 48 pixels, file size: 22 KB)
 
 Description 	Application-x-geda-schematic.svg
 A Tango-like icon for files made with gEDA.
@@ -21482,7 +21482,7 @@ Creative Commons Attribution ShareAlike 2.5 License
 
 Application-x-geda-symbol.svg
 
- (SVG file, nominally 48 „É© 48 pixels, file size: 21 KB)
+ (SVG file, nominally 48 ◊ 48 pixels, file size: 21 KB)
 
 Description 	Application-x-geda-symbol.svg
 A Tango-like icon for files made with gEDA.
@@ -21506,7 +21506,7 @@ Creative Commons Attribution ShareAlike 2.5 License
 
 Application-x-gerber.svg
 
- (SVG file, nominally 48 „É© 48 pixels, file size: 28 KB)
+ (SVG file, nominally 48 ◊ 48 pixels, file size: 28 KB)
 
 Description 	Application-x-gerber.svg
 A Tango-like icon for files made with gEDA.
@@ -21530,7 +21530,7 @@ Creative Commons Attribution ShareAlike 2.5 License
 
 Application-x-pcb.svg
 
- (SVG file, nominally 48 „É© 48 pixels, file size: 20 KB)
+ (SVG file, nominally 48 ◊ 48 pixels, file size: 20 KB)
 
 Description 	Application-x-pcb.svg
 A Tango-like icon for files made with gEDA.
@@ -21554,7 +21554,7 @@ Creative Commons Attribution ShareAlike 2.5 License
 
 GCfilms_Peri.png
 
- (124 „É© 131 pixels, file size: 9 KB, MIME type: image/png)
+ (124 ◊ 131 pixels, file size: 9 KB, MIME type: image/png)
 Wikimedia Commons logo 	
 This image was copied from wikipedia:fr. The original description was:
 Contents
@@ -21565,7 +21565,7 @@ Contents
     * 4 Related galleries:
 
 Description 
-Mascotte de GCfilms : PÈßªi.
+Mascotte de GCfilms : PÈri.
 
 Licensing
 Creative Commons Attribution ShareAlike 2.5 License
@@ -21581,10 +21581,10 @@ Jump to: navigation, search
     * File history
     * File links
 File:Grasslogo vector big.png
-Size of this preview: 539 „É© 600 pixels
+Size of this preview: 539 ◊ 600 pixels
 Full resolution
 
- (889 „É© 989 pixels, file size: 18 KB, MIME type: image/png)
+ (889 ◊ 989 pixels, file size: 18 KB, MIME type: image/png)
 Wikimedia Commons logo 	
 
 Summary
@@ -21599,7 +21599,7 @@ Creative Commons Attribution ShareAlike 2.5 License
 
 Watcom_logo.png
 
- (88 „É© 122 pixels, file size: 18 KB, MIME type: image/png)
+ (88 ◊ 122 pixels, file size: 18 KB, MIME type: image/png)
 Wikimedia Commons logo 	
 
 Summary
@@ -21631,7 +21631,7 @@ Creative Commons Attribution 2.5 License
 
 Muine-32.png
 
- (32 „É© 32 pixels, file size: 2 KB, MIME type: image/png)
+ (32 ◊ 32 pixels, file size: 2 KB, MIME type: image/png)
  Help about image annotations
 
 Summary
@@ -21646,7 +21646,7 @@ GNU Free Documentation License, Version 1.2
 
 WOP.jpg
 
- (256 „É© 256 pixels, file size: 12 KB, MIME type: image/jpeg)
+ (256 ◊ 256 pixels, file size: 12 KB, MIME type: image/jpeg)
  Help about image annotations
 
 Summary
@@ -21654,8 +21654,8 @@ Summary
 Description 	WOP.jpg
 Deutsch: Zeigt das World of Padman-Logo
 English: Shows the logo of World of Padman
-FranËªãis : Affiche le logo de World of Padman
-EspaÓÉ´l: Muestra el logotipo del Mundo de Padman
+FranÁais : Affiche le logo de World of Padman
+EspaÒol: Muestra el logotipo del Mundo de Padman
 
 Date 	
 1.04.2007
@@ -21679,7 +21679,7 @@ Creative Commons Attribution ShareAlike 3.0 License
 
 Fvwm-logo.svg
 
- (SVG file, nominally 859 „É© 302 pixels, file size: 8 KB)
+ (SVG file, nominally 859 ◊ 302 pixels, file size: 8 KB)
 
 Summary
 The Fvwm logo. Converted to svg from [[1]]
@@ -21693,7 +21693,7 @@ Creative Commons Attribution ShareAlike 3.0 License
 
 Lftp1.png
 
- (70 „É© 55 pixels, file size: 4 KB, MIME type: image/png)
+ (70 ◊ 55 pixels, file size: 4 KB, MIME type: image/png)
  Help about image annotations
 
 Summary
@@ -21709,7 +21709,7 @@ Subject to disclaimers.
 
 Wilber_GIMP.app_file_OSX.png
 
- (128 „É© 128 pixels, file size: 12 KB, MIME type: image/png)
+ (128 ◊ 128 pixels, file size: 12 KB, MIME type: image/png)
  Help about image annotations
 
 Summary
@@ -21748,7 +21748,7 @@ Creative Commons Attribution ShareAlike 2.5 License
 
 Ruby_logo.svg
 
- (SVG file, nominally 198 „É© 198 pixels, file size: 31 KB)
+ (SVG file, nominally 198 ◊ 198 pixels, file size: 31 KB)
 Summary
 
 Description 	Ruby logo.svg
@@ -21770,7 +21770,7 @@ Creative Commons Attribution ShareAlike 2.5 License
 *****************************************************************
 GTK.svg
 
- (SVG file, nominally 260 „É© 270 pixels, file size: 6 KB)
+ (SVG file, nominally 260 ◊ 270 pixels, file size: 6 KB)
 
 Description 	GTK.svg
 English: Conversion of Image:GTK.png to a SVG, using Inkscape. Bloat removed using gedit.
@@ -21792,7 +21792,7 @@ This licensing tag was added to this file as part of the GFDL licensing update.
 *****************************************************************
 New_Gtk+.svg
 
- (SVG file, nominally 89 „É© 96 pixels, file size: 2 KB)
+ (SVG file, nominally 89 ◊ 96 pixels, file size: 2 KB)
 
 Summary
 
@@ -21816,7 +21816,7 @@ This licensing tag was added to this file as part of the GFDL licensing update.
 *****************************************************************
 Tcl.svg
 
- (SVG file, nominally 125 „É© 265 pixels, file size: 6 KB)
+ (SVG file, nominally 125 ◊ 265 pixels, file size: 6 KB)
 
 Summary
 
@@ -21847,7 +21847,7 @@ This licensing tag was added to this file as part of the GFDL licensing update.
 
 *****************************************************************
 
-Marathon_logo.svg\u200e (SVG file, nominally 234 „É© 234 pixels, file size: 5 KB)
+Marathon_logo.svg\u200e (SVG file, nominally 234 ◊ 234 pixels, file size: 5 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 [edit] Summary
@@ -21871,13 +21871,13 @@ I, the copyright holder of this work, hereby publish it under the following lice
 Creative Commons license
 Creative Commons Attribution Creative Commons Share Alike 	This file is licensed under the Creative Commons Attribution ShareAlike 3.0 License. In short: you are free to share and make derivative works of the file under the conditions that you appropriately attribute it, and that you distribute it only under a license identical to this one. Official license
 
-\u0627\u0644\u0639\u0631\u0628\u064a\u0629 | \u0411\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f (\u0442\u0430\u0440\u0430\u0448\u043a\u0435\u0432\u0456\u0446\u0430) | \u0411\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438 | Catal| \u010cesky | Dansk | Deutsch | Deutsch (Sie-Form) | \u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac | English | Esperanto | EspaÓÉ´l | Eesti | \u0641\u0627\u0631\u0633\u06cc | Suomi | FranËªãis | \u05e2\u05d1\u05e8\u05d9\u05ea | Hrvatski | Magyar | \u0540\u0561\u0575\u0565\u0580\u0565\u0576 | Italiano | \u65e5\u672c\u8a9e | \ud55c\uad6d\uc5b4 | Lietuvi\u0173 | \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438 | Malti | Plattdtsch | Nederlands | Polski | PortuguÈªå | \u0420\u0443\u0441\u0441\u043a\u0438\u0439 | Sloven\u010dina | \u0421\u0440\u043f\u0441\u043a\u0438 / Srpski | Svenska | \u0c24\u0c46\u0c32\u0c41\u0c17\u0c41 | \u0e44\u0e17\u0e22 | \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 | VÈà©eto | Ti\u1ebfng Vi\u1ec7t | \u4e2d\u6587 | \u202a\u4e2d\u6587(\u7b80\u4f53)\u202c | \u202a\u4e2d\u6587(\u7e41\u9ad4)\u202c | +/\u2212
+\u0627\u0644\u0639\u0631\u0628\u064a\u0629 | \u0411\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f (\u0442\u0430\u0440\u0430\u0448\u043a\u0435\u0432\u0456\u0446\u0430) | \u0411\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438 | Catal‡ | \u010cesky | Dansk | Deutsch | Deutsch (Sie-Form) | \u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac | English | Esperanto | EspaÒol | Eesti | \u0641\u0627\u0631\u0633\u06cc | Suomi | FranÁais | \u05e2\u05d1\u05e8\u05d9\u05ea | Hrvatski | Magyar | \u0540\u0561\u0575\u0565\u0580\u0565\u0576 | Italiano | \u65e5\u672c\u8a9e | \ud55c\uad6d\uc5b4 | Lietuvi\u0173 | \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438 | Malti | Plattd¸¸tsch | Nederlands | Polski | PortuguÍs | \u0420\u0443\u0441\u0441\u043a\u0438\u0439 | Sloven\u010dina | \u0421\u0440\u043f\u0441\u043a\u0438 / Srpski | Svenska | \u0c24\u0c46\u0c32\u0c41\u0c17\u0c41 | \u0e44\u0e17\u0e22 | \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 | VËneto | Ti\u1ebfng Vi\u1ec7t | \u4e2d\u6587 | \u202a\u4e2d\u6587(\u7b80\u4f53)\u202c | \u202a\u4e2d\u6587(\u7e41\u9ad4)\u202c | +/\u2212
 GNU head 	Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled "GNU Free Documentation License".
 
 
 
 *****************************************************************
-Fairmatlogosmall.png\u200e (48 „É© 48 pixels, file size: 1,011 B, MIME type: image/png)
+Fairmatlogosmall.png\u200e (48 ◊ 48 pixels, file size: 1,011 B, MIME type: image/png)
  Help about image annotations
 [edit] Summary
 Description 	Fairmatlogosmall.png
@@ -21900,16 +21900,16 @@ I, the copyright holder of this work, hereby publish it under the following lice
 Creative Commons license
 Creative Commons Attribution Creative Commons Share Alike 	This file is licensed under the Creative Commons Attribution ShareAlike 3.0 License. In short: you are free to share and make derivative works of the file under the conditions that you appropriately attribute it, and that you distribute it only under a license identical to this one. Official license
 
-\u0627\u0644\u0639\u0631\u0628\u064a\u0629 | \u0411\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f (\u0442\u0430\u0440\u0430\u0448\u043a\u0435\u0432\u0456\u0446\u0430) | \u0411\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438 | Catal| \u010cesky | Dansk | Deutsch | Deutsch (Sie-Form) | \u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac | English | Esperanto | EspaÓÉ´l | Eesti | \u0641\u0627\u0631\u0633\u06cc | Suomi | FranËªãis | \u05e2\u05d1\u05e8\u05d9\u05ea | Hrvatski | Magyar | \u0540\u0561\u0575\u0565\u0580\u0565\u0576 | Italiano | \u65e5\u672c\u8a9e | \ud55c\uad6d\uc5b4 | Lietuvi\u0173 | \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438 | Malti | Plattdtsch | Nederlands | Polski | PortuguÈªå | \u0420\u0443\u0441\u0441\u043a\u0438\u0439 | Sloven\u010dina | \u0421\u0440\u043f\u0441\u043a\u0438 / Srpski | Svenska | \u0c24\u0c46\u0c32\u0c41\u0c17\u0c41 | \u0e44\u0e17\u0e22 | \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 | VÈà©eto | Ti\u1ebfng Vi\u1ec7t | \u4e2d\u6587 | \u202a\u4e2d\u6587(\u7b80\u4f53)\u202c | \u202a\u4e2d\u6587(\u7e41\u9ad4)\u202c | +/\u2212
+\u0627\u0644\u0639\u0631\u0628\u064a\u0629 | \u0411\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f (\u0442\u0430\u0440\u0430\u0448\u043a\u0435\u0432\u0456\u0446\u0430) | \u0411\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438 | Catal‡ | \u010cesky | Dansk | Deutsch | Deutsch (Sie-Form) | \u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac | English | Esperanto | EspaÒol | Eesti | \u0641\u0627\u0631\u0633\u06cc | Suomi | FranÁais | \u05e2\u05d1\u05e8\u05d9\u05ea | Hrvatski | Magyar | \u0540\u0561\u0575\u0565\u0580\u0565\u0576 | Italiano | \u65e5\u672c\u8a9e | \ud55c\uad6d\uc5b4 | Lietuvi\u0173 | \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438 | Malti | Plattd¸¸tsch | Nederlands | Polski | PortuguÍs | \u0420\u0443\u0441\u0441\u043a\u0438\u0439 | Sloven\u010dina | \u0421\u0440\u043f\u0441\u043a\u0438 / Srpski | Svenska | \u0c24\u0c46\u0c32\u0c41\u0c17\u0c41 | \u0e44\u0e17\u0e22 | \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 | VËneto | Ti\u1ebfng Vi\u1ec7t | \u4e2d\u6587 | \u202a\u4e2d\u6587(\u7b80\u4f53)\u202c | \u202a\u4e2d\u6587(\u7e41\u9ad4)\u202c | +/\u2212
 GNU head 	Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled "GNU Free Documentation License".
 *****************************************************************
-GreenieLinuxLogo.svg\u200e (SVG file, nominally 150 „É© 150 pixels, file size: 19 KB)
+GreenieLinuxLogo.svg\u200e (SVG file, nominally 150 ◊ 150 pixels, file size: 19 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 [edit] Summary
 Description 	GreenieLinuxLogo.svg
 
-Logo distribÊò±ie Greenie Linux
+Logo distrib˙cie Greenie Linux
 Date 	
 
 3 October 2007(2007-10-03)
@@ -21927,7 +21927,7 @@ Free to use
 I, the copyright holder of this work, hereby publish it under the following licenses:
 GNU head 	Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled "GNU Free Documentation License".
 
-Afrikaans | Alemannisch | AragonÈß∏ | \u0627\u0644\u0639\u0631\u0628\u064a\u0629 | Asturianu | \u0411\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f | \u0411\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f (\u0442\u0430\u0440\u0430\u0448\u043a\u0435\u0432\u0456\u0446\u0430) | \u0411\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438 | \u09ac\u09be\u0982\u09b2\u09be | \u0987\u09ae\u09be\u09b0 \u09a0\u09be\u09b0/\u09ac\u09bf\u09b7\u09cd\u09a3\u09c1\u09aa\u09cd\u09b0\u09bf\u09af\u09bc\u09be \u09ae\u09a3\u09bf\u09aa\u09c1\u09b0\u09c0 | Brezhoneg | Bosanski | Catal| Cebuano | \u010cesky | Dansk | Deutsch | \u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac | English | Esperanto | EspaÓÉ´l | Eesti | Euskara | \u0641\u0627\u0631\u0633\u06cc | Suomi | FranËªãis | Gaeilge | Galego | \u05e2\u05d1\u05e8\u05d9\u05ea | Hrvatski | Magyar | \u0540\u0561\u0575\u0565\u0580\u0565\u0576 | Bahasa Indonesia | Ido | „Éòslenska | Italiano | \u65e5\u672c\u8a9e | \u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8 | \u1797\u17b6\u179f\u17b6\u1781\u17d2\u1798\u17c2\u179a | \ud55c\uad6d\uc5b4 | KurdÊ≥ö/ \u0643\u0648\u0631\u062f\u06cc | Latina | LÔ∏æzebuergesch | Lietuvi\u0173 | \u6587\u8a00 | \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438 | Bahasa Melayu | Malti | Nnapulitano | Plattdtsch | Nederlands | \u202aNorsk (nynorsk)\u202c | \u202aNorsk (bokmËô±)\u202c | Occitan | Polski | PortuguÈªå | RomÁ©ó\u0103 | \u0420\u0443\u0441\u0441\u043a\u0438\u0439 | Sloven\u010dina | Sloven\u0161\u010dina | Shqip | \u0421\u0440\u043f\u0441\u043a\u0438 / Srpski | Svenska | Kiswahili | \u0c24\u0c46\u0c32\u0c41\u0c17\u0c41 | \u0e44\u0e17\u0e22 | Tagalog | TkËªª | \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 | \u0627\u0631\u062f\u0648 | VÈà©eto | Ti\u1ebfng Vi\u1ec7t | Volap | YorÓöæ| \u4e2d\u6587 | \u202a\u4e2d\u6587(\u7b80\u4f53)\u202c | \u202a\u4e2d\u6587(\u7e41\u9ad4)\u202c | +/\u2212
+Afrikaans | Alemannisch | AragonÈs | \u0627\u0644\u0639\u0631\u0628\u064a\u0629 | Asturianu | \u0411\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f | \u0411\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f (\u0442\u0430\u0440\u0430\u0448\u043a\u0435\u0432\u0456\u0446\u0430) | \u0411\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438 | \u09ac\u09be\u0982\u09b2\u09be | \u0987\u09ae\u09be\u09b0 \u09a0\u09be\u09b0/\u09ac\u09bf\u09b7\u09cd\u09a3\u09c1\u09aa\u09cd\u09b0\u09bf\u09af\u09bc\u09be \u09ae\u09a3\u09bf\u09aa\u09c1\u09b0\u09c0 | Brezhoneg | Bosanski | Catal‡ | Cebuano | \u010cesky | Dansk | Deutsch | \u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac | English | Esperanto | EspaÒol | Eesti | Euskara | \u0641\u0627\u0631\u0633\u06cc | Suomi | FranÁais | Gaeilge | Galego | \u05e2\u05d1\u05e8\u05d9\u05ea | Hrvatski | Magyar | \u0540\u0561\u0575\u0565\u0580\u0565\u0576 | Bahasa Indonesia | Ido | Õslenska | Italiano | \u65e5\u672c\u8a9e | \u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8 | \u1797\u17b6\u179f\u17b6\u1781\u17d2\u1798\u17c2\u179a | \ud55c\uad6d\uc5b4 | KurdÓ / \u0643\u0648\u0631\u062f\u06cc | Latina | LÎtzebuergesch | Lietuvi\u0173 | \u6587\u8a00 | \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438 | Bahasa Melayu | Malti | Nnapulitano | Plattd¸¸tsch | Nederlands | \u202aNorsk (nynorsk)\u202c | \u202aNorsk (bokmÂl)\u202c | Occitan | Polski | PortuguÍs | Rom‚n\u0103 | \u0420\u0443\u0441\u0441\u043a\u0438\u0439 | Sloven\u010dina | Sloven\u0161\u010dina | Shqip | \u0421\u0440\u043f\u0441\u043a\u0438 / Srpski | Svenska | Kiswahili | \u0c24\u0c46\u0c32\u0c41\u0c17\u0c41 | \u0e44\u0e17\u0e22 | Tagalog | T¸rkÁe | \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 | \u0627\u0631\u062f\u0648 | VËneto | Ti\u1ebfng Vi\u1ec7t | Volap¸k | Yor˘b· | \u4e2d\u6587 | \u202a\u4e2d\u6587(\u7b80\u4f53)\u202c | \u202a\u4e2d\u6587(\u7e41\u9ad4)\u202c | +/\u2212
 Creative Commons license
 Creative Commons Attribution Creative Commons Share Alike 	This file is licensed under the Creative Commons Attribution ShareAlike 3.0 License. In short: you are free to share and make derivative works of the file under the conditions that you appropriately attribute it, and that you distribute it only under a license identical to this one. Official license
 
@@ -21935,7 +21935,7 @@ Creative Commons Attribution Creative Commons Share Alike 	This file is licensed
 
 
 Lost_Souls_icon_large.gif
- (98 98 pixels, file size: 2 KB, MIME type: image/gif)
+ (98 ◊ 98 pixels, file size: 2 KB, MIME type: image/gif)
  Help about image annotations
 Summary
 Description 	Lost Souls icon large.gif
@@ -21955,7 +21955,7 @@ GNU Free Documentation License, Version 1.2
 
 ***********************************************************
 Gmane.svg
- (SVG file, nominally 585 „É© 574 pixels, file size: 953 B)
+ (SVG file, nominally 585 ◊ 574 pixels, file size: 953 B)
 Description 	Gmane.svg
 GMANE logo
 Date 	
@@ -21987,7 +21987,7 @@ attribution share alike 	This file is licensed under the Creative Commons Attrib
 ******
 
 JariOS_logo.png
- (100 „É© 100 pixels, file size: 860 B, MIME type: image/png)
+ (100 ◊ 100 pixels, file size: 860 B, MIME type: image/png)
  Help about image annotations
 Contents
 [hide]
@@ -22020,7 +22020,7 @@ GNU Free Documentation License, Version 1.2
 
 
 ISOMasterlogo.png
- (64 „É© 64 pixels, file size: 5 KB, MIME type: image/png)
+ (64 ◊ 64 pixels, file size: 5 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	ISOMasterlogo.png
@@ -22043,7 +22043,7 @@ Creative Commons Attribution ShareAlike 3.0 License
 
 
 IRATE_radio.png
- (128 „É© 128 pixels, file size: 9 KB, MIME type: image/png)
+ (128 ◊ 128 pixels, file size: 9 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Logo de iRATE Radio
@@ -22058,7 +22058,7 @@ iRATE Radio
 Permission
  	
 Licensing
-El programa de la fuente, estbasado en la licencia de GNU, asque no me queda mÁñΩ remedio que poner la misma licencia.
+El programa de la fuente, est· basado en la licencia de GNU, asÌ que no me queda m·s remedio que poner la misma licencia.
 GNU Free Documentation License, Version 1.2
 Creative Commons Attribution ShareAlike 3.0 License
 
@@ -22067,7 +22067,7 @@ Creative Commons Attribution ShareAlike 3.0 License
 
 
 Freeplane_logo.png
- (135 „É© 135 pixels, file size: 24 KB, MIME type: image/png)
+ (135 ◊ 135 pixels, file size: 24 KB, MIME type: image/png)
  Help about image annotations
 Contents
 [hide]
@@ -22101,7 +22101,7 @@ attribution share alike 	This file is licensed under the Creative Commons Attrib
 
 
 LogoHieroclash.png
- (800 „É© 460 pixels, file size: 135 KB, MIME type: image/png)
+ (800 ◊ 460 pixels, file size: 135 KB, MIME type: image/png)
  Help about image annotations
 Contents
 [hide]
@@ -22112,13 +22112,13 @@ Contents
 Summary
 Description 	LogoHieroclash.png
 English: Logo for Hieroclash by Albarji Productions.
-EspaÓÉ´l: El logo de Hieroclash, de Albarji Productions.
+EspaÒol: El logo de Hieroclash, de Albarji Productions.
 Date 	
 4 June 2008(2008-06-04)
 Source 	
 Albarji Productions
 Author 	
-„ÉÅlvaro Barbero JimÈß≠ez
+¡lvaro Barbero JimÈnez
 Permission
  	
 Licensing
@@ -22136,7 +22136,7 @@ attribution 	This file is licensed under the Creative Commons Attribution 3.0 Un
 *****************************************************************
 
 PDFforge.png
- (48 „É© 52 pixels, file size: 2 KB, MIME type: image/png)
+ (48 ◊ 52 pixels, file size: 2 KB, MIME type: image/png)
  Help about image annotations
 Description 	PDFforge.png
 English: PDFForge/PDFCreator logo - free image
@@ -22159,7 +22159,7 @@ GNU Free Documentation License, Version 1.2
 
 
 Qfusion.png
- (80 „É© 80 pixels, file size: 14 KB, MIME type: image/png)
+ (80 ◊ 80 pixels, file size: 14 KB, MIME type: image/png)
  Help about image annotations
 Description 	Qfusion.png
 English: Qfusion Logo
@@ -22192,7 +22192,7 @@ GNU Free Documentation License, Version 1.2
 
 
 Geogebra.svg
- (SVG file, nominally 64 „É© 64 pixels, file size: 4 KB)
+ (SVG file, nominally 64 ◊ 64 pixels, file size: 4 KB)
 Summary
 Description 	Geogebra.svg
 English: SVG version of icon Geogebra
@@ -22216,7 +22216,7 @@ attribution share alike 	This file is licensed under the Creative Commons Attrib
 
 
 Horde.svg
- (SVG file, nominally 205 „É© 205 pixels, file size: 3 KB)
+ (SVG file, nominally 205 ◊ 205 pixels, file size: 3 KB)
 Summary
 Description 	Horde.svg
 Horde logo in SVG format as used as of Horde 3.0
@@ -22237,11 +22237,11 @@ attribution share alike 	This file is licensed under the Creative Commons Attrib
 
 
 Tuxguitar.png
- (172 „É© 165 pixels, file size: 27 KB, MIME type: image/png)
+ (172 ◊ 165 pixels, file size: 27 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Tuxguitar.png
-EspaÓÉ´l: Imagen Tuxguitar
+EspaÒol: Imagen Tuxguitar
 Date 	
 Source 	
 Tuxguitar
@@ -22263,7 +22263,7 @@ This file is licensed under the Creative Commons Attribution-Share Alike 3.0 Unp
 
 
 Tokboxlogo.png
- (445 „É© 199 pixels, file size: 13 KB, MIME type: image/png)
+ (445 ◊ 199 pixels, file size: 13 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Tokboxlogo.png
@@ -22285,7 +22285,7 @@ attribution share alike 	This file is licensed under the Creative Commons Attrib
 
 
 Free_Software_Portal_Logo.svg
- (SVG file, nominally 300 „É© 300 pixels, file size: 14 KB)
+ (SVG file, nominally 300 ◊ 300 pixels, file size: 14 KB)
 Description 	Free Software Portal Logo.svg
 English: Free Software Portal logo created in inkscape consisting of a teal colored green square. Text set in Gentium Italic.
 Date 	
@@ -22315,7 +22315,7 @@ You will find a specimen of this license on the site Copyleft Attitude http://ar
 
 
 Logo-frugalware.png
- (400 „É© 400 pixels, file size: 34 KB, MIME type: image/png)
+ (400 ◊ 400 pixels, file size: 34 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Logo-frugalware.png
@@ -22328,7 +22328,7 @@ Author
 Emilpoe
 Permission
  	
-Accordpar Emilpoe
+AccordÈ par Emilpoe
 Licensing
 GNU Free Documentation License, Version 1.2
 Creative Commons Attribution ShareAlike 3.0 License
@@ -22338,7 +22338,7 @@ Creative Commons Attribution ShareAlike 3.0 License
 
 
 Ojuba-icon.png
- (68 „É© 94 pixels, file size: 5 KB, MIME type: image/png)
+ (68 ◊ 94 pixels, file size: 5 KB, MIME type: image/png)
  Help about image annotations
 Licensing
 GNU Free Documentation License, Version 1.2
@@ -22362,7 +22362,7 @@ Permission
 
 
 Parsix.jpg
- (200 „É© 75 pixels, file size: 11 KB, MIME type: image/jpeg)
+ (200 ◊ 75 pixels, file size: 11 KB, MIME type: image/jpeg)
  Help about image annotations
 Contents
 [hide]
@@ -22392,10 +22392,10 @@ Creative Commons Attribution ShareAlike 3.0 License
 
 
 Eurielec.svg
- (SVG file, nominally 809 „É© 237 pixels, file size: 6 KB)
+ (SVG file, nominally 809 ◊ 237 pixels, file size: 6 KB)
 Summary
 Description 	Eurielec.svg
-Logo de Eurielec, club de electronica e informÁñ∏ica de la Escuela TÈ¶ónica Sueprior de Ingenieros de Telecomunicaciones de la Universidad PolitÈ¶ónica de Madrid.
+Logo de Eurielec, club de electronica e inform·tica de la Escuela TÈcnica Sueprior de Ingenieros de Telecomunicaciones de la Universidad PolitÈcnica de Madrid.
 Date 	
 20 March 2008(2008-03-20)
 Source 	
@@ -22404,7 +22404,7 @@ Author
 Javitomad
 Permission
  	
-VÈ•åse abajo
+VÈase abajo
 Licensing
 I, the copyright holder of this work, hereby publish it under the following licenses:
 GNU Free Documentation License, Version 1.2
@@ -22419,7 +22419,7 @@ This file is licensed under the Creative Commons Attribution-Share Alike 3.0 Unp
 
 
 Yoper-logo.png
- (84 „É© 84 pixels, file size: 6 KB, MIME type: image/png)
+ (84 ◊ 84 pixels, file size: 6 KB, MIME type: image/png)
  Help about image annotations
 Contents
 [hide]
@@ -22438,7 +22438,7 @@ Creative Commons Attribution ShareAlike 3.0 License
 
 
 Eeebuntulogo.png
- (500 „É© 90 pixels, file size: 32 KB, MIME type: image/png)
+ (500 ◊ 90 pixels, file size: 32 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Eeebuntulogo.png
@@ -22466,7 +22466,7 @@ attribution 	This file is licensed under the Creative Commons Attribution 3.0 Un
 
 
 SabilyLogo-128.png
- (128 „É© 128 pixels, file size: 23 KB, MIME type: image/png)
+ (128 ◊ 128 pixels, file size: 23 KB, MIME type: image/png)
  Help about image annotations
 Contents
 [hide]
@@ -22507,9 +22507,9 @@ Jump to: navigation, search
     * File usage on Commons
     * Metadata
 Buddhaubuntu-logo.jpg
-Size of this preview: 528 „É© 600 pixels
+Size of this preview: 528 ◊ 600 pixels
 Full resolution
- (792 „É© 900 pixels, file size: 70 KB, MIME type: image/jpeg)
+ (792 ◊ 900 pixels, file size: 70 KB, MIME type: image/jpeg)
  Help about image annotations
 Contents
 [hide]
@@ -22546,7 +22546,7 @@ GNU Free Documentation License, Version 1.2
 
 
 Archlinux-icon-128.svg
- (SVG file, nominally 128 „É© 128 pixels, file size: 8 KB)
+ (SVG file, nominally 128 ◊ 128 pixels, file size: 8 KB)
 Summary
 Description 	Archlinux-icon-128.svg
 Arch Linux logo
@@ -22573,7 +22573,7 @@ attribution share alike 	This file is licensed under the Creative Commons Attrib
 
 
 Cruxlogo.png
- (250 „É© 65 pixels, file size: 10 KB, MIME type: image/png)
+ (250 ◊ 65 pixels, file size: 10 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Cruxlogo.png
@@ -22596,7 +22596,7 @@ Creative Commons Attribution ShareAlike 3.0 License
 
 
 Guadalinex_logo.png
- (310 „É© 460 pixels, file size: 10 KB, MIME type: image/png)
+ (310 ◊ 460 pixels, file size: 10 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Guadalinex logo.png
@@ -22625,7 +22625,7 @@ GNU Free Documentation License, Version 1.2
 
 
 Deeprootlinux-logo.png
- (208 „É© 50 pixels, file size: 5 KB, MIME type: image/png)
+ (208 ◊ 50 pixels, file size: 5 KB, MIME type: image/png)
  Help about image annotations
 Contents
 [hide]
@@ -22658,7 +22658,7 @@ attribution share alike 	This file is licensed under the Creative Commons Attrib
 
 
 Logo_Lea-linux.png
- (466 „É© 500 pixels, file size: 127 KB, MIME type: image/png)
+ (466 ◊ 500 pixels, file size: 127 KB, MIME type: image/png)
  Help about image annotations
 Contents
 [hide]
@@ -22668,9 +22668,9 @@ Contents
     * 4 Related galleries:
 Summary
 Description 	Logo Lea-linux.png
-FranËªãis : Logo de lea-linux.org reprÈß∏entant sa mascotte, LÈ•å.
-English: lea-linux.org logo, representing its mascot, LÈ•å.
-Deutsch: Das Logo von lea-linux.org, das das Maskottchen LÈ•å abbildet.
+FranÁais : Logo de lea-linux.org reprÈsentant sa mascotte, LÈa.
+English: lea-linux.org logo, representing its mascot, LÈa.
+Deutsch: Das Logo von lea-linux.org, das das Maskottchen LÈa abbildet.
 Date 	
 November 2008(2008-11)
 Source 	
@@ -22695,7 +22695,7 @@ attribution share alike 	This file is licensed under the Creative Commons Attrib
 
 
 Salixos-logo.png
- (400 „É© 105 pixels, file size: 14 KB, MIME type: image/png)
+ (400 ◊ 105 pixels, file size: 14 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Salixos-logo.png
@@ -22724,7 +22724,7 @@ attribution share alike 	This file is licensed under the Creative Commons Attrib
 
 
 Linux_Mint_Logo.png
- (150 „É© 150 pixels, file size: 88 KB, MIME type: image/png)
+ (150 ◊ 150 pixels, file size: 88 KB, MIME type: image/png)
 Summary
 Description 	Linux Mint Logo.png
 Minux Mint
@@ -22743,11 +22743,11 @@ Creative Commons Attribution ShareAlike 3.0 License.
 *****************************************************************
 
 OpenSUSE-logo.svg
- (SVG file, nominally 97 „É© 61 pixels, file size: 7 KB)
+ (SVG file, nominally 97 ◊ 61 pixels, file size: 7 KB)
 Summary
 Description 	OpenSUSE-logo.svg
 English: Logo of OpenSUSE
-EspaÓÉ´l: Logo de OpenSUSE
+EspaÒol: Logo de OpenSUSE
 Date 	
 19:59, 30 Enero 2006
 Source 	
@@ -22762,7 +22762,7 @@ Creative Commons Attribution ShareAlike 3.0 License.
 *****************************************************************
 
 XubuntuCoF.svg
-(SVG file, nominally 91 „É© 94 pixels, file size: 4 KB)
+(SVG file, nominally 91 ◊ 94 pixels, file size: 4 KB)
 Description 	XubuntuCoF.svg
 Official Xubuntu circle
 Date 	
@@ -22779,7 +22779,7 @@ Permission
 *****************************************************************
 
 CentOS_4.2_Welcome_en_3.png
- (798 „É© 598 pixels, file size: 81 KB, MIME type: image/png)
+ (798 ◊ 598 pixels, file size: 81 KB, MIME type: image/png)
  Help about image annotations
 [edit] Summary
 Pantalla de Bienvenida Centos 4.2
@@ -22790,10 +22790,10 @@ Pantalla de Bienvenida Centos 4.2
 Mandriva
 File:Logomandri.jpg
 From Wikimedia Commons, the free media repository
- (950 „É© 239 pixels, file size: 96 KB, MIME type: image/jpeg)
+ (950 ◊ 239 pixels, file size: 96 KB, MIME type: image/jpeg)
 Description 	Logomandri.jpg
 English: logo
-EspaÓÉ´l: logo
+EspaÒol: logo
 Date 	
 martes 14 de julio 2009
 Source 	
@@ -23018,7 +23018,7 @@ GNU General Public License
 ##########################################################################
 
 art_of_illussion_icon.png
-(64 „É© 64 pixels, file size: 4 KB, MIME type: image/png)
+(64 ◊ 64 pixels, file size: 4 KB, MIME type: image/png)
  Help about image annotations
 Summary
 English: Icon designed by developer Peter Eastman for inclusion in AoI distribution: http://aoi.sf.net AoI is licensed under the GPL. Image is licensed under the GPL.
@@ -23027,7 +23027,7 @@ GNU General Public License
 ******************************************************************
 
 Beryl_logo.svg
-(SVG file, nominally 48 „É© 48 pixels, file size: 14 KB)
+(SVG file, nominally 48 ◊ 48 pixels, file size: 14 KB)
 Description 	Beryl logo.svg
 
 Official Beryl logo
@@ -23048,7 +23048,7 @@ GNU General Public License
 
 
 ClamAV-logo.jpeg
-(104 „É© 104 pixels, file size: 3 KB, MIME type: image/jpeg)
+(104 ◊ 104 pixels, file size: 3 KB, MIME type: image/jpeg)
  Help about image annotations
 Summary
 Description 	ClamAV.jpeg
@@ -23070,7 +23070,7 @@ GNU General Public License
 
 
 ClawsMailLogo.png
-(155 „É© 175 pixels, file size: 43 KB, MIME type: image/png)
+(155 ◊ 175 pixels, file size: 43 KB, MIME type: image/png)
  Help about image annotations
 \u041e\u043f\u0438\u0441
 Description 	ClawsMailLogo.png
@@ -23089,7 +23089,7 @@ GNU General Public License
 
 
 Compiz_logo.svg
-(SVG file, nominally 256 „É© 256 pixels, file size: 22 KB)
+(SVG file, nominally 256 ◊ 256 pixels, file size: 22 KB)
 Description 	Compiz logo.svg
 
 Official Compiz logo
@@ -23104,7 +23104,7 @@ GNU Lesser General Public License
 
 
 Compiz_Fusion_Logo.svg
-(SVG file, nominally 600 „É© 256 pixels, file size: 27 KB)
+(SVG file, nominally 600 ◊ 256 pixels, file size: 27 KB)
 
 W3C \u2713 The source code of this SVG is valid
 Summary
@@ -23123,7 +23123,7 @@ GNU Lesser General Public License
 
 
 DOSBox_icon.png
-(96 „É© 96 pixels, file size: 18 KB, MIME type: image/png)
+(96 ◊ 96 pixels, file size: 18 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -23137,7 +23137,7 @@ GNU General Public License
 ******************************************************************
 
 Dasher_logo.svg
-(SVG file, nominally 480 „É© 480 pixels, file size: 528 B)
+(SVG file, nominally 480 ◊ 480 pixels, file size: 528 B)
 Inkscape logo 2.svg 	
 
 This vector image was created with Inkscape, and then manually edited.
@@ -23149,7 +23149,7 @@ GNU General Public License
 
 ******************************************************************
 Deluge-Logo.svg
-(SVG file, nominally 48 „É© 48 pixels, file size: 15 KB)
+(SVG file, nominally 48 ◊ 48 pixels, file size: 15 KB)
 
 Description 	Deluge-Logo.svg
 English: The logo of the Deluge Bittorrent Client. Created by Andrew Wedderburn.
@@ -23161,7 +23161,7 @@ Permission
 
 ******************************************************************
 Digikam-icon.png
-(245 „É© 245 pixels, file size: 24 KB, MIME type: image/png)
+(245 ◊ 245 pixels, file size: 24 KB, MIME type: image/png)
  Help about image annotations
 Description 	Digikam-icon.png
 
@@ -23175,7 +23175,7 @@ GPL
 
 ******************************************************************
 Dillo-icon.png
-(128 „É© 128 pixels, file size: 28 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 28 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Dillo-icon.png
@@ -23206,7 +23206,7 @@ GNU General Public License
 ******************************************************************
 
 Emacs-logo.svg
-(SVG file, nominally 270 „É© 217 pixels, file size: 19 KB)
+(SVG file, nominally 270 ◊ 217 pixels, file size: 19 KB)
 Description 	Emacs-logo.svg
 
 GNU Emacs logo. See its history at The Design of the Emacs logo. This is an SVG version of original bitmap logo created by hand from scratch in Inkscape.
@@ -23223,11 +23223,11 @@ GNU General Public License
 ******************************************************************
 
 Epiphany.svg
-(SVG file, nominally 98 „É© 118 pixels, file size: 9 KB)
+(SVG file, nominally 98 ◊ 118 pixels, file size: 9 KB)
 Summary
 Description 	Epiphany.svg
 English: (Aproximated) vectorized version of Image:Epiphany logo 64px.png, the logo of Epiphany web browser for GNOME.
-EspaÓÉ´l: VersiÓâ¢ vectorizada (aproximadamente) de Image:Epiphany logo 64px.png, el logo del navegador web Epiphany para GNOME.
+EspaÒol: VersiÛn vectorizada (aproximadamente) de Image:Epiphany logo 64px.png, el logo del navegador web Epiphany para GNOME.
 Date: 20 July 2008(2008-07-20)
 Source: Own work, vectorized from http://www.gnome.org/projects/epiphany/images/epiphany-64.png
 Author: Epiphany logo is copyright GNOME/Epiphany developers. This version has been created by Jynus
@@ -23249,7 +23249,7 @@ GNU General Public License
 ******************************************************************
 
 File-roller-logo.svg
-(SVG file, nominally 48 „É© 48 pixels, file size: 34 KB)
+(SVG file, nominally 48 ◊ 48 pixels, file size: 34 KB)
 Description 	File-roller.svg
 English: File Roller's icon
 Deutsch: File-Roller-Icon
@@ -23266,7 +23266,7 @@ GNU General Public License
 ******************************************************************
 
 Gramps-logo.png
-(64 „É© 64 pixels, file size: 3 KB, MIME type: image/png)
+(64 ◊ 64 pixels, file size: 3 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -23280,7 +23280,7 @@ GNU General Public License
 ******************************************************************
 
 Gaim_icon.svg
-(SVG file, nominally 48 „É© 48 pixels, file size: 4 KB)
+(SVG file, nominally 48 ◊ 48 pixels, file size: 4 KB)
 Description 	Gaim icon.svg
 English: The logo of Gaim, a Free and Open Source multi-protocol instant messenger.
 Date: unknown
@@ -23292,7 +23292,7 @@ GNU General Public License
 ******************************************************************
 
 Galeon_logo.png
-(48 „É© 48 pixels, file size: 4 KB, MIME type: image/png)
+(48 ◊ 48 pixels, file size: 4 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -23303,7 +23303,7 @@ GNU General Public License
 ******************************************************************
 
 Geany_logo.png
-(48 „É© 48 pixels, file size: 4 KB, MIME type: image/png)
+(48 ◊ 48 pixels, file size: 4 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Geany logo.png
@@ -23318,7 +23318,7 @@ GNU General Public License
 ******************************************************************
 
 Gedit_icon.png
-(48 „É© 48 pixels, file size: 3 KB, MIME type: image/png)
+(48 ◊ 48 pixels, file size: 3 KB, MIME type: image/png)
  Help about image annotations
 Description 	Gedit icon.png
 English: gedit text editor icon
@@ -23330,14 +23330,14 @@ GNU General Public License
 
 ******************************************************************
 
-Gnometris_IcÓåûe.png
-(48 „É© 48 pixels, file size: 2 KB, MIME type: image/png)
+Gnometris_IcÙne.png
+(48 ◊ 48 pixels, file size: 2 KB, MIME type: image/png)
  Help about image annotations
-Description 	Gnometris IcÓåûe.png
-FranËªãis : IcÓåûe de Gnometris.
+Description 	Gnometris IcÙne.png
+FranÁais : IcÙne de Gnometris.
 Date: 12 November 2008(2008-11-12)
 Source 	
-FranËªãis : Capture d'È¶óran sous Gnome.
+FranÁais : Capture d'Ècran sous Gnome.
 Author: J. Marcin Gorycki
 Permission
 This screenshot either does not contain parts or visuals of copyrighted programs, or the author has released it under a free license (which should be indicated beneath this notice), and as such follows the licensing guidelines for screenshots of Wikimedia Commons. You may use it freely according to its particular license.
@@ -23348,7 +23348,7 @@ GNU General Public License
 ******************************************************************
 
 Gnumeric-logo.svg
-(SVG file, nominally 48 „É© 48 pixels, file size: 30 KB)
+(SVG file, nominally 48 ◊ 48 pixels, file size: 30 KB)
 Summary
 
 Taken from Ingral
@@ -23358,7 +23358,7 @@ GNU General Public License
 ******************************************************************
 
 Gtk-gnutella.png
-(48 „É© 48 pixels, file size: 667 B, MIME type: image/png)
+(48 ◊ 48 pixels, file size: 667 B, MIME type: image/png)
  Help about image annotations
 Summary
 English: The icon used for the gtk-gnutella program.
@@ -23371,7 +23371,7 @@ GNU General Public License
 ******************************************************************
 
 Hugin_logo.png
-(452 „É© 251 pixels, file size: 135 KB, MIME type: image/png)
+(452 ◊ 251 pixels, file size: 135 KB, MIME type: image/png)
  Help about image annotations
 Converted to SVG.svg 	This image should be recreated using vector graphics as an SVG file. This has several advantages; see Commons:Media for cleanup for more information. If an SVG form of this image is already available, please upload it. After uploading an SVG, replace this template with {{vector version available|new image name.svg}}.
 
@@ -23393,7 +23393,7 @@ GNU General Public License
 ******************************************************************
 
 Imagemagick-logo.png
-(464 „É© 479 pixels, file size: 34 KB, MIME type: image/png)
+(464 ◊ 479 pixels, file size: 34 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Imagemagick-logo.png
@@ -23414,7 +23414,7 @@ GNU General Public License
 ******************************************************************
 
 k3b-logo.png
-(128 „É© 128 pixels, file size: 4 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 4 KB, MIME type: image/png)
  Help about image annotations
 Description 	Crystal 128 k3b.png
 English: An icon from the Crystal icon theme.
@@ -23428,7 +23428,7 @@ GNU Lesser General Public License
 ******************************************************************
 
 Konsole-icon.png
-(128 „É© 128 pixels, file size: 7 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 7 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -23439,10 +23439,10 @@ GNU General Public License
 ******************************************************************
 
 LXDE-logo.svg
-(SVG file, nominally 551 „É© 535 pixels, file size: 18 KB)
+(SVG file, nominally 551 ◊ 535 pixels, file size: 18 KB)
 Description 	LXDE-logo.svg
 English: logo of LXDE, a computer desktop environment for Unix-like operating systems
-Deutsch: das Logo von LXDE, einer Computer-Arbeitsumgebung f Unix-Ëáßnliche Betriebssysteme
+Deutsch: das Logo von LXDE, einer Computer-Arbeitsumgebung f¸r Unix-‰hnliche Betriebssysteme
 Date: 2009-11-18 21:06 (UTC)
 Source:     * Lxde-logo2.png
 
@@ -23460,7 +23460,7 @@ GNU General Public License
 ******************************************************************
 
 SMPlayer_icon.png
-(150 „É© 150 pixels, file size: 24 KB, MIME type: image/png)
+(150 ◊ 150 pixels, file size: 24 KB, MIME type: image/png)
  Help about image annotations
 Description 	SMPlayer icon.png
 
@@ -23473,7 +23473,7 @@ GNU General Public License
 
 ******************************************************************
 Midori.svg
-(SVG file, nominally 48 „É© 48 pixels, file size: 11 KB)
+(SVG file, nominally 48 ◊ 48 pixels, file size: 11 KB)
 Description 	Midori.svg
 English: Icon for the Midori web browser
 Date 	
@@ -23484,7 +23484,7 @@ GNU Lesser General Public License
 
 ******************************************************************
 Miranda_IM_logo_only_m.svg
-(SVG file, nominally 425 „É© 208 pixels, file size: 11 KB)
+(SVG file, nominally 425 ◊ 208 pixels, file size: 11 KB)
 Description 	Miranda IM logo only m.svg
 Deutsch: Das Miranda IM logo. Miranda IM ist freie Software (GPL).
 English: Miranda IM logo - instant messenger released under the GNU GPL license.
@@ -23513,7 +23513,7 @@ GNU General Public License
 
 ******************************************************************
 Miro_icon.png
-(512 „É© 512 pixels, file size: 35 KB, MIME type: image/png)
+(512 ◊ 512 pixels, file size: 35 KB, MIME type: image/png)
  Help about image annotations
 Description 	Miro icon.png
 
@@ -23531,7 +23531,7 @@ GNU General Public License
 ******************************************************************
 
 Mnemosyne_1.x_logo.png
-(128 „É© 128 pixels, file size: 14 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 14 KB, MIME type: image/png)
  Help about image annotations
 Description 	Mnemosyne 1.x logo.png
 English: Mnemosyne 1.x logo
@@ -23546,7 +23546,7 @@ GNU General Public License
 ******************************************************************
 
 Neverball-icon.png
-(64 „É© 64 pixels, file size: 4 KB, MIME type: image/png)
+(64 ◊ 64 pixels, file size: 4 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -23559,11 +23559,11 @@ GNU General Public License
 ******************************************************************
 
 OmegaT_logo.svg
-(SVG file, nominally 128 „É© 103 pixels, file size: 72 KB)
+(SVG file, nominally 128 ◊ 103 pixels, file size: 72 KB)
 Summary
 Description 	OmegaT logo.svg
 English: OmegaT's logo, translation memory informatic tool on GDFL license
-FranËªãis : Logo de OmegaT, logiciel informatique d'aide la traduction sous license GNU
+FranÁais : Logo de OmegaT, logiciel informatique d'aide ‡ la traduction sous license GNU
 Date: 5 April 2009(2009-04-05)
 Source: own product with file:OmegaT_logo.jpg on GFDL license
 Author: Abalg
@@ -23581,7 +23581,7 @@ OOoImpress.svg
 OOoCalc.svg
 OOoBase.svg
 OpenOffice.org_2_icon.svg
-(SVG file, nominally 102 „É© 102 pixels, file size: 13 KB)
+(SVG file, nominally 102 ◊ 102 pixels, file size: 13 KB)
 Description 	
 English: en:OpenOffice.org 
 Date 	
@@ -23592,7 +23592,7 @@ GNU Lesser General Public License
 
 ******************************************************************
 Pidgin_Logo.svg
-(SVG file, nominally 415 „É© 191 pixels, file size: 30 KB)
+(SVG file, nominally 415 ◊ 191 pixels, file size: 30 KB)
 Description 	Pidgin Logo.svg
 
 A updated version of Image:Pidgin logo.png using SVG.
@@ -23611,7 +23611,7 @@ GNU General Public License
 
 ******************************************************************
 Plone-logo-cropped.png
-(300 „É© 300 pixels, file size: 37 KB, MIME type: image/png)
+(300 ◊ 300 pixels, file size: 37 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Plone-logo-cropped.png
@@ -23636,7 +23636,7 @@ GNU General Public License
 ******************************************************************
 
 Psi_icon_new.png
-(128 „É© 128 pixels, file size: 16 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 16 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -23650,7 +23650,7 @@ GNU General Public License
 ******************************************************************
 
 Rlogo.png
-(362 „É© 275 pixels, file size: 78 KB, MIME type: image/png)
+(362 ◊ 275 pixels, file size: 78 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Rlogo.png
@@ -23664,7 +23664,7 @@ GNU General Public License
 ******************************************************************
 
 ReactOS_logo.svg
-(SVG file, nominally 600 „É© 331 pixels, file size: 196 KB)
+(SVG file, nominally 600 ◊ 331 pixels, file size: 196 KB)
 Description 	ReactOS logo.svg
 
 The logo of ReactOS (source).
@@ -23678,7 +23678,7 @@ GNU General Public License
 ******************************************************************
 
 Scribus_logo.png
-(135 „É© 132 pixels, file size: 14 KB, MIME type: image/png)
+(135 ◊ 132 pixels, file size: 14 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Scribus logo.png
@@ -23696,7 +23696,7 @@ GNU General Public License
 ******************************************************************
 
 SeaMonkey.png
-(128 „É© 128 pixels, file size: 18 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 18 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Converted to SVG.svg 	This Logo image should be recreated using vector graphics as an SVG file. This has several advantages; see Commons:Media for cleanup for more information. If an SVG form of this image is already available, please upload it. After uploading an SVG, replace this template with {{vector version available|new image name.svg}}.
@@ -23712,7 +23712,7 @@ Tri-licensed under the MPL/GPL/LGPL
 ******************************************************************
 
 Sodipodi-logo_squirrel.svg
-(SVG file, nominally 744 „É© 744 pixels, file size: 9 KB)
+(SVG file, nominally 744 ◊ 744 pixels, file size: 9 KB)
 
 W3C \u2713 The source code of this SVG is valid
 Sodipodi-logo squirrel.svg 	
@@ -23733,7 +23733,7 @@ GPL.
 ******************************************************************
 
 Songbird.png
-(256 „É© 256 pixels, file size: 43 KB, MIME type: image/png)
+(256 ◊ 256 pixels, file size: 43 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -23745,7 +23745,7 @@ GNU General Public License
 
 
 Songbird_Logo.png
-(512 „É© 512 pixels, file size: 95 KB, MIME type: image/png)
+(512 ◊ 512 pixels, file size: 95 KB, MIME type: image/png)
  Help about image annotations
 Description 	Songbird Logo.png
 English: en:Songbird icon.
@@ -23760,7 +23760,7 @@ GNU General Public License
 
 ******************************************************************
 Songbird_bw.png
-(128 „É© 128 pixels, file size: 14 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 14 KB, MIME type: image/png)
  Help about image annotations
 Description 	Songbird bw.png
 
@@ -23777,7 +23777,7 @@ GNU General Public License
 
 ******************************************************************
 TeXworks_icon_128.png
-(128 „É© 128 pixels, file size: 26 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 26 KB, MIME type: image/png)
  Help about image annotations
 Description 	TeXworks icon 128.png
 English: icon of software application TeXworks
@@ -23790,7 +23790,7 @@ GNU General Public License
 ******************************************************************
 
 Umbrello-icon.svg
-(SVG file, nominally 128 „É© 128 pixels, file size: 3 KB)
+(SVG file, nominally 128 ◊ 128 pixels, file size: 3 KB)
 Description 	Umbrello-icon.svg
 
 Umbrello icon.
@@ -23805,7 +23805,7 @@ GNU General Public License
 ******************************************************************
 
 VLC.svg
-(SVG file, nominally 48 „É© 48 pixels, file size: 11 KB)
+(SVG file, nominally 48 ◊ 48 pixels, file size: 11 KB)
 Summary
 
 VLC icon, an illustration of a traffic cone.
@@ -23815,7 +23815,7 @@ GNU General Public License
 ******************************************************************
 
 Vimlogo.svg
-(SVG file, nominally 48 „É© 48 pixels, file size: 5 KB)
+(SVG file, nominally 48 ◊ 48 pixels, file size: 5 KB)
 Description 	Vimlogo.svg
 
 vim logo
@@ -23832,7 +23832,7 @@ GNU General Public License
 ******************************************************************
 
 Vuze_icon.png
-(128 „É© 128 pixels, file size: 16 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 16 KB, MIME type: image/png)
  Help about image annotations
 Description 	Vuze icon.png
 English: New icon for the w:Vuze client (formerly Azureus); is a departure from old icon
@@ -23845,7 +23845,7 @@ GNU General Public License
 ******************************************************************
 
 Azureus.png
-(256 „É© 256 pixels, file size: 41 KB, MIME type: image/png)
+(256 ◊ 256 pixels, file size: 41 KB, MIME type: image/png)
  Help about image annotations
 Description 	Azureus.png
 English: Azureus Icon (Dendrobates azureus)
@@ -23857,7 +23857,7 @@ GNU General Public License
 
 ******************************************************************
 WINE-Logo.svg
-(SVG file, nominally 248 „É© 399 pixels, file size: 2 KB)
+(SVG file, nominally 248 ◊ 399 pixels, file size: 2 KB)
 Description 	WINE-Logo.svg
 
 Self-made from en::Image:WINE-Logo.png.
@@ -23871,7 +23871,7 @@ GNU General Public License
 ******************************************************************
 
 Wine_bw.png
-(128 „É© 128 pixels, file size: 20 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 20 KB, MIME type: image/png)
  Help about image annotations
 Description 	Wine bw.png
 
@@ -23889,7 +23889,7 @@ GNU General Public License
 ******************************************************************
 
 Wsicon.svg
-(SVG file, nominally 100 „É© 100 pixels, file size: 6 KB)
+(SVG file, nominally 100 ◊ 100 pixels, file size: 6 KB)
 Description 	Wsicon.svg
 
 SVG Wireshark icon, from the GPL'ed Wireshark source (see http://anonsvn.wireshark.org/wireshark/trunk/image/wsicon.svg), created by Gerald Combs.
@@ -23906,7 +23906,7 @@ GNU General Public License
 
 ******************************************************************
 Wireshark_Icon.png
-(200 „É© 200 pixels, file size: 18 KB, MIME type: image/png)
+(200 ◊ 200 pixels, file size: 18 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -23929,7 +23929,7 @@ GNU General Public License
 ******************************************************************
 
 GNU-Nano-Logo.png
-(299 „É© 300 pixels, file size: 5 KB, MIME type: image/png)
+(299 ◊ 300 pixels, file size: 5 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	GNU-Nano-Logo.png
@@ -23947,7 +23947,7 @@ GNU General Public License
 ******************************************************************
 
 JEdit.png
-(128 „É© 128 pixels, file size: 12 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 12 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -23961,7 +23961,7 @@ GNU General Public License
 ******************************************************************
 
 JEdit_text.png
-(128 „É© 128 pixels, file size: 13 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 13 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -23975,7 +23975,7 @@ GNU General Public License
 ******************************************************************
 
 Yi-logo.png
-(64 „É© 64 pixels, file size: 3 KB, MIME type: image/png)
+(64 ◊ 64 pixels, file size: 3 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Yi-logo.png
@@ -23994,7 +23994,7 @@ GNU General Public License
 ******************************************************************
 
 ACE.png
-(128 „É© 128 pixels, file size: 12 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 12 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24009,7 +24009,7 @@ GNU General Public License
 ******************************************************************
 
 Kile.svg
-(SVG file, nominally 745 „É© 745 pixels, file size: 4 KB)
+(SVG file, nominally 745 ◊ 745 pixels, file size: 4 KB)
 Summary
 
 Kile icon.
@@ -24022,7 +24022,7 @@ GNU General Public License
 ******************************************************************
 
 GThumb_logo.png
-(48 „É© 48 pixels, file size: 4 KB, MIME type: image/png)
+(48 ◊ 48 pixels, file size: 4 KB, MIME type: image/png)
  Help about image annotations
 
 Logo of en:gThumb. Obtained from source packages http://ftp.gnome.org/pub/GNOME/sources/gthumb/.
@@ -24033,7 +24033,7 @@ GNU General Public License
 ******************************************************************
 
 Gajim.svg
-(SVG file, nominally 48 „É© 48 pixels, file size: 19 KB)
+(SVG file, nominally 48 ◊ 48 pixels, file size: 19 KB)
 Summary
 
 Gajim
@@ -24046,7 +24046,7 @@ GNU General Public License
 ******************************************************************
 
 Phex.png
-(128 „É© 128 pixels, file size: 7 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 7 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24060,7 +24060,7 @@ GNU General Public License
 ******************************************************************
 
 AMSN_icon.png
-(128 „É© 128 pixels, file size: 19 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 19 KB, MIME type: image/png)
  Help about image annotations
 Description 	AMSN icon.png
 English: aMSN icon
@@ -24073,7 +24073,7 @@ GNU General Public License
 ******************************************************************
 
 AbiWord.svg
-(SVG file, nominally 128 „É© 128 pixels, file size: 7 KB)
+(SVG file, nominally 128 ◊ 128 pixels, file size: 7 KB)
 Description 	AbiWord.svg
 
 AbiWord backup icon. http://www.abisource.com/
@@ -24097,10 +24097,10 @@ GNU General Public License
 ******************************************************************
 
 Apollon-icon.svg
-(SVG file, nominally 678 „É© 746 pixels, file size: 29 KB)
+(SVG file, nominally 678 ◊ 746 pixels, file size: 29 KB)
 Description 	Apollon-icon.svg
 English: Apollon Program Icon.
-EspaÓÉ´l: „Éòcono de Apollon.
+EspaÒol: Õcono de Apollon.
 Italiano: Icona di Apollon.
 Date: 13:14, 7 April 2008 (UTC)
 Source: Image:Apollon-icon.png
@@ -24115,7 +24115,7 @@ GNU General Public License
 ******************************************************************
 
 Audacity.svg
-(SVG file, nominally 48 „É© 48 pixels, file size: 13 KB)
+(SVG file, nominally 48 ◊ 48 pixels, file size: 13 KB)
 Summary
 
 Audacity icon
@@ -24127,7 +24127,7 @@ GNU General Public License
 ******************************************************************
 
 Avahi-logo.svg
-(SVG file, nominally 42 „É© 32 pixels, file size: 61 KB)
+(SVG file, nominally 42 ◊ 32 pixels, file size: 61 KB)
 Description 	Avahi-logo.svg
 
 Logo for the Avahi project
@@ -24140,7 +24140,7 @@ GNU Lesser General Public License
 ******************************************************************
 
 Autopackage-logo.png
-(265 „É© 265 pixels, file size: 52 KB, MIME type: image/png)
+(265 ◊ 265 pixels, file size: 52 KB, MIME type: image/png)
  Help about image annotations
 Description 	Autopackage-logo.png
 
@@ -24156,7 +24156,7 @@ GNU Lesser General Public License
 ******************************************************************
 
 BOINCManager_Old.png
-(128 „É© 128 pixels, file size: 18 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 18 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24170,7 +24170,7 @@ GNU General Public License
 ******************************************************************
 
 BOINCManager.png
-(128 „É© 128 pixels, file size: 30 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 30 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24184,7 +24184,7 @@ GNU General Public License
 ******************************************************************
 
 Battle_for_Wesnoth.png
-(128 „É© 128 pixels, file size: 29 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 29 KB, MIME type: image/png)
  Help about image annotations
 Description 	Battle for Wesnoth.png
 
@@ -24204,7 +24204,7 @@ GNU General Public License
 ******************************************************************
 
 Bochs.png
-(128 „É© 128 pixels, file size: 24 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 24 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24217,7 +24217,7 @@ GNU General Public License
 ******************************************************************
 
 Boxee.png
-(512 „É© 512 pixels, file size: 114 KB, MIME type: image/png)
+(512 ◊ 512 pixels, file size: 114 KB, MIME type: image/png)
  Help about image annotations
 Description 	Boxee.png
 
@@ -24231,7 +24231,7 @@ GNU General Public License
 ******************************************************************
 
 Breve.png
-(128 „É© 128 pixels, file size: 17 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 17 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24244,7 +24244,7 @@ GNU General Public License
 ******************************************************************
 
 Burn.png
-(512 „É© 512 pixels, file size: 118 KB, MIME type: image/png)
+(512 ◊ 512 pixels, file size: 118 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Burn.png
@@ -24262,7 +24262,7 @@ GNU General Public License
 ******************************************************************
 
 CSpace.png
-(48 „É© 48 pixels, file size: 3 KB, MIME type: image/png)
+(48 ◊ 48 pixels, file size: 3 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	CSpace.png
@@ -24283,7 +24283,7 @@ GNU General Public License
 ******************************************************************
 
 Chicken_of_the_VNC.png
-(128 „É© 128 pixels, file size: 15 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 15 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24296,7 +24296,7 @@ GNU General Public License
 ******************************************************************
 
 ClamWin_icon.png
-(162 „É© 162 pixels, file size: 28 KB, MIME type: image/png)
+(162 ◊ 162 pixels, file size: 28 KB, MIME type: image/png)
  Help about image annotations
 Licensing
 GNU General Public License
@@ -24304,7 +24304,7 @@ GNU General Public License
 ******************************************************************
 
 Coccinella.png
-(128 „É© 128 pixels, file size: 17 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 17 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24319,7 +24319,7 @@ GNU General Public License
 ******************************************************************
 
 ElectrEm.png
-(128 „É© 128 pixels, file size: 20 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 20 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24332,7 +24332,7 @@ GNU General Public License
 ******************************************************************
 
 Enigma_icon.png
-(128 „É© 128 pixels, file size: 18 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 18 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24345,7 +24345,7 @@ GNU General Public License
 ******************************************************************
 
 Ethereal_icon.png
-(48 „É© 48 pixels, file size: 5 KB, MIME type: image/png)
+(48 ◊ 48 pixels, file size: 5 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24358,7 +24358,7 @@ GNU General Public License
 ******************************************************************
 
 FDM_icon.png
-(48 „É© 48 pixels, file size: 4 KB, MIME type: image/png)
+(48 ◊ 48 pixels, file size: 4 KB, MIME type: image/png)
  Help about image annotations
 Description 	FDM icon.png
 
@@ -24372,7 +24372,7 @@ GNU General Public License
 ******************************************************************
 
 FakeNES.png
-(128 „É© 128 pixels, file size: 22 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 22 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24385,7 +24385,7 @@ GNU General Public License
 
 ******************************************************************
 FinkCommander_in_use.png
-(128 „É© 128 pixels, file size: 18 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 18 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24398,7 +24398,7 @@ GNU General Public License
 ******************************************************************
 
 Fire_icon.png
-(128 „É© 128 pixels, file size: 24 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 24 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24412,7 +24412,7 @@ GNU General Public License
 ******************************************************************
 
 FreeMat.png
-(128 „É© 128 pixels, file size: 7 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 7 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24426,7 +24426,7 @@ GNU General Public License
 ******************************************************************
 
 FrostWire.png
-(128 „É© 128 pixels, file size: 25 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 25 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24439,7 +24439,7 @@ GNU General Public License
 
 
 Frozen_Bubble_icon.png
-(128 „É© 128 pixels, file size: 25 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 25 KB, MIME type: image/png)
  Help about image annotations
 Description 	Frozen Bubble icon.png
 
@@ -24455,7 +24455,7 @@ GNU General Public License
 ******************************************************************
 
 GDesklets.png
-(48 „É© 48 pixels, file size: 4 KB, MIME type: image/png)
+(48 ◊ 48 pixels, file size: 4 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24468,7 +24468,7 @@ GNU General Public License
 ******************************************************************
 
 GLTron.png
-(128 „É© 128 pixels, file size: 33 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 33 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24480,7 +24480,7 @@ GNU General Public License
 
 
 GNUstep.png
-(45 „É© 45 pixels, file size: 756 B, MIME type: image/png)
+(45 ◊ 45 pixels, file size: 756 B, MIME type: image/png)
  Help about image annotations
 
 GNUstep icon from Window Maker 0.80.0-4.1 (wmaker package on Debian GNU/Linux), a NeXTSTEP-like window manager for X Window System:
@@ -24504,7 +24504,7 @@ GNU General Public License
 ******************************************************************
 
 GalaxyMage.png
-(64 „É© 64 pixels, file size: 6 KB, MIME type: image/png)
+(64 ◊ 64 pixels, file size: 6 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24517,7 +24517,7 @@ GNU General Public License
 ******************************************************************
 
 Globulation_2.png
-(128 „É© 128 pixels, file size: 12 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 12 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24530,7 +24530,7 @@ GNU General Public License
 ******************************************************************
 
 IScrobbler.png
-(128 „É© 128 pixels, file size: 18 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 18 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24543,7 +24543,7 @@ GNU General Public License
 ******************************************************************
 
 ITheater.png
-(128 „É© 128 pixels, file size: 14 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 14 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24556,7 +24556,7 @@ GNU General Public License
 ******************************************************************
 
 ImgSeek.png
-(32 „É© 32 pixels, file size: 2 KB, MIME type: image/png)
+(32 ◊ 32 pixels, file size: 2 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24569,7 +24569,7 @@ GNU General Public License
 ******************************************************************
 
 InfiniteCanvase.png
-(128 „É© 128 pixels, file size: 15 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 15 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24580,7 +24580,7 @@ GNU General Public License
 ******************************************************************
 
 Kantaris_icon.png
-(256 „É© 256 pixels, file size: 11 KB, MIME type: image/png)
+(256 ◊ 256 pixels, file size: 11 KB, MIME type: image/png)
  Help about image annotations
 Description 	Kantaris icon.png
 
@@ -24594,11 +24594,11 @@ GNU Lesser General Public License
 ******************************************************************
 
 Kdedragonplayer.png
-(128 „É© 128 pixels, file size: 18 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 18 KB, MIME type: image/png)
  Help about image annotations
 Description 	Kdedragonplayer.png
 English: Icon for Dragon Player from version 2.0.1
-Deutsch: Icon f Dragon Player seit Version 2.0.1
+Deutsch: Icon f¸r Dragon Player seit Version 2.0.1
 Date: 2008-03-22 (original upload date)
 (Original text : Feb 25, 2008)
 Source: Transferred from en.wikipedia; transfered to Commons by User:Speck-Made using CommonsHelper.
@@ -24614,7 +24614,7 @@ GNU Lesser General Public License
 ******************************************************************
 
 KeePass_icon.png
-(256 „É© 256 pixels, file size: 33 KB, MIME type: image/png)
+(256 ◊ 256 pixels, file size: 33 KB, MIME type: image/png)
  Help about image annotations
 Description 	KeePass icon.png
 
@@ -24628,7 +24628,7 @@ GNU General Public License
 ******************************************************************
 
 KeePassX_icon.svg
-(SVG file, nominally 48 „É© 48 pixels, file size: 19 KB)
+(SVG file, nominally 48 ◊ 48 pixels, file size: 19 KB)
 Description 	KeePassX icon.svg
 
 KeePassX logo
@@ -24649,12 +24649,12 @@ GNU General Public License
 ******************************************************************
 
 Konqueror4_Logo.png
-(256 „É© 256 pixels, file size: 85 KB, MIME type: image/png)
+(256 ◊ 256 pixels, file size: 85 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Konqueror4 Logo.png
 English: Konqueror New Logo for KDE4 (http://www.oxygen-icons.org/?page_id=4)
-FranËªãis : Logo de Konqueror partir de sa version KDE4 (http://www.oxygen-icons.org/?page_id=4)
+FranÁais : Logo de Konqueror ‡ partir de sa version KDE4 (http://www.oxygen-icons.org/?page_id=4)
 Date 	
 Source: Oxygen Project
 Author: Oxygen Project, David Vigoni
@@ -24667,7 +24667,7 @@ GNU Lesser General Public License
 ******************************************************************
 
 LimeWire.png
-(128 „É© 128 pixels, file size: 27 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 27 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24681,7 +24681,7 @@ GNU General Public License
 ******************************************************************
 
 Mac-on-Mac.png
-(128 „É© 128 pixels, file size: 13 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 13 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24694,7 +24694,7 @@ GNU General Public License
 ******************************************************************
 
 MacBZFlag.png
-(128 „É© 128 pixels, file size: 11 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 11 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24708,7 +24708,7 @@ GNU Lesser General Public License
 ******************************************************************
 
 Mupen64_icon.png
-(127 „É© 127 pixels, file size: 11 KB, MIME type: image/png)
+(127 ◊ 127 pixels, file size: 11 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Mupen64 icon.png
@@ -24722,7 +24722,7 @@ GNU General Public License
 ******************************************************************
 
 MusicBrainz_Tagger_icon.png
-(32 „É© 32 pixels, file size: 554 B, MIME type: image/png)
+(32 ◊ 32 pixels, file size: 554 B, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24736,20 +24736,20 @@ GNU General Public License
 ******************************************************************
 
 Mysql.svg
-(SVG file, nominally 48 „É© 48 pixels, file size: 55 KB)
+(SVG file, nominally 48 ◊ 48 pixels, file size: 55 KB)
 Description 	Mysql.svg
 
 Tangofied MySQL icon.
 Date: August 2007(2007-08)
 Source: http://www.quantum-bits.org/?page_id=3
-Author: FrÈ¶òÈßªic Bellaiche
+Author: FrÈdÈric Bellaiche
 Permission
 GNU General Public License
 
 ******************************************************************
 
 Mythtvfrontend.png
-(128 „É© 128 pixels, file size: 26 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 26 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24762,7 +24762,7 @@ GNU General Public License
 ******************************************************************
 
 Nautilus_icon.svg
-(SVG file, nominally 48 „É© 48 pixels, file size: 12 KB)
+(SVG file, nominally 48 ◊ 48 pixels, file size: 12 KB)
 Summary
 Description 	Nautilus icon.svg
 English\u2009: Nautilus file manager icon
@@ -24777,7 +24777,7 @@ GNU General Public License
 ******************************************************************
 
 NicePlayer.png
-(128 „É© 128 pixels, file size: 4 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 4 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24800,7 +24800,7 @@ GNU General Public License
 ******************************************************************
 
 Okular.png
-(256 „É© 255 pixels, file size: 36 KB, MIME type: image/png)
+(256 ◊ 255 pixels, file size: 36 KB, MIME type: image/png)
  Help about image annotations
 Description 	Okular.png
 English: Icon for the Okular document viewer
@@ -24816,7 +24816,7 @@ LGPL.
 
 
 Openttdlogo.svg
-(SVG file, nominally 256 „É© 248 pixels, file size: 16 KB)
+(SVG file, nominally 256 ◊ 248 pixels, file size: 16 KB)
 Description 	Openttdlogo.svg
 
 Logo of OpenTTD
@@ -24829,7 +24829,7 @@ GNU General Public License
 ******************************************************************
 
 Pengupop.png
-(48 „É© 48 pixels, file size: 5 KB, MIME type: image/png)
+(48 ◊ 48 pixels, file size: 5 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24843,7 +24843,7 @@ GNU General Public License
 ******************************************************************
 
 Perian_icon.png
-(512 „É© 512 pixels, file size: 106 KB, MIME type: image/png)
+(512 ◊ 512 pixels, file size: 106 KB, MIME type: image/png)
  Help about image annotations
 Description 	Perian icon.png
 
@@ -24857,7 +24857,7 @@ GNU Lesser General Public License
 ******************************************************************
 
 Pidgin.svg
-(SVG file, nominally 48 „É© 48 pixels, file size: 21 KB)
+(SVG file, nominally 48 ◊ 48 pixels, file size: 21 KB)
 Summary
 Description 	Pidgin.svg
 
@@ -24877,7 +24877,7 @@ GNU General Public License
 ******************************************************************
 
 Psi_icon.png
-(128 „É© 128 pixels, file size: 14 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 14 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24891,7 +24891,7 @@ GNU General Public License
 ******************************************************************
 
 QtiPlot_logo.png
-(128 „É© 128 pixels, file size: 14 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 14 KB, MIME type: image/png)
  Help about image annotations
 Description 	QtiPlot logo.png
 
@@ -24908,7 +24908,7 @@ GNU General Public License
 ******************************************************************
 
 Quod_Libet.png
-(64 „É© 64 pixels, file size: 2 KB, MIME type: image/png)
+(64 ◊ 64 pixels, file size: 2 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24920,7 +24920,7 @@ GNU General Public License
 
 
 RKWard_logo.svg
-(SVG file, nominally 60 „É© 60 pixels, file size: 24 KB)
+(SVG file, nominally 60 ◊ 60 pixels, file size: 24 KB)
 Description 	RKWard logo.svg
 
 Logo of the R frontend RKWard.
@@ -24941,7 +24941,7 @@ GNU Lesser General Public License
 ******************************************************************
 
 RadiantIcon.png
-(32 „É© 32 pixels, file size: 434 B, MIME type: image/png)
+(32 ◊ 32 pixels, file size: 434 B, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -24953,7 +24953,7 @@ GNU General Public License
 
 
 Retrosharelogo1.png
-(128 „É© 128 pixels, file size: 18 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 18 KB, MIME type: image/png)
  Help about image annotations
 Description 	Retrosharelogo1.png
 
@@ -24967,7 +24967,7 @@ GNU General Public License
 ******************************************************************
 
 Retrosharelogo2.png
-(128 „É© 128 pixels, file size: 18 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 18 KB, MIME type: image/png)
  Help about image annotations
 Description 	Retrosharelogo2.png
 
@@ -24982,7 +24982,7 @@ GNU General Public License
 
 
 Rhythmbox.png
-(48 „É© 48 pixels, file size: 2 KB, MIME type: image/png)
+(48 ◊ 48 pixels, file size: 2 KB, MIME type: image/png)
  Help about image annotations
 Description 	Rhythmbox.png
 English: Rhythmbox icon
@@ -24995,7 +24995,7 @@ GNU General Public License
 ******************************************************************
 
 RoboWar.png
-(32 „É© 32 pixels, file size: 464 B, MIME type: image/png)
+(32 ◊ 32 pixels, file size: 464 B, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -25009,7 +25009,7 @@ GNU General Public License
 ******************************************************************
 
 Rocks'n'Diamonds.png
-(128 „É© 128 pixels, file size: 2 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 2 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -25023,7 +25023,7 @@ GNU General Public License
 ******************************************************************
 
 Scorched_3D.png
-(32 „É© 32 pixels, file size: 2 KB, MIME type: image/png)
+(32 ◊ 32 pixels, file size: 2 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -25037,7 +25037,7 @@ GNU General Public License
 ******************************************************************
 
 Shareaza.png
-(48 „É© 48 pixels, file size: 2 KB, MIME type: image/png)
+(48 ◊ 48 pixels, file size: 2 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Shareaza.png
@@ -25051,7 +25051,7 @@ GNU General Public License
 ******************************************************************
 
 SheepShaver.png
-(32 „É© 32 pixels, file size: 1 KB, MIME type: image/png)
+(32 ◊ 32 pixels, file size: 1 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -25064,7 +25064,7 @@ GNU General Public License
 ******************************************************************
 
 Sound_juicer_logo.svg
-(SVG file, nominally 48 „É© 48 pixels, file size: 50 KB)
+(SVG file, nominally 48 ◊ 48 pixels, file size: 50 KB)
 Summary
 
 The Sound Juicer logo
@@ -25074,7 +25074,7 @@ GNU General Public License
 ******************************************************************
 
 Stratagus.png
-(32 „É© 32 pixels, file size: 2 KB, MIME type: image/png)
+(32 ◊ 32 pixels, file size: 2 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -25088,7 +25088,7 @@ GNU General Public License
 ******************************************************************
 
 SuperKaramba.svg
-(SVG file, nominally 1,024 „É© 1,024 pixels, file size: 27 KB)
+(SVG file, nominally 1,024 ◊ 1,024 pixels, file size: 27 KB)
 Summary
 
 SuperKaramba icon.
@@ -25099,7 +25099,7 @@ GNU General Public License
 
 ******************************************************************
 Sylpheed.png
-(128 „É© 128 pixels, file size: 12 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 12 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -25113,7 +25113,7 @@ GNU General Public License
 
 
 Ted.png
-(128 „É© 128 pixels, file size: 6 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 6 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -25127,7 +25127,7 @@ GNU General Public License
 ******************************************************************
 
 UFO_Alien_Invasion.png
-(32 „É© 32 pixels, file size: 2 KB, MIME type: image/png)
+(32 ◊ 32 pixels, file size: 2 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -25140,7 +25140,7 @@ GNU General Public License
 
 ******************************************************************
 User-krusader.svg
-(SVG file, nominally 200 „É© 200 pixels, file size: 11 KB)
+(SVG file, nominally 200 ◊ 200 pixels, file size: 11 KB)
 Description 	User-krusader.svg
 English: icon of the KDE orthodox (double pane) file manager Krusader
 Deutsch: Piktogramm des (zweispaltigen) KDE-Dateimanagers Krusader
@@ -25153,7 +25153,7 @@ GNU General Public License
 ******************************************************************
 
 VICE.png
-(128 „É© 128 pixels, file size: 13 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 13 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -25166,7 +25166,7 @@ GNU General Public License
 ******************************************************************
 
 VisualBoyAdvance.png
-(128 „É© 128 pixels, file size: 21 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 21 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -25179,7 +25179,7 @@ GNU General Public License
 ******************************************************************
 
 XaraLX-Icon.png
-(32 „É© 32 pixels, file size: 2 KB, MIME type: image/png)
+(32 ◊ 32 pixels, file size: 2 KB, MIME type: image/png)
  Help about image annotations
 Description 	XaraLX-Icon.png
 English: Xara Xtreme LX icon. From the Debian package xaralx 0.5r1184-1, as /usr/share/pixmaps/xaralx.png.
@@ -25195,7 +25195,7 @@ GNU General Public License
 ******************************************************************
 
 Yabause.png
-(32 „É© 32 pixels, file size: 2 KB, MIME type: image/png)
+(32 ◊ 32 pixels, file size: 2 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -25209,7 +25209,7 @@ GNU General Public License
 ******************************************************************
 
 Zsnes_icon.png
-(64 „É© 64 pixels, file size: 7 KB, MIME type: image/png)
+(64 ◊ 64 pixels, file size: 7 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -25220,7 +25220,7 @@ GNU General Public License
 ******************************************************************
 
 1964.png
-(32 „É© 32 pixels, file size: 219 B, MIME type: image/png)
+(32 ◊ 32 pixels, file size: 219 B, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	1964.png
@@ -25235,7 +25235,7 @@ GNU General Public License
 ******************************************************************
 
 Logo_xchat.png
-(48 „É© 48 pixels, file size: 3 KB, MIME type: image/png)
+(48 ◊ 48 pixels, file size: 3 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Logo xchat.png
@@ -25252,7 +25252,7 @@ GNU General Public License
 
 ******************************************************************
 
-GFTPlogo.png\u200e (295 „É© 110 pixels, file size: 42 KB, MIME type: image/png)
+GFTPlogo.png\u200e (295 ◊ 110 pixels, file size: 42 KB, MIME type: image/png)
  Help about image annotations
 Description 	GFTPlogo.png
 
@@ -25271,7 +25271,7 @@ Permission
 
 
 ******************************************************************
-Logo_jbrout.png\u200e (32 „É© 32 pixels, file size: 2 KB, MIME type: image/png)
+Logo_jbrout.png\u200e (32 ◊ 32 pixels, file size: 2 KB, MIME type: image/png)
  Help about image annotations
 Contents
 [hide]
@@ -25287,7 +25287,7 @@ Description 	Logo jbrout.png
 logo_jbrout.png
 Date 	
 
-(le 8 dÈ¶óembre 2006)
+(le 8 dÈcembre 2006)
 Source 	
 
 [1]
@@ -25304,8 +25304,8 @@ GNU head 	This work is free software; you can redistribute it and/or modify it u
 
 ******************************************************************
 File:Mosaiclogo.png
-Size of this preview: 545 „É© 599 pixels
-Full resolution\u200e (666 „É© 732 pixels, file size: 298 KB, MIME type: image/png)
+Size of this preview: 545 ◊ 599 pixels
+Full resolution\u200e (666 ◊ 732 pixels, file size: 298 KB, MIME type: image/png)
  Help about image annotations
 Description 	Mosaiclogo.png
 
@@ -25328,7 +25328,7 @@ GNU General Public License
 
 ThousandParsec.png
 
- (256 „É© 256 pixels, file size: 32 KB, MIME type: image/png)
+ (256 ◊ 256 pixels, file size: 32 KB, MIME type: image/png)
  Help about image annotations
 
 Description 	ThousandParsec.png
@@ -25355,7 +25355,7 @@ GNU General Public License
 
 Gnumail.png
 
- (183 „É© 250 pixels, file size: 45 KB, MIME type: image/png)
+ (183 ◊ 250 pixels, file size: 45 KB, MIME type: image/png)
  Help about image annotations
 
 Summary
@@ -25383,7 +25383,7 @@ GNU General Public License
 
 Monodevelop_Logo.svg
 
- (SVG file, nominally 48 „É© 48 pixels, file size: 20 KB)
+ (SVG file, nominally 48 ◊ 48 pixels, file size: 20 KB)
 
 Summary
 
@@ -25409,7 +25409,7 @@ GNU General Public License
 
 Mtpaint-logo.png
 
- (32 „É© 32 pixels, file size: 493 B, MIME type: image/png)
+ (32 ◊ 32 pixels, file size: 493 B, MIME type: image/png)
  Help about image annotations
 
 Summary
@@ -25441,7 +25441,7 @@ GNU General Public License
 
 Mupen64plus.svg
 
- (SVG file, nominally 127 „É© 127 pixels, file size: 52 KB)
+ (SVG file, nominally 127 ◊ 127 pixels, file size: 52 KB)
 
 Description 	Mupen64plus.svg
 Mupen64plus logo
@@ -25466,7 +25466,7 @@ GNU General Public License
 
 NetSurf.svg
 
- (SVG file, nominally 603 „É© 603 pixels, file size: 3 KB)
+ (SVG file, nominally 603 ◊ 603 pixels, file size: 3 KB)
 Contents
 [hide]
     * 1 Summary
@@ -25485,7 +25485,7 @@ Date
 
 Source 	
 English: The page where the image is released
-Italiano: La pagina dove l'mmagine distribuita
+Italiano: La pagina dove l'mmagine Ë distribuita
 
 Author 	
 English: Netsurf devolopers
@@ -25502,7 +25502,7 @@ Italiano: Licenza MIT GPL compatibile, la licenza
 
 Synkron.png
 
- (128 „É© 128 pixels, file size: 11 KB, MIME type: image/png)
+ (128 ◊ 128 pixels, file size: 11 KB, MIME type: image/png)
  Help about image annotations
 
 Description 	Synkron.png
@@ -25526,7 +25526,7 @@ GNU General Public License
 
 Tux_paint_logo.png
 
- (535 „É© 471 pixels, file size: 38 KB, MIME type: image/png)
+ (535 ◊ 471 pixels, file size: 38 KB, MIME type: image/png)
  Help about image annotations
 
 Description 	Tux paint logo.png
@@ -25551,7 +25551,7 @@ GNU General Public License
 
 Wammu-logo.png
 
- (192 „É© 192 pixels, file size: 12 KB, MIME type: image/png)
+ (192 ◊ 192 pixels, file size: 12 KB, MIME type: image/png)
  Help about image annotations
 
 Description 	Wammu-logo.png
@@ -25576,7 +25576,7 @@ GNU General Public License
 
 Wf-logo_wiki.png
 
- (135 „É© 135 pixels, file size: 10 KB, MIME type: image/png)
+ (135 ◊ 135 pixels, file size: 10 KB, MIME type: image/png)
  Help about image annotations
 
 Summary
@@ -25591,7 +25591,7 @@ GNU Lesser General Public License 2.1
 
 GNUnet_logo.svg
 
- (SVG file, nominally 293 „É© 303 pixels, file size: 172 KB)
+ (SVG file, nominally 293 ◊ 303 pixels, file size: 172 KB)
 
 Summary
 Official logo of the GNUnet project - "a framework for secure peer-to-peer networking". Combines the GNU logo with a spider-net.
@@ -25607,7 +25607,7 @@ GNU General Public License
 
 Freenet_icon.png
 
- (72 „É© 54 pixels, file size: 1 KB, MIME type: image/png)
+ (72 ◊ 54 pixels, file size: 1 KB, MIME type: image/png)
  Help about image annotations
 
 Description 	Freenet icon.png
@@ -25634,15 +25634,15 @@ GNU General Public License
 
 Dream_comm_orkut.png
 
- (108 „É© 109 pixels, file size: 18 KB, MIME type: image/png)
+ (108 ◊ 109 pixels, file size: 18 KB, MIME type: image/png)
  Help about image annotations
 Contents
 [hide]
-    * 1 SumÁñµio
+    * 1 Sum·rio
     * 2 Licensing
     * 3 Usage:
     * 4 Related galleries:
-SumÁñµio
+Sum·rio
 
 Description 	Dream comm orkut.png
 Logomarca do programa de computador DreaMule
@@ -25651,14 +25651,14 @@ Date
 17 July 2007(2007-07-17)
 
 Source 	
-CriaÈà¨o prÓâ§ria
+CriaÁ„o prÛpria
 
 Author 	
-Juan LourenËºü e Bruno Cabral
+Juan LourenÁo e Bruno Cabral
 
 Permission
  	
-AlÈßë do programa ser GNU GPL, sou da equipe de desenvolvimento - basta olhar o nome nos crÈ¶òitos do programa entrando em "Sobre", ou confirmando meu nome como administrador do FÓâ¶um Oficial do DreaMule.
+AlÈm do programa ser GNU GPL, sou da equipe de desenvolvimento - basta olhar o nome nos crÈditos do programa entrando em "Sobre", ou confirmando meu nome como administrador do FÛrum Oficial do DreaMule.
 
 Licensing
 GNU Free Documentation License, Version 1.2
@@ -25669,7 +25669,7 @@ GNU Free Documentation License, Version 1.2
 
 Metacity.png
 
- (48 „É© 48 pixels, file size: 2 KB, MIME type: image/png)
+ (48 ◊ 48 pixels, file size: 2 KB, MIME type: image/png)
  Help about image annotations
 
 Summary
@@ -25683,7 +25683,7 @@ GNU General Public License
 
 Fluxbox_logo_black.svg
 
- (SVG file, nominally 502 „É© 312 pixels, file size: 11 KB)
+ (SVG file, nominally 502 ◊ 312 pixels, file size: 11 KB)
 
 Description 	Fluxbox logo black.svg
 English: Fluxbox logo
@@ -25707,7 +25707,7 @@ GNU General Public License
 
 AbiWord_RTF.png
 
- (128 „É© 128 pixels, file size: 12 KB, MIME type: image/png)
+ (128 ◊ 128 pixels, file size: 12 KB, MIME type: image/png)
  Help about image annotations
 
 Summary
@@ -25723,7 +25723,7 @@ GNU General Public License
 
 AbiWord_Document.png
 
- (128 „É© 128 pixels, file size: 11 KB, MIME type: image/png)
+ (128 ◊ 128 pixels, file size: 11 KB, MIME type: image/png)
  Help about image annotations
 
 Summary
@@ -25739,7 +25739,7 @@ GNU General Public License
 
 Logo_Brasero.svg
 
- (SVG file, nominally 48 „É© 48 pixels, file size: 24 KB)
+ (SVG file, nominally 48 ◊ 48 pixels, file size: 24 KB)
 
 Description 	Logo Brasero.svg
 Deutsch: Logo von Brasero
@@ -25765,7 +25765,7 @@ GNU General Public License
 
 Cheese-big.png
 
- (300 „É© 300 pixels, file size: 33 KB, MIME type: image/png)
+ (300 ◊ 300 pixels, file size: 33 KB, MIME type: image/png)
  Help about image annotations
 
 Description 	Cheese-big.png
@@ -25777,7 +25777,7 @@ Source
 Cheese software
 
 Author 	
-Andreas Nilsson and Josef Vyb„ÉÜ„É•ral
+Andreas Nilsson and Josef Vyb√≠ral
 
 Permission
  	
@@ -25791,7 +25791,7 @@ GNU General Public License
 
 Gobby-logo.png
 
- (128 „É© 128 pixels, file size: 11 KB, MIME type: image/png)
+ (128 ◊ 128 pixels, file size: 11 KB, MIME type: image/png)
  Help about image annotations
 
 Summary
@@ -25822,7 +25822,7 @@ GNU General Public License
 
 Tomboy_logo.svg
 
- (SVG file, nominally 48 „É© 48 pixels, file size: 25 KB)
+ (SVG file, nominally 48 ◊ 48 pixels, file size: 25 KB)
 
 Description 	Tomboy logo.svg
 English: Logo of Tomboy. Obtained from source packages http://ftp.gnome.org/pub/GNOME/sources/tomboy/.
@@ -25853,10 +25853,10 @@ Jump to: navigation, search
     * File history
     * File links
 File:Icecat.png
-Size of this preview: 600 „É© 600 pixels
+Size of this preview: 600 ◊ 600 pixels
 Full resolution
 
- (650 „É© 650 pixels, file size: 177 KB, MIME type: image/png)
+ (650 ◊ 650 pixels, file size: 177 KB, MIME type: image/png)
  Help about image annotations
 
 Description 	Icecat.png
@@ -25887,7 +25887,7 @@ GNU Lesser General Public License 2.1
 
 Minefield-icon.png
 
- (128 „É© 128 pixels, file size: 14 KB, MIME type: image/png)
+ (128 ◊ 128 pixels, file size: 14 KB, MIME type: image/png)
  Help about image annotations
 
 Summary
@@ -25921,7 +25921,7 @@ GNU Lesser General Public License 2.1
 
 MuCommanderLogo.gif
 
- (48 „É© 48 pixels, file size: 2 KB, MIME type: image/gif)
+ (48 ◊ 48 pixels, file size: 2 KB, MIME type: image/gif)
  Help about image annotations
 
 Description 	MuCommanderLogo.gif
@@ -25946,12 +25946,12 @@ GNU General Public License
 
 Hicolor_apps_scalable_empathy.svg
 
- (SVG file, nominally 120 „É© 120 pixels, file size: 11 KB)
+ (SVG file, nominally 120 ◊ 120 pixels, file size: 11 KB)
 
 Description 	Hicolor apps scalable empathy.svg
 Deutsch: Ein Icon vom GNOME-icon-theme.
 English: An icon from the GNOME-icon-theme.
-FranËªãis : Une icÓåûe du GNOME-icon-theme.
+FranÁais : Une icÙne du GNOME-icon-theme.
 
 Date 	
 2007(2007)
@@ -25974,7 +25974,7 @@ GNU General Public License
 
 Evince_logo.svg
 
- (SVG file, nominally 48 „É© 48 pixels, file size: 19 KB)
+ (SVG file, nominally 48 ◊ 48 pixels, file size: 19 KB)
 
 Description 	Evince logo.svg
 English: Logo of en:Evince. Obtained from source packages http://ftp.gnome.org/pub/GNOME/sources/evince/.
@@ -26000,7 +26000,7 @@ GNU General Public License
 
 Gconf-editor_logo.png
 
- (48 „É© 48 pixels, file size: 4 KB, MIME type: image/png)
+ (48 ◊ 48 pixels, file size: 4 KB, MIME type: image/png)
 Wikimedia Commons logo 	
 Logo of en:gconf-editor. Obtained from source packages http://ftp.gnome.org/pub/GNOME/sources/gconf-editor/.
 GNU General Public License
@@ -26011,7 +26011,7 @@ GNU General Public License
 
 Gnome-terminal.png
 
- (48 „É© 48 pixels, file size: 3 KB, MIME type: image/png)
+ (48 ◊ 48 pixels, file size: 3 KB, MIME type: image/png)
 Wikimedia Commons logo 	
 
 Summary
@@ -26023,7 +26023,7 @@ GNU General Public License
 
 Gnome-gnomine.png
 
- (48 „É© 48 pixels, file size: 2 KB, MIME type: image/png)
+ (48 ◊ 48 pixels, file size: 2 KB, MIME type: image/png)
 Wikimedia Commons logo 	
 
 Summary
@@ -26055,7 +26055,7 @@ GNU General Public License
 
 Gucharmap_logo.png
 
- (48 „É© 48 pixels, file size: 2 KB, MIME type: image/png)
+ (48 ◊ 48 pixels, file size: 2 KB, MIME type: image/png)
 Wikimedia Commons logo 	
 Logo of en:gucharacmap. Obtained from source packages http://ftp.gnome.org/pub/GNOME/sources/gucharmap/.
 GNU General Public License
@@ -26066,7 +26066,7 @@ GNU General Public License
 
 Thoggen-logo.png
 
- (43 „É© 43 pixels, file size: 4 KB, MIME type: image/png)
+ (43 ◊ 43 pixels, file size: 4 KB, MIME type: image/png)
 GNU General Public License version 2 of the License, or any later version.
 
 *****************************************************************
@@ -26094,7 +26094,7 @@ GPL.
 File:Hicolor apps scalable empathy.svg
 Deutsch: Ein Icon vom GNOME-icon-theme.
 English: An icon from the GNOME-icon-theme.
-FranËªãis : Une icÓåûe du GNOME-icon-theme.
+FranÁais : Une icÙne du GNOME-icon-theme.
 Date 	
 
 2007(2007)
@@ -26113,7 +26113,7 @@ COPYING
 
 Rlogo.png
 
- (362 „É© 275 pixels, file size: 78 KB, MIME type: image/png)
+ (362 ◊ 275 pixels, file size: 78 KB, MIME type: image/png)
 Wikimedia Commons logo 	
 
 Summary
@@ -26137,7 +26137,7 @@ GNU General Public License
 *****************************************************************
 
 
-Crack_Attack!.png\u200e (128 „É© 128 pixels, file size: 19 KB, MIME type: image/png)
+Crack_Attack!.png\u200e (128 ◊ 128 pixels, file size: 19 KB, MIME type: image/png)
 Summary
 
 Crack Attack! icon from the puzzle game Crack Attack!.
@@ -26161,7 +26161,7 @@ http://icculus.org/twilight/darkplaces/
  GNU General Public License
 
 *****************************************************************
-No_Gravity.png\u200e (128 „É© 128 pixels, file size: 34 KB, MIME type: image/png)
+No_Gravity.png\u200e (128 ◊ 128 pixels, file size: 34 KB, MIME type: image/png)
  Help about image annotations
 Description 	No Gravity.png
 
@@ -26177,12 +26177,12 @@ Permission
 GNU General Public License
 
 *****************************************************************
-War„Ç°ow_q3map2.png\u200e (32 „É© 32 pixels, file size: 228 B, MIME type: image/png)
+Warßow_q3map2.png\u200e (32 ◊ 32 pixels, file size: 228 B, MIME type: image/png)
  Help about image annotations
 Converted to SVG.svg 	This logo image should be recreated using vector graphics as an SVG file. This has several advantages; see Commons:Media for cleanup for more information. If an SVG form of this image is already available, please upload it. After uploading an SVG, replace this template with {{vector version available|new image name.svg}}.
 
-\u0627\u0644\u0639\u0631\u0628\u064a\u0629 | \u0411\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438 | Catal| \u010cesky | Dansk | Deutsch | English | Esperanto | EspaÓÉ´l | Eesti | Euskara | Suomi | FranËªãis | Galego | \u05e2\u05d1\u05e8\u05d9\u05ea | Magyar | Italiano | \u65e5\u672c\u8a9e | \u1797\u17b6\u179f\u17b6\u1781\u17d2\u1798\u17c2\u179a | \ud55c\uad6d\uc5b4 | Lietuvi\u0173 | \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438 | Plattdtsch | Nederlands | \u202aNorsk (bokmËô±)\u202c | Polski | PortuguÈªå | RomÁ©ó\u0103 | \u0420\u0443\u0441\u0441\u043a\u0438\u0439 | Svenska | \u0e44\u0e17\u0e22 | TkËªª | \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 | \u4e2d\u6587 | \u202a\u4e2d\u6587(\u7b80\u4f53)\u202c | \u202a\u4e2d\u6587(\u7e41\u9ad4)\u202c | +/\u2212
-Description 	War„Ç°ow q3map2.png
+\u0627\u0644\u0639\u0631\u0628\u064a\u0629 | \u0411\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438 | Catal‡ | \u010cesky | Dansk | Deutsch | English | Esperanto | EspaÒol | Eesti | Euskara | Suomi | FranÁais | Galego | \u05e2\u05d1\u05e8\u05d9\u05ea | Magyar | Italiano | \u65e5\u672c\u8a9e | \u1797\u17b6\u179f\u17b6\u1781\u17d2\u1798\u17c2\u179a | \ud55c\uad6d\uc5b4 | Lietuvi\u0173 | \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438 | Plattd¸¸tsch | Nederlands | \u202aNorsk (bokmÂl)\u202c | Polski | PortuguÍs | Rom‚n\u0103 | \u0420\u0443\u0441\u0441\u043a\u0438\u0439 | Svenska | \u0e44\u0e17\u0e22 | T¸rkÁe | \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 | \u4e2d\u6587 | \u202a\u4e2d\u6587(\u7b80\u4f53)\u202c | \u202a\u4e2d\u6587(\u7e41\u9ad4)\u202c | +/\u2212
+Description 	Warßow q3map2.png
 
 b:Q3Map2-icon, should probably be renamed to Image:Q3Map2.png or something.
 Date 	
@@ -26196,7 +26196,7 @@ Permission
  GNU General Public License 
 
 *****************************************************************
-PoweredBy_MediaWiki.svg\u200e (SVG file, nominally 1,191 „É© 419 pixels, file size: 628 KB)
+PoweredBy_MediaWiki.svg\u200e (SVG file, nominally 1,191 ◊ 419 pixels, file size: 628 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 
@@ -26212,7 +26212,7 @@ The smaller version is distributed with MediaWiki, as skins/common/images/powere
 GNU head 	This work is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or any later version. This work is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See version 2 and version 3 of the GNU General Public License for more details.
 
 *****************************************************************
-NewTux.svg (SVG file, nominally 625 „É© 750 pixels, file size: 21 KB)
+NewTux.svg (SVG file, nominally 625 ◊ 750 pixels, file size: 21 KB)
 The source code of this SVG is valid
 Description 	NewTux.svg
 English: Tux, the Linux penguin
@@ -26224,7 +26224,7 @@ gg3po (kde-look.org source)
 Permission
 
 (c) Larry Ewing, Simon Budig und Anja Gerwinsk
-„Ç• 	  The copyright holder of this file, Larry Ewing, allows anyone to use it for any purpose, provided that the copyright holder is properly attributed. Redistribution, derivative work, commercial use, and all other use is permitted.
+© 	  The copyright holder of this file, Larry Ewing, allows anyone to use it for any purpose, provided that the copyright holder is properly attributed. Redistribution, derivative work, commercial use, and all other use is permitted.
 or
 GNU General Public License
 
@@ -26233,7 +26233,7 @@ GNU General Public License
 
 
 SolarWolf_ship.png
- (300 „É© 300 pixels, file size: 62 KB, MIME type: image/png)
+ (300 ◊ 300 pixels, file size: 62 KB, MIME type: image/png)
  Help about image annotations
 Description 	SolarWolf ship.png
 SolarWolf ship
@@ -26251,7 +26251,7 @@ GNU Lesser General Public License
 *****************************************************************
 
 Gknot.gif
- (120 „É© 100 pixels, file size: 8 KB, MIME type: image/gif)
+ (120 ◊ 100 pixels, file size: 8 KB, MIME type: image/gif)
  Help about image annotations
 Summary
 Logo de Gordian Knot
@@ -26262,7 +26262,7 @@ GNU General Public License
 *****************************************************************
 
 Fishlogo.png
- (300 „É© 172 pixels, file size: 29 KB, MIME type: image/png)
+ (300 ◊ 172 pixels, file size: 29 KB, MIME type: image/png)
  Help about image annotations
 Contents
 [hide]
@@ -26294,7 +26294,7 @@ Subject to disclaimers.Creative Commons Attribution ShareAlike 3.0 License
 
 
 KGBarch_logo.png
- (48 „É© 48 pixels, file size: 4 KB, MIME type: image/png)
+ (48 ◊ 48 pixels, file size: 4 KB, MIME type: image/png)
  Help about image annotations
 Description 	KGBarch logo.png
 Template:\u041d\u0430 \u0432\u0438\u043a\u0438\u0441\u043a\u043b\u0430\u0434
@@ -26316,7 +26316,7 @@ GNU General Public License
 
 
 JkDefragIcon.gif
- (128 „É© 101 pixels, file size: 6 KB, MIME type: image/gif)
+ (128 ◊ 101 pixels, file size: 6 KB, MIME type: image/gif)
  Help about image annotations
 Description 	JkDefragIcon.gif
 English: Screen shot of JkDefrag program icon
@@ -26338,7 +26338,7 @@ GNU General Public License
 
 
 Gri-logo.svg
- (SVG file, nominally 158 „É© 158 pixels, file size: 11 KB)
+ (SVG file, nominally 158 ◊ 158 pixels, file size: 11 KB)
 Description 	Gri-logo.svg
 Gri logo, from gri.sourceforge.net (GPL license)
 Date 	
@@ -26356,7 +26356,7 @@ GNU General Public License
 *****************************************************************
 
 Glade_2_icon.png
- (48 „É© 48 pixels, file size: 5 KB, MIME type: image/png)
+ (48 ◊ 48 pixels, file size: 5 KB, MIME type: image/png)
  Help about image annotations
 Summary
 The user Crazycomputers of the English Wikipedia uploaded this file to the English Wikipedia and claims to have created it, and licenses it under the GPL. I have uploaded it to Wikimedia Commons so that I can use it in the Portuguese Wikipedia.
@@ -26368,7 +26368,7 @@ GNU General Public License
 
 
 Logo_square_postgis.png
- (300 „É© 300 pixels, file size: 273 KB, MIME type: image/png)
+ (300 ◊ 300 pixels, file size: 273 KB, MIME type: image/png)
  Help about image annotations
 Contents
 [hide]
@@ -26395,15 +26395,15 @@ GNU General Public License
 
 
 New_Mercurial_logo.svg
- (SVG file, nominally 100 „É© 120 pixels, file size: 110 KB)
+ (SVG file, nominally 100 ◊ 120 pixels, file size: 110 KB)
 Summary
 Description 	New Mercurial logo.svg
 English: New Mercurial logo design.
 This logo is a simple "liquid mercury" theme like the original logo, in keeping with the ideas that inspired the name: fast, fluid, flexible, etc. It scales nicely to all sizes, including 16x16 for favicons, prints well, and generally makes the lead Mercurial developer happy.
 Original design: Cali Mastny
 Various fiddling: Matt Mackall
-FranËªãis : Nouveau design du logo Mercurial.
-Ce logo repose sur le thÈë™e simple "mercure liquide" comme le logo original, en gardant l'idÈ¶• qui a inspirson nom : rapide, fluide, flexible, etc. Il s'adapte bien toutes les tailles, y compris 16x16 pour les favicons, s'imprime correctement, et plus gÈß≠Èßªalement, rend le dÈ®Öelopper principal de Mercurial heureux.
+FranÁais : Nouveau design du logo Mercurial.
+Ce logo repose sur le thËme simple "mercure liquide" comme le logo original, en gardant l'idÈe qui a inspirÈ son nom : rapide, fluide, flexible, etc. Il s'adapte bien ‡ toutes les tailles, y compris 16x16 pour les favicons, s'imprime correctement, et plus gÈnÈralement, rend le dÈvelopper principal de Mercurial heureux.
 Design original : Cali Mastny
 Diverses retouches : Matt Mackall
 Date 	
@@ -26422,7 +26422,7 @@ GNU General Public License
 
 
 PackJacket_Logo.png
- (512 „É© 512 pixels, file size: 29 KB, MIME type: image/png)
+ (512 ◊ 512 pixels, file size: 29 KB, MIME type: image/png)
  Help about image annotations
 
 Description 	PackJacket Logo.png
@@ -26443,7 +26443,7 @@ GNU General Public License
 *****************************************************************
 
 Peekko-logo.png
- (300 „É© 300 pixels, file size: 18 KB, MIME type: image/png)
+ (300 ◊ 300 pixels, file size: 18 KB, MIME type: image/png)
  Help about image annotations
 Description 	Peekko-logo.png
 Peekko Firefox Chat - Logo
@@ -26462,7 +26462,7 @@ GNU General Public License
 
 
 Sharpdevelop_Logo.jpg
- (195 „É© 223 pixels, file size: 59 KB, MIME type: image/jpeg)
+ (195 ◊ 223 pixels, file size: 59 KB, MIME type: image/jpeg)
  Help about image annotations
 Description 	Sharpdevelop Logo.jpg
 SharpDevelop Logo
@@ -26493,7 +26493,7 @@ GNU Lesser General Public License 2.1
 
 
 Ubudsl_logo.png
- (200 „É© 194 pixels, file size: 26 KB, MIME type: image/png)
+ (200 ◊ 194 pixels, file size: 26 KB, MIME type: image/png)
  Help about image annotations
 Description 	Ubudsl logo.png
 English: Logo from UbuDSL.
@@ -26513,12 +26513,12 @@ GNU Lesser General Public License 2.1
 
 
 Webkit-Icon-gold.png
- (215 „É© 174 pixels, file size: 36 KB, MIME type: image/png)
+ (215 ◊ 174 pixels, file size: 36 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Webkit-Icon-gold.png
 English: Webkit icon.
-EspaÓÉ´l: Icono de Webkit.
+EspaÒol: Icono de Webkit.
 Date 	
 Source 	
 http://webkit.org/coding/lgpl-license.html
@@ -26534,7 +26534,7 @@ GNU Lesser General Public License 2.1
 
 
 WinMergeLogo.png
- (200 „É© 200 pixels, file size: 15 KB, MIME type: image/png)
+ (200 ◊ 200 pixels, file size: 15 KB, MIME type: image/png)
  Help about image annotations
 Moved 	This image was moved to Wikimedia Commons from en.wikipedia using a bot script. All source information is still present. It requires review. Additionally, there may be errors in any or all of the information fields; information on this image should not be considered reliable and the image should not be used until it has been reviewed and any needed corrections have been made. Once the review has been completed, this template should be removed. For details, see below. Check now!
 Description 	WinMergeLogo.png
@@ -26556,7 +26556,7 @@ GNU General Public License
 
 
 Shaman-logo-128.png
- (128 „É© 128 pixels, file size: 13 KB, MIME type: image/png)
+ (128 ◊ 128 pixels, file size: 13 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Shaman-logo-128.png
@@ -26577,7 +26577,7 @@ GNU General Public License
 
 
 Title_VLVC.png
- (234 „É© 125 pixels, file size: 23 KB, MIME type: image/png)
+ (234 ◊ 125 pixels, file size: 23 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Title VLVC.png
@@ -26598,7 +26598,7 @@ GNU General Public License
 
 
 JClic-logo.png
- (280 „É© 140 pixels, file size: 13 KB, MIME type: image/png)
+ (280 ◊ 140 pixels, file size: 13 KB, MIME type: image/png)
  Help about image annotations
 Description 	JClic-logo.png
 The logo of JClic (a program distributed under GPL), taken from the main program.
@@ -26616,7 +26616,7 @@ GNU General Public License
 
 
 VirtualDub_logo.png
- (53 „É© 54 pixels, file size: 3 KB, MIME type: image/png)
+ (53 ◊ 54 pixels, file size: 3 KB, MIME type: image/png)
  Help about image annotations
 Converted to SVG.svg 	This logo image should be recreated using vector graphics as an SVG file. This has several advantages; see Commons:Media for cleanup for more information. If an SVG form of this image is already available, please upload it. After uploading an SVG, replace this template with {{vector version available|new image name.svg}}.
 Summary
@@ -26628,7 +26628,7 @@ GNU General Public License
 *****************************************************************
 
 Wicd_client_logo.svg
- (SVG file, nominally 108 „É© 129 pixels, file size: 1 KB)
+ (SVG file, nominally 108 ◊ 129 pixels, file size: 1 KB)
 Description 	Wicd client logo.svg
 Deutsch: Wicd-Logo
 English: Logo of Wicd
@@ -26650,7 +26650,7 @@ GNU General Public License
 
 
 Filezilla_bw.png
- (256 „É© 256 pixels, file size: 17 KB, MIME type: image/png)
+ (256 ◊ 256 pixels, file size: 17 KB, MIME type: image/png)
  Help about image annotations
 Description 	Filezilla bw.png
 "Black-white 2 Vista" icon theme
@@ -26668,7 +26668,7 @@ GNU General Public License
 *****************************************************************
 
 Burn.png
- (512 „É© 512 pixels, file size: 118 KB, MIME type: image/png)
+ (512 ◊ 512 pixels, file size: 118 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Burn.png
@@ -26688,7 +26688,7 @@ GNU General Public License
 
 
 Antiword-logo.png
- (48 „É© 48 pixels, file size: 2 KB, MIME type: image/png)
+ (48 ◊ 48 pixels, file size: 2 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Antiword-logo.png
@@ -26711,11 +26711,11 @@ GNU General Public License
 
 
 Bitweaver_logo.jpg
- (120 „É© 120 pixels, file size: 33 KB, MIME type: image/jpeg)
+ (120 ◊ 120 pixels, file size: 33 KB, MIME type: image/jpeg)
  Help about image annotations
 Description 	Bitweaver logo.jpg
 English: The logo of bitweaver CMS
-FranËªãis : Le logo de bitweaver
+FranÁais : Le logo de bitweaver
 Date 	
 inconnue
 Source 	
@@ -26731,7 +26731,7 @@ GNU Lesser General Public License 2.1
 
 
 Cabos_Logo.png
- (128 „É© 128 pixels, file size: 11 KB, MIME type: image/png)
+ (128 ◊ 128 pixels, file size: 11 KB, MIME type: image/png)
  Help about image annotations
 Description 	Cabos Logo.png
 English: Cabos icon on MacOS X
@@ -26752,7 +26752,7 @@ GNU General Public License
 
 
 Archone_logo.png
- (300 „É© 285 pixels, file size: 35 KB, MIME type: image/png)
+ (300 ◊ 285 pixels, file size: 35 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Archone logo.png
@@ -26772,7 +26772,7 @@ GNU General Public License
 
 
 Karoshi_logo.png
- (89 „É© 72 pixels, file size: 13 KB, MIME type: image/png)
+ (89 ◊ 72 pixels, file size: 13 KB, MIME type: image/png)
  Help about image annotations
 Description 	Karoshi logo.png
 Karoshi Logo
@@ -26793,7 +26793,7 @@ GNU General Public License
 
 
 Vista-mandrake.png
- (128 „É© 128 pixels, file size: 14 KB, MIME type: image/png)
+ (128 ◊ 128 pixels, file size: 14 KB, MIME type: image/png)
  Help about image annotations
     * Source: http://sa-ki.deviantart.com/
 GNU General Public License
@@ -26803,7 +26803,7 @@ GNU General Public License
 
 
 Exquisite-suse.svg
- (SVG file, nominally 128 „É© 128 pixels, file size: 12 KB)
+ (SVG file, nominally 128 ◊ 128 pixels, file size: 12 KB)
 Description 	Exquisite-suse.svg
     * Source: http://www.kde-look.org/content/show.php?content=14788
 Date 	
@@ -26822,7 +26822,7 @@ GNU General Public License
 
 
 Suse_logo.svg
- (SVG file, nominally 140 „É© 85 pixels, file size: 10 KB)
+ (SVG file, nominally 140 ◊ 85 pixels, file size: 10 KB)
 Description 	Suse logo.svg
 SuSE logo
 Date 	
@@ -26841,7 +26841,7 @@ GNU General Public License
 
 
 Opengeu_logo_text.png
- (423 „É© 121 pixels, file size: 58 KB, MIME type: image/png)
+ (423 ◊ 121 pixels, file size: 58 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Opengeu logo text.png
@@ -26862,7 +26862,7 @@ GNU General Public License
 
 
 Sidux-2009-02-logo.png
- (280 „É© 120 pixels, file size: 38 KB, MIME type: image/png)
+ (280 ◊ 120 pixels, file size: 38 KB, MIME type: image/png)
  Help about image annotations
 Description 	Sidux-2009-02-logo.png
 Sidux Logo
@@ -26880,7 +26880,7 @@ GNU General Public License
 *****************************************************************
 
 Banner_logo_Puppy.png
- (265 „É© 100 pixels, file size: 15 KB, MIME type: image/png)
+ (265 ◊ 100 pixels, file size: 15 KB, MIME type: image/png)
  Help about image annotations
 Description 	Banner logo Puppy.png
 Logo Puppy Linux
@@ -26898,7 +26898,7 @@ GNU General Public License
 *****************************************************************
 
 DSL_boot_screen.png
- (640 „É© 480 pixels, file size: 34 KB, MIME type: image/png)
+ (640 ◊ 480 pixels, file size: 34 KB, MIME type: image/png)
  Help about image annotations
 Description 	DSL boot screen.png
 Damn Small Linux (DSL) boot Screenshot
@@ -26919,12 +26919,12 @@ GNU General Public License
 
 Official_logo.png
 distributions-maryan_linux.png
- (521 „É© 256 pixels, file size: 48 KB, MIME type: image/png)
+ (521 ◊ 256 pixels, file size: 48 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Official logo.png
 English: This is the official Maryan Linux OS's logo
-EspaÓÉ´l: Este es el logo oficial de Maryan Linux
+EspaÒol: Este es el logo oficial de Maryan Linux
 Date 	
 Maryan Linux Project
 Source 	
@@ -26956,7 +26956,7 @@ This file is licensed under the Creative Commons Attribution-Share Alike 3.0 Unp
 
 
 Leeenux-logo-final.jpg
- (320 „É© 278 pixels, file size: 34 KB, MIME type: image/jpeg)
+ (320 ◊ 278 pixels, file size: 34 KB, MIME type: image/jpeg)
  Help about image annotations
 Summary
 Description 	Leeenux-logo-final.jpg
@@ -26979,7 +26979,7 @@ GNU General Public License
 
 
 PCLinuxOS-icon.png
- (32 „É© 32 pixels, file size: 2 KB, MIME type: image/png)
+ (32 ◊ 32 pixels, file size: 2 KB, MIME type: image/png)
  Help about image annotations
 Description 	PCLinuxOS-icon.png
 PCLinuxOS icon. Low resulution
@@ -26998,7 +26998,7 @@ GNU General Public License
 
 
 Sabayon4foot.svg
- (SVG file, nominally 183 „É© 181 pixels, file size: 8 KB)
+ (SVG file, nominally 183 ◊ 181 pixels, file size: 8 KB)
 Summary
 Description 	Sabayon4foot.svg
 English: Sabayon Linux logo. I've converted text to paths and cleaned up the code a bit.
@@ -27019,7 +27019,7 @@ GNU General Public License
 
 
 ScientificLinux-Logo.png
- (256 „É© 256 pixels, file size: 41 KB, MIME type: image/png)
+ (256 ◊ 256 pixels, file size: 41 KB, MIME type: image/png)
  Help about image annotations
 Description 	ScientificLinux-Logo.png
 Deutsch: Logo von Scientific Linux
@@ -27039,7 +27039,7 @@ GNU General Public License
 
 
 Ipodlinux.svg
- (SVG file, nominally 306 „É© 368 pixels, file size: 12 KB)
+ (SVG file, nominally 306 ◊ 368 pixels, file size: 12 KB)
 Description 	Ipodlinux.svg
 English: A high-quality, color vector of the w:iPodLinux logo.
 Date 	
@@ -27075,7 +27075,7 @@ GNU General Public License
 
 
 Dvdisaster.png
- (24 „É© 24 pixels, file size: 1 KB, MIME type: image/png)
+ (24 ◊ 24 pixels, file size: 1 KB, MIME type: image/png)
  Help about image annotations
 Icon for dvdisaster.
 Licensing
@@ -27089,7 +27089,7 @@ GNU General Public License
 tiny core linux
 Tcl_logo.png
 
-(200 „É© 200 pixels, file size: 34 KB, MIME type: image/png)
+(200 ◊ 200 pixels, file size: 34 KB, MIME type: image/png)
 
 Description 	Tcl logo.png
 English: free, Robert Shingledeker
@@ -27111,7 +27111,7 @@ GNU General Public License as published by the Free Software Foundation; either 
 
 *****************************************************************
 PCLinuxOS_logo.png
-(128 „É© 128 pixels, file size: 27 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 27 KB, MIME type: image/png)
 Description 	PCLinuxOS logo.png
 PCLinuxOS logo
 Date 	
@@ -27183,7 +27183,7 @@ GNU General Public License as published by the Free Software Foundation; either 
 #
 
 Music-player-banshee.svg
-(SVG file, nominally 48 „É© 48 pixels, file size: 9 KB)
+(SVG file, nominally 48 ◊ 48 pixels, file size: 9 KB)
 Description 	Music-player-banshee.svg
 
 SVG replacement for Image:Banshee.png
@@ -27195,12 +27195,12 @@ Permission
 Other versions 	Image:Banshee.png
 
 
-MIT license 	Copyright „Ç• Aaron Bockover
+MIT license 	Copyright © Aaron Bockover
 
 
 ******************************************************************
 Pixen.png
-(128 „É© 128 pixels, file size: 16 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 16 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Pixen.png
@@ -27213,13 +27213,13 @@ Permission
 
 See below.
 Licensing
-MIT license 	Copyright „Ç• Open Sword Group
+MIT license 	Copyright © Open Sword Group
 
 
 ******************************************************************
 
 Sparkle.png
-(256 „É© 256 pixels, file size: 43 KB, MIME type: image/png)
+(256 ◊ 256 pixels, file size: 43 KB, MIME type: image/png)
  Help about image annotations
 Summary
 
@@ -27227,12 +27227,12 @@ Sparkle icon.
 
 http://andymatuschak.org/pages/sparkle
 Licensing
-MIT license 	Copyright „Ç• Andy Matuschak
+MIT license 	Copyright © Andy Matuschak
 
 
 ******************************************************************
 Transmission_icon.png
-(512 „É© 512 pixels, file size: 163 KB, MIME type: image/png)
+(512 ◊ 512 pixels, file size: 163 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Converted to SVG.svg 	This symbol image should be recreated using vector graphics as an SVG file. This has several advantages; see Commons:Media for cleanup for more information. If an SVG form of this image is already available, please upload it. After uploading an SVG, replace this template with {{vector version available|new image name.svg}}.
@@ -27244,7 +27244,7 @@ Transmission icon
     * http://www.transmissionbt.com/
 
 Licensing
-MIT license 	Copyright „Ç• Transmission Project
+MIT license 	Copyright © Transmission Project
 
 
 ******************************************************************
@@ -27256,7 +27256,7 @@ MIT license 	Copyright „Ç• Transmission Project
 
 NetSurf-logo.svg
 
- (SVG file, nominally 603 „É© 603 pixels, file size: 3 KB)
+ (SVG file, nominally 603 ◊ 603 pixels, file size: 3 KB)
 
 Date 	
 4 June 2008(2008-06-04)
@@ -27276,7 +27276,7 @@ MIT
 *****************************************************************
 Ruby_on_Rails_logo.jpg
 
- (316 „É© 376 pixels, file size: 34 KB, MIME type: image/jpeg)
+ (316 ◊ 376 pixels, file size: 34 KB, MIME type: image/jpeg)
  Help about image annotations
 
 Description 	Ruby on Rails logo.jpg
@@ -27329,12 +27329,12 @@ Public Domain
 ******************************************************************
 
 Adblockplus_icon.svg
-(SVG file, nominally 256 „É© 256 pixels, file size: 4 KB)
+(SVG file, nominally 256 ◊ 256 pixels, file size: 4 KB)
 Summary
 Description 	Adblockplus icon.svg
 English: Logo of en:Adblock plus
 Deutsch: Logo von de:Adblock plus
-EspaÓÉ´l: Logo de es:Adblock Plus
+EspaÒol: Logo de es:Adblock Plus
 Date: 21 September 2007(2007-09-21)
 Source: http://en.wikipedia.org/wiki/File:Adblockplus_icon.svg (converted to SVG using Inkscape)
 Author: Adblock plus, converted 12:47, 21 September 2007 UTC by Jackl (talk \u2022 contribs).
@@ -27344,7 +27344,7 @@ Public Domain
 ******************************************************************
 
 Chatzilla-logo.svg
-(SVG file, nominally 64 „É© 64 pixels, file size: 5 KB)
+(SVG file, nominally 64 ◊ 64 pixels, file size: 5 KB)
 Contents
 [hide]
 
@@ -27355,7 +27355,7 @@ Contents
 
 Summary
 Description 	Chatzilla.svg
-FranËªãis : Loge de chatzilla.
+FranÁais : Loge de chatzilla.
 Date: 10 November 2009(2009-11-10)
 Source: Own work
 Author: Arcaruron
@@ -27371,10 +27371,10 @@ I grant anyone the right to use this work for any purpose, without any condition
 ******************************************************************
 
 Irssi_logo.svg
-(SVG file, nominally 250 „É© 250 pixels, file size: 4 KB)
+(SVG file, nominally 250 ◊ 250 pixels, file size: 4 KB)
 Summary
 Description 	Irssi logo.svg
-FranËªãis : Logo de Irssi vectoris
+FranÁais : Logo de Irssi vectorisÈ.
 Date: Arcaruron (talk) 16:31, 11 October 2009 (UTC)
 Source: Own work
 Author: Arcaruron
@@ -27390,7 +27390,7 @@ I grant anyone the right to use this work for any purpose, without any condition
 ***********************************************************************
 
 Kpresenter2logo.png
-(185 „É© 137 pixels, file size: 13 KB, MIME type: image/png)
+(185 ◊ 137 pixels, file size: 13 KB, MIME type: image/png)
  Help about image annotations
 Description 	Kpresenter2logo.png
 English: kpresenter2logo
@@ -27403,7 +27403,7 @@ PD-icon.svg 	This file is ineligible for copyright and therefore in the public d
 ******************************************************************
 
 Xmonad-logo.svg
-(SVG file, nominally 47 „É© 73 pixels, file size: 4 KB)
+(SVG file, nominally 47 ◊ 73 pixels, file size: 4 KB)
 Description 	Xmonad-logo.svg
 English: Vector version of File:Xmonad-logo.png
 Date: 2008-08-11 (English: Mon Aug 11 13:30:09 EDT 2008)
@@ -27417,7 +27417,7 @@ Don Stewart grants anyone the right to use this work for any purpose, without an
 
 ******************************************************************
 Desmume.png
-(135 „É© 135 pixels, file size: 2 KB, MIME type: image/png)
+(135 ◊ 135 pixels, file size: 2 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Desmume.png
@@ -27438,7 +27438,7 @@ Public Domain
 ******************************************************************
 
 Hydrogen_drum_machine_icon.svg
-(SVG file, nominally 128 „É© 125 pixels, file size: 3 KB)
+(SVG file, nominally 128 ◊ 125 pixels, file size: 3 KB)
 Description 	Hydrogen drum machine icon.svg
 
 SVG version of Image:Hydrogen_drum_machine_icon.png
@@ -27452,7 +27452,7 @@ PD-Self
 ******************************************************************
 
 SQLite_Database_Browser_icon.png
-(128 „É© 128 pixels, file size: 4 KB, MIME type: image/png)
+(128 ◊ 128 pixels, file size: 4 KB, MIME type: image/png)
  Help about image annotations
 Description 	SQLite Database Browser icon.png
 
@@ -27477,7 +27477,7 @@ Mauricio Piacentini grants anyone the right to use this work for any purpose, wi
 
 Postfix-logo.png
 
- (130 „É© 91 pixels, file size: 3 KB, MIME type: image/png)
+ (130 ◊ 91 pixels, file size: 3 KB, MIME type: image/png)
  Help about image annotations
 
 Description 	Postfix-logo.png
@@ -27506,7 +27506,7 @@ Public Domain
 
 Perfect_Dark_(\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2)_\u30a2\u30a4\u30b3\u30f3.png
 
- (128 „É© 128 pixels, file size: 18 KB, MIME type: image/png)
+ (128 ◊ 128 pixels, file size: 18 KB, MIME type: image/png)
  Help about image annotations
 Contents
 [hide]
@@ -27547,7 +27547,7 @@ Public Domain
 
 Rox_logo.png
 
- (191 „É© 98 pixels, file size: 6 KB, MIME type: image/png)
+ (191 ◊ 98 pixels, file size: 6 KB, MIME type: image/png)
  Help about image annotations
 
 Description 	Rox logo.png
@@ -27620,7 +27620,7 @@ Flag_of_Costa_Rica.svg
 Flag_of_Cote_d'Ivoire.svg
 Flag_of_Croatia.svg
 Flag_of_Cuba.svg
-Flag_of_Cura„ÉÜ„Ç°ao.svg
+Flag_of_Cura√ßao.svg
 Flag_of_Cyprus.svg
 Flag_of_Denmark.svg
 Flag_of_Djibouti.svg
@@ -27823,7 +27823,7 @@ Flag_of_the_United_Kingdom.svg
 Flag_of_the_United_States.svg
 Flag_of_the_United_States_Virgin_Islands.svg
 Flag_of_the_Vatican_City.svg
-Flag_of_„ÉÜ%85land.svg
+Flag_of_√%85land.svg
 
 Authors: various, see http://commons.wikimedia.org/wiki/Main_Page
 License: Public Domain
@@ -27834,7 +27834,7 @@ License: Public Domain
 scheme.svg
 Lambda_lc.svg
 
- (SVG file, nominally 375 „É© 375 pixels, file size: 3 KB)
+ (SVG file, nominally 375 ◊ 375 pixels, file size: 3 KB)
 
 Licensing
 Public domain 	I, the copyright holder of this work, hereby release it into the public domain. This applies worldwide.
@@ -27843,7 +27843,7 @@ I grant anyone the right to use this work for any purpose, without any condition
 *****************************************************************
 Copyright.svg
 
-he copyright symbol drawn in SVG. Image version of the symbol „Ç•.
+he copyright symbol drawn in SVG. Image version of the symbol ©.
 
 This file is ineligible for copyright and therefore in the public domain, because it consists entirely of information that is common property and contains no original authorship.
 
@@ -27913,12 +27913,12 @@ Cc-pd.svg
 This file is ineligible for copyright and therefore in the public domain,
 
 *****************************************************************
-Tablier_de_protection_obligatoire.svg? (SVG file, nominally 59 „É© 59 pixels, file size: 32 KB)
+Tablier_de_protection_obligatoire.svg? (SVG file, nominally 59 ◊ 59 pixels, file size: 32 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 [edit] Summary
 Description 	Tablier de protection obligatoire.svg
-FranËªãis : Signalisation de santet de sÈ¶óuritau travail
+FranÁais : Signalisation de santÈ et de sÈcuritÈ au travail
 Date 	
 
 31 October 2008(2008-10-31)
@@ -27939,12 +27939,12 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 
 http://upload.wikimedia.org/wikipedia/commons/0/07/Tablier_de_protection_obligatoire.svg
-RÈß∏ille.svg? (SVG file, nominally 59 „É© 59 pixels, file size: 62 KB)
+RÈsille.svg? (SVG file, nominally 59 ◊ 59 pixels, file size: 62 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 [edit] Summary
-Description 	RÈß∏ille.svg
-FranËªãis : Signalisation de santet de sÈ¶óuritau travail
+Description 	RÈsille.svg
+FranÁais : Signalisation de santÈ et de sÈcuritÈ au travail
 Date 	
 
 31 October 2008(2008-10-31)
@@ -27964,12 +27964,12 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 
 ****************************************************************
-Port_de_la_blouse_obligatoire.svg? (SVG file, nominally 59 „É© 59 pixels, file size: 14 KB)
+Port_de_la_blouse_obligatoire.svg? (SVG file, nominally 59 ◊ 59 pixels, file size: 14 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 [edit] Summary
 Description 	Port de la blouse obligatoire.svg
-FranËªãis : Signalisation de santet de sÈ¶óuritau travail
+FranÁais : Signalisation de santÈ et de sÈcuritÈ au travail
 Date 	
 
 31 October 2008(2008-10-31)
@@ -27990,12 +27990,12 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 ****************************************************************
 
-Port_du_bÈßªet_obligatoire.svg? (SVG file, nominally 59 „É© 59 pixels, file size: 18 KB)
+Port_du_bÈret_obligatoire.svg? (SVG file, nominally 59 ◊ 59 pixels, file size: 18 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 [edit] Summary
-Description 	Port du bÈßªet obligatoire.svg
-FranËªãis : Signalisation de santet de sÈ¶óuritau travail
+Description 	Port du bÈret obligatoire.svg
+FranÁais : Signalisation de santÈ et de sÈcuritÈ au travail
 Date 	
 
 31 October 2008(2008-10-31)
@@ -28016,12 +28016,12 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 ****************************************************************
 
 
-Port_obligatoire_de_chaussures_conductrices.svg? (SVG file, nominally 59 „É© 59 pixels, file size: 24 KB)
+Port_obligatoire_de_chaussures_conductrices.svg? (SVG file, nominally 59 ◊ 59 pixels, file size: 24 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 [edit] Summary
 Description 	Port obligatoire de chaussures conductrices.svg
-FranËªãis : Signalisation de santet de sÈ¶óuritau travail
+FranÁais : Signalisation de santÈ et de sÈcuritÈ au travail
 Date 	
 
 31 October 2008(2008-10-31)
@@ -28040,12 +28040,12 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 ****************************************************************
 
-Port_obligatoire_de_sur-chaussures.svg? (SVG file, nominally 59 „É© 59 pixels, file size: 22 KB)
+Port_obligatoire_de_sur-chaussures.svg? (SVG file, nominally 59 ◊ 59 pixels, file size: 22 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 [edit] Summary
 Description 	Port obligatoire de sur-chaussures.svg
-FranËªãis : Signalisation de santet de sÈ¶óuritau travail
+FranÁais : Signalisation de santÈ et de sÈcuritÈ au travail
 Date 	
 
 31 October 2008(2008-10-31)
@@ -28065,12 +28065,12 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 ****************************************************************
 
-Port_obligatoire_dÁΩÆn_bonnet_de_protection.svg? (SVG file, nominally 59 „É© 59 pixels, file size: 19 KB)
+Port_obligatoire_díun_bonnet_de_protection.svg? (SVG file, nominally 59 ◊ 59 pixels, file size: 19 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 [edit] Summary
-Description 	Port obligatoire dÁΩÆn bonnet de protection.svg
-FranËªãis : Signalisation de santet de sÈ¶óuritau travail
+Description 	Port obligatoire díun bonnet de protection.svg
+FranÁais : Signalisation de santÈ et de sÈcuritÈ au travail
 Date 	
 
 31 October 2008(2008-10-31)
@@ -28090,12 +28090,12 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 ****************************************************************
 
-Protection_obligatoire_de_la_tete_et_de_la_vue.svg? (SVG file, nominally 59 „É© 59 pixels, file size: 20 KB)
+Protection_obligatoire_de_la_tete_et_de_la_vue.svg? (SVG file, nominally 59 ◊ 59 pixels, file size: 20 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 [edit] Summary
 Description 	Protection obligatoire de la tete et de la vue.svg
-FranËªãis : Signalisation de santet de sÈ¶óuritau travail
+FranÁais : Signalisation de santÈ et de sÈcuritÈ au travail
 Date 	
 
 31 October 2008(2008-10-31)
@@ -28114,12 +28114,12 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 
 ****************************************************************
-Protection_obligatoire_des_voies_respiratoires.svg? (SVG file, nominally 59 „É© 59 pixels, file size: 18 KB)
+Protection_obligatoire_des_voies_respiratoires.svg? (SVG file, nominally 59 ◊ 59 pixels, file size: 18 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 [edit] Summary
 Description 	Protection obligatoire des voies respiratoires.svg
-FranËªãis : Signalisation de santet de sÈ¶óuritau travail
+FranÁais : Signalisation de santÈ et de sÈcuritÈ au travail
 Date 	
 
 31 October 2008(2008-10-31)
@@ -28139,12 +28139,12 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 
 ****************************************************************
-Se_laver_les_mains.svg? (SVG file, nominally 53 „É© 53 pixels, file size: 26 KB)
+Se_laver_les_mains.svg? (SVG file, nominally 53 ◊ 53 pixels, file size: 26 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 [edit] Summary
 Description 	Se laver les mains.svg
-FranËªãis : Panneau Se laver les mains
+FranÁais : Panneau Se laver les mains
 Date 	
 
 31 October 2008(2008-10-31)
@@ -28163,12 +28163,12 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 ****************************************************************
 
-Protection_individuelle_obligatoire_contre_les_chutes_.svg? (SVG file, nominally 59 „É© 59 pixels, file size: 29 KB)
+Protection_individuelle_obligatoire_contre_les_chutes_.svg? (SVG file, nominally 59 ◊ 59 pixels, file size: 29 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 [edit] Summary
 Description 	Protection individuelle obligatoire contre les chutes .svg
-FranËªãis : Signalisation de santet de sÈ¶óuritau travail
+FranÁais : Signalisation de santÈ et de sÈcuritÈ au travail
 Date 	
 
 31 October 2008(2008-10-31)
@@ -28190,12 +28190,12 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 ****************************************************************
 
-Attacher_la_ceinture_de_sÈ¶óuritsvg? (SVG file, nominally 59 „É© 59 pixels, file size: 13 KB)
+Attacher_la_ceinture_de_sÈcuritÈ.svg? (SVG file, nominally 59 ◊ 59 pixels, file size: 13 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 [edit] Summary
-Description 	Attacher la ceinture de sÈ¶óuritsvg
-FranËªãis : Signalisation de santet de sÈ¶óuritau travail
+Description 	Attacher la ceinture de sÈcuritÈ.svg
+FranÁais : Signalisation de santÈ et de sÈcuritÈ au travail
 Date 	
 
 31 October 2008(2008-10-31)
@@ -28217,11 +28217,11 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 ****************************************************************
 
-E017.svg (SVG file, nominally 178 „É© 178 pixels, file size: 2 KB)
-Logo Wikimedia Commons 	Ce fichier provient de Wikimedia Commons ? . This file is from Wikimedia Commons?. Les informations le concernant sont affichÈ¶•s ci-dessous ( procÈ¶òure ) . The information concerning are shown below (procedure).
+E017.svg (SVG file, nominally 178 ◊ 178 pixels, file size: 2 KB)
+Logo Wikimedia Commons 	Ce fichier provient de Wikimedia Commons ? . This file is from Wikimedia Commons?. Les informations le concernant sont affichÈes ci-dessous ( procÈdure ) . The information concerning are shown below (procedure).
 [ modifier ] Description [Edit] Description
 Description Description 	E017.svg E017.svg
-FranËªãis : FranËªãis : Directive 92/58/CEE. French: French: Directive 92/58/EEC. Source : http://www.baua.de/nn_56926/de/Themen-von-AZ/Arbeitsstaetten/ASR/pdf/ASR-A1-3.pdf Source: http://www.baua.de/nn_56926/de/Themen-von-AZ/Arbeitsstaetten/ASR/pdf/ASR-A1-3.pdf
+FranÁais : FranÁais : Directive 92/58/CEE. French: French: Directive 92/58/EEC. Source : http://www.baua.de/nn_56926/de/Themen-von-AZ/Arbeitsstaetten/ASR/pdf/ASR-A1-3.pdf Source: http://www.baua.de/nn_56926/de/Themen-von-AZ/Arbeitsstaetten/ASR/pdf/ASR-A1-3.pdf
 Date Date 	
 
 29 octobre 2009 ( 2009-10-29 ) October 29, 2009 (2009-10-29)
@@ -28232,17 +28232,17 @@ Auteur Author
 
 Epop Epop
 Permission Permission
-( RÈ®ètiliser ce fichier ) (Reusing this image) 	
+( RÈutiliser ce fichier ) (Reusing this image) 	
 
 Voir ci-dessous See below
 [ modifier ] Licence [Edit] Licensing
-Public domain	Moi, crÈ•åteur de cette Âøñvre, cÈê°e ladite Âøñvre au domaine public . Miller, creator of this work, transfers the work to the public domain. Ceci s'applique dans tout pays. 
+Public domain	Moi, crÈateur de cette úuvre, cËde ladite úuvre au domaine public . Miller, creator of this work, transfers the work to the public domain. Ceci s'applique dans tout pays. 
 
 
 ****************************************************************
 
-D-M019_Sperren.svg (SVG file, nominally 574 „É© 574 pixels, file size: 6 KB)
-Logo Wikimedia Commons 	Ce fichier provient de Wikimedia Commons ? . This file is from Wikimedia Commons?. Les informations le concernant sont affichÈ¶•s ci-dessous ( procÈ¶òure ) . The information concerning are shown below (procedure).
+D-M019_Sperren.svg (SVG file, nominally 574 ◊ 574 pixels, file size: 6 KB)
+Logo Wikimedia Commons 	Ce fichier provient de Wikimedia Commons ? . This file is from Wikimedia Commons?. Les informations le concernant sont affichÈes ci-dessous ( procÈdure ) . The information concerning are shown below (procedure).
 Description Description 	D-M019 Sperren.svg D-M019 Sperren.svg
 Deutsch: Sperren, Gebotszeichen D-M019 nach DIN 4844-2 Deutsch: Sperren, Gebotszeichen D-M019 nach DIN 4844-2
 Date Date 	
@@ -28255,26 +28255,26 @@ Auteur Author
 
 Torsten Henning Torsten Henning
 Permission Permission
-( RÈ®ètiliser ce fichier ) (Reusing this image) 	
+( RÈutiliser ce fichier ) (Reusing this image) 	
 
 released into the public domain released into the public domain
 Inkscape logo 2.svg 	
 
-Cette image vectorielle a È®ÅcrÈ≥¨e avec Inkscape . This vector image was created with Inkscape.
-PD-icon.svg	Cette image est dans le domaine public parce que son auteur, DrTorstenHenning , l'y a plac This image is in the public domain 
+Cette image vectorielle a ÈtÈ crÈÈe avec Inkscape . This vector image was created with Inkscape.
+PD-icon.svg	Cette image est dans le domaine public parce que son auteur, DrTorstenHenning , l'y a placÈ. This image is in the public domain 
 
 
 ****************************************************************
 
-DIN_4844-2_Gebrauchsanweisung_beachten_D-M018.svg (SVG file, nominally 574 „É© 574 pixels, file size: 8 KB)
-Logo Wikimedia Commons 	Ce fichier provient de Wikimedia Commons ? . This file is from Wikimedia Commons?. Les informations le concernant sont affichÈ¶•s ci-dessous ( procÈ¶òure ) . The information concerning are shown below (procedure).
+DIN_4844-2_Gebrauchsanweisung_beachten_D-M018.svg (SVG file, nominally 574 ◊ 574 pixels, file size: 8 KB)
+Logo Wikimedia Commons 	Ce fichier provient de Wikimedia Commons ? . This file is from Wikimedia Commons?. Les informations le concernant sont affichÈes ci-dessous ( procÈdure ) . The information concerning are shown below (procedure).
 [ modifier ] Description [Edit] Description
 Description Description 	DIN 4844-2 Gebrauchsanweisung beachten D-M018.svg DIN 4844-2 Gebrauchsanweisung beachten D-M018.svg
 Deutsch: Gebrauchsanweisung beachten, Symbol D-M018 nach DIN 4844-2 Deutsch: Gebrauchsanweisung beachten, Symbol D-M018 nach DIN 4844-2
 English: Mandatory action sign "Read Operating Instructions", symbol D-M018 according to German standard DIN 4844-2 English: Mandatory action sign "Read Operating Instructions", symbol D-M018 Deutsche Standards according to DIN 4844-2
 Date Date 	
 
-15 aoÁö¶ 2006 ( 2006-08-15 ) August 15, 2006 (2006-08-15)
+15 ao˚t 2006 ( 2006-08-15 ) August 15, 2006 (2006-08-15)
 Source Source 	
 
 drawn by author drawn by author
@@ -28282,26 +28282,26 @@ Auteur Author
 
 Torsten Henning Torsten Henning
 Permission Permission
-( RÈ®ètiliser ce fichier ) (Reusing this image) 	
+( RÈutiliser ce fichier ) (Reusing this image) 	
 
 Voir ci-dessous See below
 Inkscape logo 2.svg 	
 
-Cette image vectorielle a È®ÅcrÈ≥¨e avec Inkscape . This vector image was created with Inkscape.
+Cette image vectorielle a ÈtÈ crÈÈe avec Inkscape . This vector image was created with Inkscape.
 [ modifier ] Licence [Edit] Licensing
-Public domain	Moi, crÈ•åteur de cette Âøñvre, cÈê°e ladite Âøñvre au domaine public . Miller, creator of this work, transfers the work to the public domain.
+Public domain	Moi, crÈateur de cette úuvre, cËde ladite úuvre au domaine public . Miller, creator of this work, transfers the work to the public domain.
 
 
 ****************************************************************
-DIN_4844-2_Verbot_D-P000.svg (SVG file, nominally 574 „É© 574 pixels, file size: 5 KB)
-Logo Wikimedia Commons 	Ce fichier provient de Wikimedia Commons ? . This file is from Wikimedia Commons?. Les informations le concernant sont affichÈ¶•s ci-dessous ( procÈ¶òure ) . The information concerning are shown below (procedure).
+DIN_4844-2_Verbot_D-P000.svg (SVG file, nominally 574 ◊ 574 pixels, file size: 5 KB)
+Logo Wikimedia Commons 	Ce fichier provient de Wikimedia Commons ? . This file is from Wikimedia Commons?. Les informations le concernant sont affichÈes ci-dessous ( procÈdure ) . The information concerning are shown below (procedure).
 [ modifier ] Description [Edit] Description
 Description Description 	DIN 4844-2 Verbot D-P000.svg DIN 4844-2 Verbot D-P000.svg
 English: Generic prohibition sign English: Generic prohibition sign
 Deutsch: Verbotszeichen "Verbot", Symbol D-P000 nach DIN 4844-2 Deutsch: Verbotszeichen "Verbot", Symbol D-P000 nach DIN 4844-2
 Date Date 	
 
-8 aoÁö¶ 2006 ( 2006-08-08 ) August 8, 2006 (2006-08-08)
+8 ao˚t 2006 ( 2006-08-08 ) August 8, 2006 (2006-08-08)
 Source Source 	
 
 drawn by author drawn by author
@@ -28309,22 +28309,22 @@ Auteur Author
 
 Torsten Henning Torsten Henning
 Permission Permission
-( RÈ®ètiliser ce fichier ) (Reusing this image) 	
+( RÈutiliser ce fichier ) (Reusing this image) 	
 
 Voir ci-dessous See below
 Inkscape logo 2.svg 	
 
-Cette image vectorielle a È®ÅcrÈ≥¨e avec Inkscape . This vector image was created with Inkscape.
+Cette image vectorielle a ÈtÈ crÈÈe avec Inkscape . This vector image was created with Inkscape.
 [ modifier ] Licence [Edit] Licensing
-Public domain	Moi, crÈ•åteur de cette Âøñvre, cÈê°e ladite Âøñvre au domaine public . Miller, creator of this work, transfers the work to the public domain
+Public domain	Moi, crÈateur de cette úuvre, cËde ladite úuvre au domaine public . Miller, creator of this work, transfers the work to the public domain
 
 ****************************************************************
 
-D-P004.svg (SVG file, nominally 178 „É© 178 pixels, file size: 28 KB)
-Logo Wikimedia Commons 	Ce fichier provient de Wikimedia Commons ? . This file is from Wikimedia Commons?. Les informations le concernant sont affichÈ¶•s ci-dessous ( procÈ¶òure ) . The information concerning are shown below (procedure).
+D-P004.svg (SVG file, nominally 178 ◊ 178 pixels, file size: 28 KB)
+Logo Wikimedia Commons 	Ce fichier provient de Wikimedia Commons ? . This file is from Wikimedia Commons?. Les informations le concernant sont affichÈes ci-dessous ( procÈdure ) . The information concerning are shown below (procedure).
 [ modifier ] Description [Edit] Description
 Description Description 	D-P004.svg D-P004.svg
-FranËªãis : Directive 92/58/CEE. French: Directive 92/58/EEC. Source : http://www.baua.de/nn_56926/de/Themen-von-AZ/Arbeitsstaetten/ASR/pdf/ASR-A1-3.pdf Source: http://www.baua.de/nn_56926/de/Themen-von-AZ/Arbeitsstaetten/ASR/pdf/ASR-A1-3.pdf
+FranÁais : Directive 92/58/CEE. French: Directive 92/58/EEC. Source : http://www.baua.de/nn_56926/de/Themen-von-AZ/Arbeitsstaetten/ASR/pdf/ASR-A1-3.pdf Source: http://www.baua.de/nn_56926/de/Themen-von-AZ/Arbeitsstaetten/ASR/pdf/ASR-A1-3.pdf
 Date Date 	
 
 29 octobre 2008 ( 2008-10-29 ) October 29, 2008 (2008-10-29)
@@ -28335,17 +28335,17 @@ Auteur Author
 
 Epop Epop
 Permission Permission
-( RÈ®ètiliser ce fichier ) (Reusing this image) 	
+( RÈutiliser ce fichier ) (Reusing this image) 	
 
 Voir ci-dessous See below
 [ modifier ] Licence [Edit] Licensing
-Public domain	Moi, crÈ•åteur de cette Âøñvre, cÈê°e ladite Âøñvre au domaine public . Miller, creator of this work, transfers the work to the public domain.
+Public domain	Moi, crÈateur de cette úuvre, cËde ladite úuvre au domaine public . Miller, creator of this work, transfers the work to the public domain.
 
 
 ****************************************************************
 
-D-P005_Kein_Trinkwasser.svg (SVG file, nominally 574 „É© 574 pixels, file size: 7 KB)
-Logo Wikimedia Commons 	Ce fichier provient de Wikimedia Commons ? . This file is from Wikimedia Commons?. Les informations le concernant sont affichÈ¶•s ci-dessous ( procÈ¶òure ) . The information concerning are shown below (procedure).
+D-P005_Kein_Trinkwasser.svg (SVG file, nominally 574 ◊ 574 pixels, file size: 7 KB)
+Logo Wikimedia Commons 	Ce fichier provient de Wikimedia Commons ? . This file is from Wikimedia Commons?. Les informations le concernant sont affichÈes ci-dessous ( procÈdure ) . The information concerning are shown below (procedure).
 Description Description 	D-P005 Kein Trinkwasser.svg D-P005 Kein Trinkwasser.svg
 Deutsch: Kein Trinkwasser, Verbotszeichen D-P005 nach DIN 4844-2 Deutsch: Kein Trinkwasser, Verbotszeichen D-P005 nach DIN 4844-2
 English: No drinking water, prohibition sign D-P005 according to German standard DIN 4844-2 English: No drinking water, prohibition sign D-P005 according to Deutsche Standards DIN 4844-2
@@ -28359,7 +28359,7 @@ Auteur Author
 
 Torsten Henning Torsten Henning
 Permission Permission
-( RÈ®ètiliser ce fichier ) (Reusing this image) 	released into the public domain released into the public domain
+( RÈutiliser ce fichier ) (Reusing this image) 	released into the public domain released into the public domain
 Autres versions Other versions 	
 
 Derivative works of this file: Derivative works of this file:
@@ -28369,15 +28369,15 @@ Derivative works of this file: Derivative works of this file:
 
 Inkscape logo 2.svg 	
 
-Cette image vectorielle a È®ÅcrÈ≥¨e avec Inkscape . This vector image was created with Inkscape.
+Cette image vectorielle a ÈtÈ crÈÈe avec Inkscape . This vector image was created with Inkscape.
 
 
-PD-icon.svg	Cette image est dans le domaine public parce que son auteur, DrTorstenHenning , l'y a plac This image is in the public domain 
+PD-icon.svg	Cette image est dans le domaine public parce que son auteur, DrTorstenHenning , l'y a placÈ. This image is in the public domain 
 
 
 ****************************************************************
 
-GHS-pictogram-acid.svg? (SVG file, nominally 724 „É© 724 pixels, file size: 27 KB)
+GHS-pictogram-acid.svg? (SVG file, nominally 724 ◊ 724 pixels, file size: 27 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 Description 	GHS-pictogram-acid.svg
@@ -28402,7 +28402,7 @@ Public domain 	This work is excerpted from an official document of the United Na
 
 ****************************************************************
 
-GHS-pictogram-bottle.svg? (SVG file, nominally 724 „É© 724 pixels, file size: 4 KB)
+GHS-pictogram-bottle.svg? (SVG file, nominally 724 ◊ 724 pixels, file size: 4 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 Description 	GHS-pictogram-bottle.svg
@@ -28427,7 +28427,7 @@ Public domain 	This work is excerpted from an official document of the United Na
 
 ****************************************************************
 
-GHS-pictogram-exclam.svg? (SVG file, nominally 724 „É© 724 pixels, file size: 4 KB)
+GHS-pictogram-exclam.svg? (SVG file, nominally 724 ◊ 724 pixels, file size: 4 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 Description 	GHS-pictogram-exclam.svg
@@ -28451,7 +28451,7 @@ Public domain 	This work is excerpted from an official document of the United Na
 
 
 ****************************************************************
-GHS-pictogram-explos.svg? (SVG file, nominally 724 „É© 724 pixels, file size: 24 KB)
+GHS-pictogram-explos.svg? (SVG file, nominally 724 ◊ 724 pixels, file size: 24 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 Description 	GHS-pictogram-explos.svg
@@ -28475,7 +28475,7 @@ Public domain 	This work is excerpted from an official document of the United Na
 
 ****************************************************************
 
-GHS-pictogram-flamme.svg? (SVG file, nominally 724 „É© 724 pixels, file size: 4 KB)
+GHS-pictogram-flamme.svg? (SVG file, nominally 724 ◊ 724 pixels, file size: 4 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 Description 	GHS-pictogram-flamme.svg
@@ -28500,7 +28500,7 @@ Public domain 	This work is excerpted from an official document of the United Na
 
 ****************************************************************
 
-GHS-pictogram-pollu.svg? (SVG file, nominally 724 „É© 724 pixels, file size: 14 KB)
+GHS-pictogram-pollu.svg? (SVG file, nominally 724 ◊ 724 pixels, file size: 14 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 Description 	GHS-pictogram-pollu.svg
@@ -28525,7 +28525,7 @@ Public domain 	This work is excerpted from an official document of the United Na
 
 ****************************************************************
 
-GHS-pictogram-rondflam.svg? (SVG file, nominally 724 „É© 724 pixels, file size: 5 KB)
+GHS-pictogram-rondflam.svg? (SVG file, nominally 724 ◊ 724 pixels, file size: 5 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 Description 	GHS-pictogram-rondflam.svg
@@ -28550,7 +28550,7 @@ Public domain 	This work is excerpted from an official document of the United Na
 
 ****************************************************************
 
-GHS-pictogram-silhouete.svg? (SVG file, nominally 724 „É© 724 pixels, file size: 39 KB)
+GHS-pictogram-silhouete.svg? (SVG file, nominally 724 ◊ 724 pixels, file size: 39 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 Description 	GHS-pictogram-silhouete.svg
@@ -28574,7 +28574,7 @@ Public domain 	This work is excerpted from an official document of the United Na
 
 ****************************************************************
 
-Pisces.svg? (SVG file, nominally 189 „É© 235 pixels, file size: 1 KB)
+Pisces.svg? (SVG file, nominally 189 ◊ 235 pixels, file size: 1 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 
@@ -28585,7 +28585,7 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 
 ****************************************************************
-Sagittarius.svg? (SVG file, nominally 235 „É© 235 pixels, file size: 1 KB)
+Sagittarius.svg? (SVG file, nominally 235 ◊ 235 pixels, file size: 1 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 
@@ -28595,7 +28595,7 @@ Sagittarius zodiac sign
 Public domain 	I, the copyright holder of this work, hereby release it into the public domain.
 ****************************************************************
 
-Aquarius.svg? (SVG file, nominally 350 „É© 235 pixels, file size: 1 KB)
+Aquarius.svg? (SVG file, nominally 350 ◊ 235 pixels, file size: 1 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 
@@ -28606,7 +28606,7 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 
 ****************************************************************
-Aries.svg? (SVG file, nominally 248 „É© 235 pixels, file size: 2 KB)
+Aries.svg? (SVG file, nominally 248 ◊ 235 pixels, file size: 2 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 
@@ -28619,7 +28619,7 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 ****************************************************************
 
-Cancer.svg? (SVG file, nominally 300 „É© 235 pixels, file size: 2 KB)
+Cancer.svg? (SVG file, nominally 300 ◊ 235 pixels, file size: 2 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 English: Cancer zodiak sign. Also at Unicode U+264B (?).
@@ -28629,7 +28629,7 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 
 ****************************************************************
-Capricorn.svg? (SVG file, nominally 246 „É© 235 pixels, file size: 1 KB)
+Capricorn.svg? (SVG file, nominally 246 ◊ 235 pixels, file size: 1 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 
@@ -28644,7 +28644,7 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 ****************************************************************
 
-Gemini.svg? (SVG file, nominally 229 „É© 235 pixels, file size: 1 KB)
+Gemini.svg? (SVG file, nominally 229 ◊ 235 pixels, file size: 1 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 
@@ -28655,7 +28655,7 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 
 ****************************************************************
-Leo.svg? (SVG file, nominally 184 „É© 235 pixels, file size: 2 KB)
+Leo.svg? (SVG file, nominally 184 ◊ 235 pixels, file size: 2 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 
@@ -28664,7 +28664,7 @@ Leo zodiak sign
 
 Public domain 	I, the copyright holder of this work, hereby release it into the public domain. 
 ****************************************************************
-Leo.svg? (SVG file, nominally 184 „É© 235 pixels, file size: 2 KB)
+Leo.svg? (SVG file, nominally 184 ◊ 235 pixels, file size: 2 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 
@@ -28676,7 +28676,7 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 
 ****************************************************************
-Scorpio.svg? (SVG file, nominally 214 „É© 235 pixels, file size: 2 KB)
+Scorpio.svg? (SVG file, nominally 214 ◊ 235 pixels, file size: 2 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 
@@ -28689,7 +28689,7 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 ****************************************************************
 
-Stop_sign_MUTCD.svg? (SVG file, nominally 751 „É© 751 pixels, file size: 11 KB)
+Stop_sign_MUTCD.svg? (SVG file, nominally 751 ◊ 751 pixels, file size: 11 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 
@@ -28699,7 +28699,7 @@ This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 
 ****************************************************************
 
-Yield_sign.svg? (SVG file, nominally 835 „É© 714 pixels, file size: 11 KB)
+Yield_sign.svg? (SVG file, nominally 835 ◊ 714 pixels, file size: 11 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 
@@ -28709,7 +28709,7 @@ This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 
 ****************************************************************
 
-MUTCD_W21-1a.svg? (SVG file, nominally 290 „É© 289 pixels, file size: 3 KB)
+MUTCD_W21-1a.svg? (SVG file, nominally 290 ◊ 289 pixels, file size: 3 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 [edit] Summary
@@ -28720,7 +28720,7 @@ Public domain 	This work is in the public domain in the United States because it
 
 
 ****************************************************************
-Do_Not_Enter_sign.svg? (SVG file, nominally 751 „É© 751 pixels, file size: 12 KB)
+Do_Not_Enter_sign.svg? (SVG file, nominally 751 ◊ 751 pixels, file size: 12 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 Licensing
@@ -28728,7 +28728,7 @@ Licensing
 
     I, Ltljltlj, the creator of this image, hereby release it into the public domain.
 ****************************************************************
-Dead_End_sign.svg? (SVG file, nominally 818 „É© 818 pixels, file size: 10 KB)
+Dead_End_sign.svg? (SVG file, nominally 818 ◊ 818 pixels, file size: 10 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 
@@ -28742,7 +28742,7 @@ This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 
 
 ****************************************************************
-US_crosswalk_sign.svg? (SVG file, nominally 74 „É© 74 pixels, file size: 2 KB)
+US_crosswalk_sign.svg? (SVG file, nominally 74 ◊ 74 pixels, file size: 2 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 Description 	US crosswalk sign.svg
@@ -28767,7 +28767,7 @@ PD-USGOV.
 
 
 ****************************************************************
-School_sign_US.svg? (SVG file, nominally 744 „É© 725 pixels, file size: 7 KB)
+School_sign_US.svg? (SVG file, nominally 744 ◊ 725 pixels, file size: 7 KB)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 Description 	School sign US.svg
@@ -28793,12 +28793,12 @@ Public domain
 
 ****************************************************************
 
-Microsoft_DOS.svg (SVG file, nominally 1,136 „É© 821 pixels, file size: 14 KB)
+Microsoft_DOS.svg (SVG file, nominally 1,136 ◊ 821 pixels, file size: 14 KB)
 
 Summary
 Description 	Microsoft DOS.svg
 English: MS Dos Logo
-EspaÓÉ´l: MS Dos Logo
+EspaÒol: MS Dos Logo
 Date 	
 
 27.05.09
@@ -28815,7 +28815,7 @@ This image, or text depicted in it, only consists of simple geometric shapes and
 
 ****************************************************************
 
-BSD_wordmark.svg (SVG file, nominally 117 „É© 55 pixels, file size: 6 KB)
+BSD_wordmark.svg (SVG file, nominally 117 ◊ 55 pixels, file size: 6 KB)
 
 Description BSD wordmark.
 Date 	
@@ -28830,7 +28830,7 @@ Public domain 	This image, or text depicted in it, only consists of simple geome
 
 ****************************************************************
 
-F_icon.svg\u200e (SVG file, nominally 128 „É© 128 pixels, file size: 1,005 B)
+F_icon.svg\u200e (SVG file, nominally 128 ◊ 128 pixels, file size: 1,005 B)
 
 This image rendered as PNG in other sizes: 200px, 500px, 1000px, 2000px.
 Description 	F icon.svg
@@ -28854,7 +28854,7 @@ Tkgd2007
 
 
 MUTE_logo.png
- (201 „É© 127 pixels, file size: 4 KB, MIME type: image/png)
+ (201 ◊ 127 pixels, file size: 4 KB, MIME type: image/png)
  Help about image annotations
 MUTE logo
 http://mute-net.sourceforge.net/
@@ -28866,12 +28866,12 @@ Released into the public domain by its copyright holder (on request).
 
 
 Logo_Rakarrack3.png
- (166 „É© 311 pixels, file size: 43 KB, MIME type: image/png)
+ (166 ◊ 311 pixels, file size: 43 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Logo Rakarrack3.png
 English: Logo for Rakarrack
-Deutsch: Logo f Rakarrack
+Deutsch: Logo f¸r Rakarrack
 Date 	
 Source 	
 http://rakarrack.sourceforge.net/logo_rakarrack3.png
@@ -28890,7 +28890,7 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 
 Mecanog.gif
- (32 „É© 32 pixels, file size: 480 B, MIME type: image/gif)
+ (32 ◊ 32 pixels, file size: 480 B, MIME type: image/gif)
  Help about image annotations
 Summary
 Description 	Mecanog.gif
@@ -28911,7 +28911,7 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 
 PoeditIcon.svg
- (SVG file, nominally 156 „É© 156 pixels, file size: 14 KB)
+ (SVG file, nominally 156 ◊ 156 pixels, file size: 14 KB)
 Description 	PoeditIcon.svg
 \u010cesky: Ikona aplikace poEdit
 English: PoEdit icon
@@ -28932,7 +28932,7 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 
 Power_Explorer_icon.png
- (256 „É© 256 pixels, file size: 8 KB, MIME type: image/png)
+ (256 ◊ 256 pixels, file size: 8 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Power Explorer icon.png
@@ -28954,7 +28954,7 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 
 Zs_icon_64.png
- (64 „É© 64 pixels, file size: 8 KB, MIME type: image/png)
+ (64 ◊ 64 pixels, file size: 8 KB, MIME type: image/png)
  Help about image annotations
 Contents
 [hide]
@@ -28981,7 +28981,7 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 
 Blackducklogo.gif
- (174 „É© 79 pixels, file size: 3 KB, MIME type: image/gif)
+ (174 ◊ 79 pixels, file size: 3 KB, MIME type: image/gif)
  Help about image annotations
 Summary
 Description 	Blackducklogo.gif
@@ -29001,7 +29001,7 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 
 Pentubuntu.svg
- (SVG file, nominally 395 „É© 420 pixels, file size: 475 KB)
+ (SVG file, nominally 395 ◊ 420 pixels, file size: 475 KB)
 Summary
 Description 	Pentubuntu.svg
 English: Pentubuntu, the different Linux Distribution
@@ -29021,11 +29021,11 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 
 Phlak_small.png
- (91 „É© 73 pixels, file size: 4 KB, MIME type: image/png)
+ (91 ◊ 73 pixels, file size: 4 KB, MIME type: image/png)
  Help about image annotations
-SumÁñµio
+Sum·rio
 Description 	Phlak small.png
-SÂåábolo do PHLAK
+SÌmbolo do PHLAK
 Date 	
 20 August 2007(2007-08-20)
 Source 	
@@ -29043,7 +29043,7 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 
 IPFire_Logo.png
- (261 „É© 340 pixels, file size: 112 KB, MIME type: image/png)
+ (261 ◊ 340 pixels, file size: 112 KB, MIME type: image/png)
  Help about image annotations
 Contents
 [hide]
@@ -29074,9 +29074,9 @@ Jump to: navigation, search
     * File history
     * File usage on Commons
 Mubuntu-Logo.png
-Size of this preview: 800 „É© 196 pixels
+Size of this preview: 800 ◊ 196 pixels
 Full resolution
- (801 „É© 196 pixels, file size: 21 KB, MIME type: image/png)
+ (801 ◊ 196 pixels, file size: 21 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Mubuntu-Logo.png
@@ -29102,9 +29102,9 @@ Jump to: navigation, search
     * File history
     * File usage on Commons
 Zorin os.png
-Size of this preview: 800 „É© 366 pixels
+Size of this preview: 800 ◊ 366 pixels
 Full resolution
- (919 „É© 421 pixels, file size: 128 KB, MIME type: image/png)
+ (919 ◊ 421 pixels, file size: 128 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Zorin os.png
@@ -29125,7 +29125,7 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 
 Dreamlinux-logo.png
- (200 „É© 127 pixels, file size: 20 KB, MIME type: image/png)
+ (200 ◊ 127 pixels, file size: 20 KB, MIME type: image/png)
  Help about image annotations
 Contents
 [hide]
@@ -29153,7 +29153,7 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 
 Venenux_Logo.svg
- (SVG file, nominally 800 „É© 600 pixels, file size: 8 KB)
+ (SVG file, nominally 800 ◊ 600 pixels, file size: 8 KB)
 Description 	Venenux Logo.svg
 VENENUX GNU/Linux logo
 Date 	
@@ -29162,7 +29162,7 @@ Source
     * Venenuxlogo.png
 Author 	
     * Venenuxlogo.png: Venenux
-    * derivative work: Wilfredo RodrÂàïuez (talk)
+    * derivative work: Wilfredo RodrÌguez (talk)
 Permission
  	
 Nuvola apps kolourpaint.png 	This is a retouched picture, which means that it has been digitally altered from its original version. Modifications: SVG Version. The original can be viewed here: Venenuxlogo.png. Modifications made by User:Wilfredor.
@@ -29174,7 +29174,7 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 
 
 EmnixLinuxLogo.png
- (150 „É© 150 pixels, file size: 12 KB, MIME type: image/png)
+ (150 ◊ 150 pixels, file size: 12 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	EmnixLinuxLogo.png
@@ -29194,7 +29194,7 @@ Public Domain
 
 
 Tomsrtbt_241_345.gif
- (241 „É© 345 pixels, file size: 5 KB, MIME type: image/gif)
+ (241 ◊ 345 pixels, file size: 5 KB, MIME type: image/gif)
  Help about image annotations
 Description 	Tomsrtbt 241 345.gif
 I made the image.
@@ -29215,7 +29215,7 @@ Public Domain
 
 
 Ubuntu_studio.svg
- (SVG file, nominally 1,692 „É© 464 pixels, file size: 14 KB)
+ (SVG file, nominally 1,692 ◊ 464 pixels, file size: 14 KB)
 Description 	Ubuntu studio.svg
 English: The logo of the Linux distribution Ubuntu Studio
 Date 	
@@ -29232,7 +29232,7 @@ Public domain 	This image, or text depicted in it, only consists of simple geome
 
 
 Cdlinuxpl_logo.png
- (180 „É© 142 pixels, file size: 20 KB, MIME type: image/png)
+ (180 ◊ 142 pixels, file size: 20 KB, MIME type: image/png)
  Help about image annotations
 Description 	Cdlinuxpl logo.png
 Polski: Logo dystrybucji cdlinux.pl
@@ -29254,7 +29254,7 @@ Public Domain
 
 
 Awn_logo.png
- (192 „É© 126 pixels, file size: 5 KB, MIME type: image/png)
+ (192 ◊ 126 pixels, file size: 5 KB, MIME type: image/png)
  Help about image annotations
 Summary
 Description 	Awn logo.png
@@ -29277,7 +29277,7 @@ Public domain 	I, the copyright holder of this work, hereby release it into the 
 *****************************************************************
 
 Fedora_logo.svg
- (SVG file, nominally 267 „É© 267 pixels, file size: 3 KB)
+ (SVG file, nominally 267 ◊ 267 pixels, file size: 3 KB)
 Description 	Fedora logo.svg
 English: The official symbol of the Linux distribution Fedora
 Deutsch: Das offizielle Symbol der Linux-Distribution Fedora
@@ -29294,7 +29294,7 @@ This is an informational tag and not a license tag. A normal copyright tag is re
 
 ****************************************************************
 Kubuntu_Logo.svg
- (SVG file, nominally 650 „É© 164 pixels, file size: 10 KB)
+ (SVG file, nominally 650 ◊ 164 pixels, file size: 10 KB)
 Description 	Kubuntu Logo.svg
 English: The logo of the Linux distribution Kubuntu
 Date 	
