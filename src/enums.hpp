@@ -1,3 +1,24 @@
+#ifndef STR
+#define STR(x) #x
+#endif
+
+#define X(Enum, String) Enum
+#define X_TABLE_ITEM(x) X(x, STR(x))
+
+enum JANECLONE_ENUMS {
+    ID_Quit = 1,
+    #define X(Enum, String) Enum,
+    X_TABLE
+    #undef X
+};
+
+Begin_Enum_String(JANECLONE_ENUMS)
+    #define X(Enum, String) Enum_String(Enum)
+    X_TABLE
+    #undef X
+End_Enum_String
+
+// Original content below:
 ﻿/**
  * enums.hpp - janeclones' enums
  *
@@ -26,12 +47,6 @@
 
 #include "enumstring.hpp"
 #include "datatype.hpp"
-
-// マクロ置換用マクロ
-#define XSTR(x) #x
-// #define STR(x)  XSTR(x)
-#define STR(x)  #x
-
 
 // テーブル要素
 #define X_TABLE_ITEM(x) X(x, STR(x))
