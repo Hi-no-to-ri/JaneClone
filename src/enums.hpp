@@ -1,28 +1,3 @@
-﻿#ifndef STR
-#define STR(x) #x
-#endif
-
-#define X(Enum, String) Enum
-#define X_TABLE_ITEM(x) X(x, STR(x))
-
-enum JANECLONE_ENUMS {
-    ID_Quit = 1,
-#ifndef X
-#define X(Enum, String) Enum
-#endif
-    X_TABLE
-    #undef X
-};
-
-Begin_Enum_String(JANECLONE_ENUMS)
-#ifndef X
-#define X(Enum, String) Enum
-#endif
-    X_TABLE
-    #undef X
-End_Enum_String
-
-// Original content below:
 ﻿/**
  * enums.hpp - janeclones' enums
  *
