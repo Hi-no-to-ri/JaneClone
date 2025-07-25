@@ -575,12 +575,10 @@ X_TABLE_ITEM(ID_Connection_Timeout_Sec)		  \
 X_TABLE_ITEM(ID_JaneCloneEnumsEnd)
 
 // 列挙型の実体をマクロで生成する
+enum JANECLONE_ENUMS {
     ID_Quit = 1,
-#ifndef X
-#define X(Enum, String) Enum
-#endif
+    #define X(Enum, String) Enum,
     X_TABLE
-,
     #undef X
     ID_UserLastClosedThreadClick = 1000,  // ユーザーが最後に閉じたスレッドの情報をクリックした(動的なIDのため1000~)
     ID_UserLastClosedBoardClick	 = 1100,  // ユーザーが最後に閉じた板の情報をクリックした(動的なIDのため1100~)
@@ -588,12 +586,11 @@ X_TABLE_ITEM(ID_JaneCloneEnumsEnd)
     ID_ThreadContentBar	 = 1500			  // ThreadContentBar自体のID(動的なIDのため1500~)
 };
 
+
 // 列挙型を文字列化
 Begin_Enum_String( JANECLONE_ENUMS )
 {
-#ifndef X
-#define X(Enum, String) Enum
-#endif
+#define X(Enum, String) \
     Enum_String( Enum ) \
 
     X_TABLE
