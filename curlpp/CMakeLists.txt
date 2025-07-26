@@ -15,7 +15,8 @@ include(GNUInstallDirs)
 
 if(WIN32)
     # cmake 3.4 is required for CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS
-    cmake_minimum_required(VERSION 3.4)
+    #cmake_minimum_required(VERSION 3.4)
+    cmake_minimum_required(VERSION 3.4...3.27)
 
     # c++ 11 support from cmake 3.4 or newer
     set(CMAKE_CXX_STANDARD 11) # C++11...
