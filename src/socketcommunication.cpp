@@ -58,13 +58,21 @@ SocketCommunication::SocketCommunication()
         }
     }
 
-    // 要修正↓
-    this->writeHeaderFunc = new HeaderFunction(WFunctor(this, &Sock::WriteHeader));
-    this->writeBodyFunc = new WriteFunction(WFunctor(this, &Sock::WriteBody));
+    // // 要修正↓
+    // this->writeHeaderFunc = new HeaderFunction(WFunctor(this, &Sock::WriteHeader));
+    // this->writeBodyFunc = new WriteFunction(WFunctor(this, &Sock::WriteBody));
     
 
-    // this->writeHeaderFunc = new HeaderFunction(WFunctor(&SocketCommunication::WriteHeader, this));
-    // this->writeBodyFunc = new WriteFunction(WFunctor(&SocketCommunication::WriteBody, this));
+    this->writeHeaderFunc = new HeaderFunction(
+        this -> size_t {
+            return this->WriteHeader(ptr, size, nmemb);
+        }
+    );
+
+    this->writeBodyFunc = new WriteFunction(
+        [this](char* ptr,        return this->WriteBody(ptr, size, nmemb);
+        }
+    );
 
 
 
