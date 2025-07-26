@@ -79,6 +79,7 @@ if(BUILDING_CURLPP)
   include_directories(${root_SOURCE_DIR}/curlpp/include)
   include_directories(${CMAKE_BINARY_DIR}/curlpp/include)
   target_link_libraries(janeclone curlpp)
+  # utilspp is a dependency of curlpp and is a header-only library, so we should not link it separately.
   # target_link_libraries(janeclone utilspp)
 else()
   include_directories(${CURLpp_INCLUDE_DIRS})
@@ -124,6 +125,7 @@ if(${CMAKE_OS_NAME} MATCHES "(Debian|Ubuntu)")
 
   # TODO: /usr/lib/janeclone のほうがいいかもしれない
   install(TARGETS curlpp LIBRARY DESTINATION "/usr/lib/")
+  # utilspp is a dependency of curlpp and is a header-only library, so we should not link it separately.
   # install(TARGETS utilspp LIBRARY DESTINATION "/usr/lib/")
   install(TARGETS wxsqlite3 LIBRARY DESTINATION "/usr/lib/")
 
