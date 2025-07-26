@@ -1402,7 +1402,7 @@ template void JaneCloneUtil::SetJaneCloneProperties<bool>(const wxString& key, c
  * @param        <class T>* value    値
  * @param  const wxString&  defaultVal  デフォルト値
  */
-inline wxConfig* loadDefaultConfig()
+inline wxConfigBase* loadDefaultConfig()
 {
     // 設定ファイルの準備をする
     const wxString jc = ::wxGetHomeDir() + wxFILE_SEP_PATH + JANECLONE_DIR;
