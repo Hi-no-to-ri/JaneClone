@@ -98,7 +98,10 @@ JaneCloneの実行ファイルが作成されます.以下, Window, Linux, Mac, 
   $ pacman -S mingw-w64-x86_64-libxml2
   $ pacman -S mingw-w64-x86_64-curl
   $ pacman -S mingw-w64-x86_64-zlib
-  $ pacman -S mingw-w64-x86_64-wxWidgets
+  $ pacman -S mingw-w64-x86_64-wxwidgets3.2-msw
+#  $ pacman -S mingw-w64-x86_64-wxwidgets3.2-gtk3
+  $ pacman -S mingw-w64-x86_64-cmake
+  
 
   wx-configコマンドが使用出来れば成功
   $ wx-config --version
