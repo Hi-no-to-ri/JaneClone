@@ -58,8 +58,36 @@ SocketCommunication::SocketCommunication()
         }
     }
 
+    /* Original: (ERROR): 
     this->writeHeaderFunc = new HeaderFunction(WFunctor(this, &Sock::WriteHeader));
     this->writeBodyFunc = new WriteFunction(WFunctor(this, &Sock::WriteBody));
+    */
+
+    /* New: Use std::bind to create function objects */
+    /*
+    this->writeHeaderFunc = std::bind(&SocketCommunication::WriteHeader, this,
+                                  std::placeholders::_1,
+                                  std::placeholders::_2,
+                                  std::placeholders::_3);
+
+    this->writeBodyFunc = std::bind(&SocketCommunication::WriteBody, this,
+                                std::placeholders::_1,
+                                std::placeholders::_2,
+                                std::placeholders::_3);
+    */
+
+    /* New: Use lambda functions to create function objects */
+    this->writeHeaderFunc = this -> size_t {
+        return this->WriteHeader(ptr, size, nmemb);
+    };
+
+    this->writeBodyFunc = this -> size_t {
+        return this->WriteBody(ptr, size, nmemb);
+    };
+
+
+
+
 }
 /**
  * 板一覧ファイルをダウンロードしてくるメソッド 引数は板一覧ファイル保存先、板一覧ファイルヘッダ保存先
