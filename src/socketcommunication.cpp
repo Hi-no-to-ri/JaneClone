@@ -70,9 +70,11 @@ SocketCommunication::SocketCommunication()
     );
 
     this->writeBodyFunc = new WriteFunction(
-        [this](char* ptr,        return this->WriteBody(ptr, size, nmemb);
+        this -> size_t {
+            return this->WriteBody(ptr, size, nmemb);
         }
     );
+
 
 
 
