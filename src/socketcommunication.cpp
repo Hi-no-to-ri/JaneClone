@@ -63,15 +63,16 @@ SocketCommunication::SocketCommunication()
     // this->writeBodyFunc = new WriteFunction(WFunctor(this, &Sock::WriteBody));
     
 
-    // メンバ関数を this とバインドして WriteFunctionFunctor に渡す
-    this->writeHeaderFunc = new curlpp::types::WriteFunctionFunctor(
+
+    // オプションオブジェクトを作成
+    this->writeHeaderFunc = new curlpp::options::HeaderFunction(
         std::bind(&Sock::WriteHeader, this,
                 std::placeholders::_1,
                 std::placeholders::_2,
                 std::placeholders::_3)
     );
 
-    this->writeBodyFunc = new curlpp::types::WriteFunctionFunctor(
+    this->writeBodyFunc = new curlpp::options::WriteFunction(
         std::bind(&Sock::WriteBody, this,
                 std::placeholders::_1,
                 std::placeholders::_2,
