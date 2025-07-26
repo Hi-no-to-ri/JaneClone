@@ -79,7 +79,7 @@ if(BUILDING_CURLPP)
   include_directories(${root_SOURCE_DIR}/curlpp/include)
   include_directories(${CMAKE_BINARY_DIR}/curlpp/include)
   target_link_libraries(janeclone curlpp)
-  target_link_libraries(janeclone utilspp)
+  # target_link_libraries(janeclone utilspp)
 else()
   include_directories(${CURLpp_INCLUDE_DIRS})
   target_link_libraries(janeclone ${CURLpp_LIBRARIES})
@@ -124,7 +124,7 @@ if(${CMAKE_OS_NAME} MATCHES "(Debian|Ubuntu)")
 
   # TODO: /usr/lib/janeclone のほうがいいかもしれない
   install(TARGETS curlpp LIBRARY DESTINATION "/usr/lib/")
-  install(TARGETS utilspp LIBRARY DESTINATION "/usr/lib/")
+  # install(TARGETS utilspp LIBRARY DESTINATION "/usr/lib/")
   install(TARGETS wxsqlite3 LIBRARY DESTINATION "/usr/lib/")
 
   include(CPack)
