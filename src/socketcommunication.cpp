@@ -62,12 +62,20 @@ SocketCommunication::SocketCommunication()
     // this->writeHeaderFunc = new HeaderFunction(WFunctor(this, &Sock::WriteHeader));
     // this->writeBodyFunc = new WriteFunction(WFunctor(this, &Sock::WriteBody));
     
-    this->writeHeaderFunc = HeaderFunction(
-        std::bind(&Sock::WriteHeader, this, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3)
+
+    // メンバ関数を this とバインドして WriteFunctionFunctor に渡す
+    this->writeHeaderFunc = new curlpp::types::WriteFunctionFunctor(
+        std::bind(&Sock::WriteHeader, this,
+                std::placeholders::_1,
+                std::placeholders::_2,
+                std::placeholders::_3)
     );
 
-    this->writeBodyFunc = WriteFunction(
-        std::bind(&Sock::WriteBody, this, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3)
+    this->writeBodyFunc = new curlpp::types::WriteFunctionFunctor(
+        std::bind(&Sock::WriteBody, this,
+                std::placeholders::_1,
+                std::placeholders::_2,
+                std::placeholders::_3)
     );
 
 
