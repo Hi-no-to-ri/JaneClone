@@ -63,27 +63,9 @@ SocketCommunication::SocketCommunication()
     this->writeBodyFunc = new WriteFunction(WFunctor(this, &Sock::WriteBody));
     */
 
-    /* New: Use std::bind to create function objects */
-    
-    this->writeHeaderFunc = std::bind(&SocketCommunication::WriteHeader, this,
-                                  std::placeholders::_1,
-                                  std::placeholders::_2,
-                                  std::placeholders::_3);
+    this->writeHeaderFunc = new HeaderFunction(WFunctor(&SocketCommunication::WriteHeader, this));
+    this->writeBodyFunc = new WriteFunction(WFunctor(&SocketCommunication::WriteBody, this));
 
-    this->writeBodyFunc = std::bind(&SocketCommunication::WriteBody, this,
-                                std::placeholders::_1,
-                                std::placeholders::_2,
-                                std::placeholders::_3);
-    
-                                
-    /* New: Use lambda functions to create function objects <- 型が違う*/
-    // this->writeHeaderFunc = this -> size_t {
-    //     return this->WriteHeader(ptr, size, nmemb);
-    // };
-
-    // this->writeBodyFunc = this -> size_t {
-    //     return this->WriteBody(ptr, size, nmemb);
-    // };
 
 
 
