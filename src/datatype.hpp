@@ -178,7 +178,8 @@ static const wxString jsDir              = wxT("script/");
 static const wxString jsPath             = wxT("script/embedded.js");
 
 // ライセンスのデフォルトのパス
-static const wxString licencePath        = GetResourcePath("gpl-2.0.txt");
+// static const wxString licencePath        = GetResourcePath("gpl-2.0.txt");
+static const wxString licencePath        = GetResourcePath("gpl-3.0.txt");
 
 // 各ボタンに貼り付けられる画像
 static const wxString autoReloadImg      = GetResourcePath("appointment-new.png");
