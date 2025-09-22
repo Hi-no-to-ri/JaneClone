@@ -887,7 +887,7 @@ void JaneClone::SetProperties()
     // アプリ上部URL入力欄の画像つきボタンのサイズ調整
     m_url_input_button->SetSize(m_url_input_button->GetBestSize());
     // アプリ上部URL入力欄のフォント調整
-    m_url_input->SetFont(wxFont(12, wxDEFAULT, wxNORMAL, wxNORMAL, 0, wxT("")));
+    m_url_input->SetFont(wxFont(wxFontInfo(12).Family(wxFONTFAMILY_DEFAULT).Style(wxFONTSTYLE_NORMAL).Weight(wxFONTWEIGHT_NORMAL)));
 
     // ノートブックのサイズ調整
     wxSize client_size = GetClientSize();
@@ -3406,7 +3406,7 @@ wxFont JaneClone::ReadFontInfo(const wxString& widgetName)
                     return f;
                 } else
                 {
-                    return wxFont(10, wxDEFAULT, wxNORMAL, wxNORMAL, 0, wxT(""));
+                    return wxFont(wxFontInfo(10).Family(wxFONTFAMILY_DEFAULT).Style(wxFONTSTYLE_NORMAL).Weight(wxFONTWEIGHT_NORMAL));
                 }
         }
 

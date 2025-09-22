@@ -101,7 +101,7 @@ namespace internal
 	*/
 
 	template<>
-	class OptionSetter<curlpp::Forms, CURLOPT_HTTPPOST>
+	class OptionSetter<curlpp::Forms, CURLOPT_MIMEPOST>
 	{
 
 	public:
@@ -306,7 +306,7 @@ namespace internal
 
 	template<>
 	class OptionSetter<curlpp::types::ProgressFunctionFunctor,
-																CURLOPT_PROGRESSFUNCTION>
+																CURLOPT_XFERINFOFUNCTION>
 	{
 
 	public:
@@ -330,7 +330,7 @@ namespace internal
 
 	template<>
 	class OptionSetter<curlpp::types::BoostProgressFunction,
-																CURLOPT_PROGRESSFUNCTION>
+																CURLOPT_XFERINFOFUNCTION>
 	{
 
 	public:

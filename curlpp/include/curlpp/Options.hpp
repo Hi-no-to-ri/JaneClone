@@ -149,7 +149,7 @@ namespace options
 	#endif // CURLPP_ALLOW_NOT_AVAILABLE
 	#endif // LIBCURL_VERSION_NUM
 
-	typedef curlpp::OptionTrait<curlpp::types::ProgressFunctionFunctor, static_cast<CURLoption>(CURLOPT_PROGRESSFUNCTION)>
+	typedef curlpp::OptionTrait<curlpp::types::ProgressFunctionFunctor, static_cast<CURLoption>(CURLOPT_XFERINFOFUNCTION)>
 		ProgressFunction;
 
 	typedef curlpp::OptionTrait<curlpp::types::WriteFunctionFunctor, static_cast<CURLoption>(CURLOPT_HEADERFUNCTION)>
@@ -219,7 +219,7 @@ namespace options
 	typedef curlpp::OptionTrait<std::string, static_cast<CURLoption>(CURLOPT_POSTFIELDS)> PostFields;
 	typedef curlpp::OptionTrait<long, static_cast<CURLoption>(CURLOPT_POSTFIELDSIZE)> PostFieldSize;
 	typedef curlpp::OptionTrait<curl_off_t, static_cast<CURLoption>(CURLOPT_POSTFIELDSIZE_LARGE)> PostFieldSizeLarge;
-	typedef curlpp::OptionTrait<curlpp::Forms, static_cast<CURLoption>(CURLOPT_HTTPPOST)> HttpPost;
+	typedef curlpp::OptionTrait<curlpp::Forms, static_cast<CURLoption>(CURLOPT_MIMEPOST)> HttpPost;
 	typedef curlpp::OptionTrait<std::string, static_cast<CURLoption>(CURLOPT_REFERER)> Referer;
 	typedef curlpp::OptionTrait<std::string, static_cast<CURLoption>(CURLOPT_USERAGENT)> UserAgent;
 	typedef curlpp::OptionTrait<std::list<std::string>, CURLOPT_HTTPHEADER> HttpHeader;

@@ -73,7 +73,7 @@ void
 curlpp::HttpPost::clear()
 {
   if(mFirst != NULL) {
-    ::curl_formfree(mFirst);
+    ::curl_mime_free(mFirst);
     mFirst = NULL;
     mLast = NULL;
   }
@@ -145,22 +145,22 @@ curlpp::FormParts::File::add(::curl_httppost ** first,
   // One instance = One curl_httppost, so we don't
   // need to duplicate the memory.
   if(mContentType.empty()) {
-    curl_formadd(first, 
+    curl_mime_init(first, 
 		 last, 
-		 CURLFORM_PTRNAME,
+		 curl_mime_name,
 		 mName.c_str(), 
-		 CURLFORM_FILE,
+		 curl_mime_filedata,
 		 mFilename.c_str(),
 		 CURLFORM_END );
   }
   else {
-    curl_formadd(first, 
+    curl_mime_init(first, 
 		 last, 
-		 CURLFORM_PTRNAME, 
+		 curl_mime_name, 
 		 mName.c_str(), 
-		 CURLFORM_FILE,
+		 curl_mime_filedata,
 		 mFilename.c_str(),
-		 CURLFORM_CONTENTTYPE,
+		 curl_mime_type,
 		 mContentType.c_str(),
 		 CURLFORM_END);
   }
@@ -210,22 +210,22 @@ curlpp::FormParts::Content::add(::curl_httppost ** first,
   // We uses options that will copy internally the string (c_str),
   // so we don't need to worry about the memory.
   if(mContentType.empty()) {
-    curl_formadd(first, 
+    curl_mime_init(first, 
 		 last, 
-		 CURLFORM_PTRNAME, 
+		 curl_mime_name, 
 		 mName.c_str(), 
-		 CURLFORM_PTRCONTENTS,
+		 curl_mime_data,
 		 mContent.c_str(),
 		 CURLFORM_END);
   }
   else {
-    curl_formadd(first, 
+    curl_mime_init(first, 
 		 last, 
-		 CURLFORM_PTRNAME, 
+		 curl_mime_name, 
 		 mName.c_str(), 
-		 CURLFORM_PTRCONTENTS,
+		 curl_mime_data,
 		 mContent.c_str(),
-		 CURLFORM_CONTENTTYPE,
+		 curl_mime_type,
 		 mContentType.c_str(),
 		 CURLFORM_END );
   }

@@ -116,10 +116,10 @@ struct Callbacks
 };
 
 
-void OptionSetter<curlpp::Forms, CURLOPT_HTTPPOST>
+void OptionSetter<curlpp::Forms, CURLOPT_MIMEPOST>
 ::setOpt(internal::CurlHandle * handle, ParamType value)
 {
-	handle->option(CURLOPT_HTTPPOST, value.cHttpPost());
+	handle->option(CURLOPT_MIMEPOST, value.cHttpPost());
 };
 
 
@@ -201,10 +201,10 @@ void OptionSetter<std::istream *, CURLOPT_READDATA>
 };
 
 
-void OptionSetter<curlpp::types::ProgressFunctionFunctor, CURLOPT_PROGRESSFUNCTION>
+void OptionSetter<curlpp::types::ProgressFunctionFunctor, CURLOPT_XFERINFOFUNCTION>
 ::setOpt(internal::CurlHandle * handle, ParamType value)
 {
-	handle->option(CURLOPT_PROGRESSFUNCTION, Callbacks::ProgressCallback);
+	handle->option(CURLOPT_XFERINFOFUNCTION, Callbacks::ProgressCallback);
 	handle->option(CURLOPT_PROGRESSDATA, handle);
 	handle->setProgressFunctor(value);
 };
@@ -212,10 +212,10 @@ void OptionSetter<curlpp::types::ProgressFunctionFunctor, CURLOPT_PROGRESSFUNCTI
 
 #ifdef HAVE_BOOST
 
-void OptionSetter<curlpp::types::BoostProgressFunction, CURLOPT_PROGRESSFUNCTION>
+void OptionSetter<curlpp::types::BoostProgressFunction, CURLOPT_XFERINFOFUNCTION>
 ::setOpt(internal::CurlHandle * handle, ParamType value)
 {
-	handle->option(CURLOPT_PROGRESSFUNCTION, Callbacks::ProgressCallback);
+	handle->option(CURLOPT_XFERINFOFUNCTION, Callbacks::ProgressCallback);
 	handle->option(CURLOPT_PROGRESSDATA, handle);
 	handle->setProgressFunctor(value);
 };
