@@ -116,7 +116,7 @@
                         <orient>wxHORIZONTAL</orient>
                         <label>BEマウスオーバー設定</label>
                         <object class="sizeritem">
-                            <flag>wxALIGN_CENTER_VERTICAL|wxEXPAND</flag>
+                            <flag>wxEXPAND</flag>
                             <object class="wxRadioBox" name="radio_box_1">
                                 <content>
                                     <item>BEポップアップ</item>
@@ -130,7 +130,7 @@
                             </object>
                         </object>
                         <object class="sizeritem">
-                            <flag>wxALIGN_CENTER_VERTICAL|wxEXPAND</flag>
+                            <flag>wxEXPAND</flag>
                             <object class="wxCheckBox" name="checkbox_6">
                                 <label>常に取得する</label>
                             </object>
