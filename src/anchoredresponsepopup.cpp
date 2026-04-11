@@ -1,6 +1,6 @@
 /*
     JaneClone - A bulletin board viewer for 5ch.io-like BBSs
-    Copyright (C) 2012-2014 Hiroyuki Nagata
+    Copyright (C) 2012-2021 Hiroyuki Nagata
     Copyright (C) 2026- Hi-no-to-ri
 
     This program is free software: you can redistribute it and/or modify
