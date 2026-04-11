@@ -251,7 +251,7 @@ JaneClone::JaneClone(wxWindow* parent, int id, const wxString& title, const wxPo
     // URL入力欄
     m_url_input_panel = new wxPanel(this, wxID_ANY);
     m_url_input = new wxTextCtrl(m_url_input_panel, wxID_ANY, m_url_text, wxDefaultPosition, wxDefaultSize);
-    m_url_input_button = new wxBitmapButton(m_url_input_panel, ID_URLWindowButton, wxBitmap(goNextImg, wxBITMAP_TYPE_ANY));
+    m_url_input_button = new wxBitmapButton(m_url_input_panel, ID_URLWindowButton, wxBitmap(goNextImg(), wxBITMAP_TYPE_ANY));
 
     // ログ出力ウィンドウ
     m_logCtrl = new wxTextCtrl(this, wxID_ANY, wxEmptyString, wxDefaultPosition, wxDefaultSize, wxTE_MULTILINE | wxTE_READONLY);
@@ -818,6 +818,15 @@ void JaneClone::SetProperties()
     // ユーザーのホームディレクトリを取得
     wxDir workDir(::wxGetHomeDir());
     wxString jc = ::wxGetHomeDir() + wxFILE_SEP_PATH + JANECLONE_DIR;
+
+    // ユーザーのホームディレクトリに隠しフォルダがあるかどうか確認
+    // SQLiteAccessorより先にディレクトリを作成する必要がある
+    bool isFirstRun = !workDir.HasSubDirs(JANECLONE_DIR);
+    if (isFirstRun)
+        {
+            ::wxMkdir(jc);
+        }
+
     wxDir jcDir(jc);
 
     /**
@@ -839,12 +848,9 @@ void JaneClone::SetProperties()
             wxMessageBox(wxT("XRCファイルの読み込みに失敗しました。"));
         }
 
-    // ユーザーのホームディレクトリに隠しフォルダがあるかどうか確認
-    if (!workDir.HasSubDirs(JANECLONE_DIR))
+    // 初回起動時の初期化処理
+    if (isFirstRun)
         {
-            ::wxMkdir(jc);
-            wxDir jcDir(jc);
-
             // 存在しない場合は初期化処理を実施する
             InitializeJaneClone(jc, jcDir);
             // ソケット通信を行う
@@ -933,55 +939,55 @@ void JaneClone::DoLayout()
     m_floatToolBar->SetToolBitmapSize(wxSize(16,16));
     m_floatToolBar->AddTool(ID_SwitchSeparateXY,
                             wxT("縦⇔横分割切り替え"),
-                            wxBitmap(thrPaneWinImg, wxBITMAP_TYPE_ANY),
+                            wxBitmap(thrPaneWinImg(), wxBITMAP_TYPE_ANY),
                             wxT("縦⇔横分割切り替え"));
     m_floatToolBar->SetToolLongHelp(ID_SwitchSeparateXY, wxT("ウィンドウを３分割する形式を切り替えます."));
     m_floatToolBar->AddTool(ID_SwitchTwoThreePane,
                             wxT("２⇔３ペイン切り替え"),
-                            wxBitmap(twoPaneWinImg, wxBITMAP_TYPE_ANY),
+                            wxBitmap(twoPaneWinImg(), wxBITMAP_TYPE_ANY),
                             wxT("２⇔３ペイン切り替え"));
     m_floatToolBar->AddTool(ID_ShowBoardListTree,
                             wxT("板ツリー表示"),
-                            wxBitmap(sideTreeImg, wxBITMAP_TYPE_ANY),
-                            wxBitmap(sideTreeImg, wxBITMAP_TYPE_ANY),
+                            wxBitmap(sideTreeImg(), wxBITMAP_TYPE_ANY),
+                            wxBitmap(sideTreeImg(), wxBITMAP_TYPE_ANY),
                             wxITEM_CHECK,
                             wxT("板ツリー表示"),
                             wxT("板一覧ツリーを表示させるかどうか設定します"),
                             NULL);
     m_floatToolBar->AddTool(ID_SwitchRightPane,
                             wxT("右側切り替え"),
-                            wxBitmap(twoPaneWinImg, wxBITMAP_TYPE_ANY),
+                            wxBitmap(twoPaneWinImg(), wxBITMAP_TYPE_ANY),
                             wxT("右側切り替え"));
     m_floatToolBar->AddSeparator();
     m_floatToolBar->AddTool(ID_CallResponseWindow,
                             wxT("スレッド新規作成"),
-                            wxBitmap(responseImg, wxBITMAP_TYPE_ANY),
+                            wxBitmap(responseImg(), wxBITMAP_TYPE_ANY),
                             wxT("スレッド新規作成"));
     m_floatToolBar->AddTool(wxID_ANY,
                             wxT("更新/すべてのタブの更新"),
-                            wxBitmap(refreshImg, wxBITMAP_TYPE_ANY),
+                            wxBitmap(refreshImg(), wxBITMAP_TYPE_ANY),
                             wxT("更新/すべてのタブの更新"));
     m_floatToolBar->AddTool(wxID_ANY,
                             wxT("お気に入りの更新チェック"),
-                            wxBitmap(bookMarkImg, wxBITMAP_TYPE_ANY),
+                            wxBitmap(bookMarkImg(), wxBITMAP_TYPE_ANY),
                             wxT("お気に入りの更新チェック"));
     m_floatToolBar->AddSeparator();
     m_floatToolBar->AddTool(wxID_ANY,
                             wxT("スレ絞り込み検索/検索結果のクリア"),
-                            wxBitmap(redResExtractImg, wxBITMAP_TYPE_ANY),
+                            wxBitmap(redResExtractImg(), wxBITMAP_TYPE_ANY),
                             wxT("スレ絞り込み検索/検索結果のクリア"));
     m_floatToolBar->AddTool(wxID_ANY,
                             wxT("ログから検索"),
-                            wxBitmap(logSearchImg, wxBITMAP_TYPE_ANY),
+                            wxBitmap(logSearchImg(), wxBITMAP_TYPE_ANY),
                             wxT("ログから検索"));
     m_floatToolBar->AddSeparator();
     m_floatToolBar->AddTool(ID_CallSettingWindow,
                             wxT("設定/ビューア設定"),
-                            wxBitmap(configImg, wxBITMAP_TYPE_ANY),
+                            wxBitmap(configImg(), wxBITMAP_TYPE_ANY),
                             wxT("設定/ビューア設定"));
     m_floatToolBar->AddTool(wxID_ANY,
                             wxT("ログから検索"),
-                            wxBitmap(helpImg, wxBITMAP_TYPE_ANY),
+                            wxBitmap(helpImg(), wxBITMAP_TYPE_ANY),
                             wxT("ログから検索"));
 
     // Auiマネージャーがどのフレームを管理するか示す
@@ -1543,7 +1549,7 @@ void JaneClone::UpdateThreadTabIcons()
                                             // もし取得数のほうが多かったら更新 "+" !
                                             if ( newResNumber > oldResNumber )
                                                 {
-                                                    threadNoteBook->SetPageBitmap(i, wxBitmap(threadTabAddImg, wxBITMAP_TYPE_ANY));
+                                                    threadNoteBook->SetPageBitmap(i, wxBitmap(threadTabAddImg(), wxBITMAP_TYPE_ANY));
                                                 }
                                         }
 
@@ -1551,7 +1557,7 @@ void JaneClone::UpdateThreadTabIcons()
                             else
                                 {
                                     // スレッド一覧情報を内にスレッドがない => dat落ち
-                                    threadNoteBook->SetPageBitmap(i, wxBitmap(threadTabDrpImg, wxBITMAP_TYPE_ANY));
+                                    threadNoteBook->SetPageBitmap(i, wxBitmap(threadTabDrpImg(), wxBITMAP_TYPE_ANY));
                                     break;
                                 }
                         }
@@ -2641,9 +2647,9 @@ void JaneClone::InitializeShingetsuNodeList() {
 
     // イメージリストにアイコンを登録する
     wxImageList* treeImage = new wxImageList(16, 16);
-    wxBitmap idx1(folderImg, wxBITMAP_TYPE_PNG);
+    wxBitmap idx1(folderImg(), wxBITMAP_TYPE_PNG);
     treeImage->Add(idx1);
-    wxBitmap idx2(textHtmlImg, wxBITMAP_TYPE_PNG);
+    wxBitmap idx2(textHtmlImg(), wxBITMAP_TYPE_PNG);
     treeImage->Add(idx2);
     m_shingetsu_tree_ctrl->AssignImageList(treeImage);
     m_shingetsu_tree_ctrl->SetLabel(SHINGETU_NODE_TREE);
@@ -2785,7 +2791,7 @@ void JaneClone::OnVersionInfo(wxCommandEvent&) {
 
     // ライセンスを読み込む
     wxTextFile licenceFile;
-    licenceFile.Open(licencePath, wxConvUTF8);
+    licenceFile.Open(licencePath(), wxConvUTF8);
     wxString licence;
 
     // ファイルがオープンされているならば
@@ -3111,7 +3117,7 @@ void JaneClone::SetThreadContentToNoteBook(const wxString& threadContentPath,
 
     // スレッドの内容はThreadContentBarの中で設定する
     threadBar->SetThreadContentWindow(threadContentPath, origNumber);
-    threadNoteBook->AddPage(threadBar, title, true, wxBitmap(threadTabNewImg, wxBITMAP_TYPE_ANY));
+    threadNoteBook->AddPage(threadBar, title, true, wxBitmap(threadTabNewImg(), wxBITMAP_TYPE_ANY));
     // 閲覧中ツリーの情報を更新する
     JaneCloneUiUtil::QueueEventHelper(wxEVT_UPDATE_UI, ID_NowReadingTreectrlUpdate);
 }
@@ -4017,7 +4023,7 @@ void JaneClone::CreateCommonAuiToolBar(wxPanel* panel, wxBoxSizer* vbox, wxWindo
 
     // 検索ボックスのID設定
     searchBox->SetToolBitmapSize(wxSize(32,32));
-    searchBox->AddTool(targetId, SEARCH_BOX, wxBitmap(redResExtractImg, wxBITMAP_TYPE_ANY), wxT("検索"));
+    searchBox->AddTool(targetId, SEARCH_BOX, wxBitmap(redResExtractImg(), wxBITMAP_TYPE_ANY), wxT("検索"));
 
     // メニューの設定
     wxAuiToolBarItemArray prepend_items1;
@@ -4073,7 +4079,7 @@ void JaneClone::CreateCommonAuiToolBar(wxPanel* panel, wxBoxSizer* vbox, wxWindo
     searchBox->SetCustomOverflowItems(prepend_items1, append_items1);
     searchBox->AddTool(ID_SearchBoxRegexSearch,
                        wxT("正規表現"),
-                       wxBitmap(regexImg, wxBITMAP_TYPE_ANY),
+                       wxBitmap(regexImg(), wxBITMAP_TYPE_ANY),
                        wxT("正規表現を使います"),
                        wxITEM_CHECK);
 
@@ -4164,7 +4170,7 @@ void JaneClone::CreateCommonAuiToolBar(wxPanel* panel, wxBoxSizer* vbox, wxWindo
     // 閉じるボタンを設定する
     searchBox->AddTool(ID_SearchBarHide,
                        wxEmptyString,
-                       wxBitmap(closeImg, wxBITMAP_TYPE_ANY),
+                       wxBitmap(closeImg(), wxBITMAP_TYPE_ANY),
                        wxT("検索ボックスを隠す"));
 
     searchBox->Realize();
@@ -4457,7 +4463,7 @@ void JaneClone::UpdatePanes(bool immediate)
 
     // 画像の切り替え
     m_floatToolBar->SetToolBitmap (ID_SwitchSeparateXY,
-                                   wxBitmap(separateIsX ? thrPaneWinImg : thrColumnWinImg,
+                                   wxBitmap(separateIsX ? thrPaneWinImg() : thrColumnWinImg(),
                                             wxBITMAP_TYPE_ANY));
 
     if (immediate)

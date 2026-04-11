@@ -59,9 +59,9 @@ void JaneCloneUiUtil::SetTreeCtrlCommonSetting(wxTreeCtrl* treeCtrl, const wxWin
 
     // イメージリストにアイコンを登録する
     wxImageList* treeImage = new wxImageList(16, 16);
-    wxBitmap idx1(folderImg, wxBITMAP_TYPE_PNG);
+    wxBitmap idx1(folderImg(), wxBITMAP_TYPE_PNG);
     treeImage->Add(idx1);
-    wxBitmap idx2(textHtmlImg, wxBITMAP_TYPE_PNG);
+    wxBitmap idx2(textHtmlImg(), wxBITMAP_TYPE_PNG);
     treeImage->Add(idx2);
     treeCtrl->AssignImageList(treeImage);
 

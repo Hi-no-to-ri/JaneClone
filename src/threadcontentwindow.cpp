@@ -232,11 +232,11 @@ void ThreadContentWindow::OnRightClickHtmlWindow(wxMouseEvent& event) {
 
 
         wxBitmap bitmap;
-        bitmap.LoadFile(yahooIconImg, wxBITMAP_TYPE_PNG);
+        bitmap.LoadFile(yahooIconImg(), wxBITMAP_TYPE_PNG);
         itemYahoo->SetBitmap(bitmap);
-        bitmap.LoadFile(googleIconImg, wxBITMAP_TYPE_PNG);
+        bitmap.LoadFile(googleIconImg(), wxBITMAP_TYPE_PNG);
         itemGoogle->SetBitmap(bitmap);
-        bitmap.LoadFile(amazonIconImg, wxBITMAP_TYPE_PNG);
+        bitmap.LoadFile(amazonIconImg(), wxBITMAP_TYPE_PNG);
         itemAmazon->SetBitmap(bitmap);
 
         copy->Append(itemYahoo);

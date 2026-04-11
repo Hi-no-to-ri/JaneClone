@@ -57,6 +57,10 @@ if(${CMAKE_OS_NAME} MATCHES "OSX")
     MACOSX_BUNDLE TRUE
     MACOSX_BUNDLE_INFO_PLIST ${root_BINARY_DIR}/Info.plist
     RESOURCE "${RC_FILES}")
+elseif(WIN32)
+  # Windows: include icon.rc for application icon
+  set(WIN_RC_FILE ${janeclone_SOURCE_DIR}/rc/icon.rc)
+  add_executable(janeclone ${janeclone_SRCS} ${WIN_RC_FILE})
 else()
   add_executable(janeclone ${janeclone_SRCS})
 endif()

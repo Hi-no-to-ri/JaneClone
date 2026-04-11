@@ -60,13 +60,13 @@ wxListCtrl(parent, id, wxDefaultPosition, wxDefaultSize, wxLC_REPORT | wxLC_VIRT
 
     // リストに使用する画像を設定する
     wxImageList* threadImage = new wxImageList(16, 16);
-    wxBitmap idx1(threadCheckImg, wxBITMAP_TYPE_PNG);
+    wxBitmap idx1(threadCheckImg(), wxBITMAP_TYPE_PNG);
     threadImage->Add(idx1);
-    wxBitmap idx2(threadAddImg, wxBITMAP_TYPE_PNG);
+    wxBitmap idx2(threadAddImg(), wxBITMAP_TYPE_PNG);
     threadImage->Add(idx2);
-    wxBitmap idx3(threadDropImg, wxBITMAP_TYPE_PNG);
+    wxBitmap idx3(threadDropImg(), wxBITMAP_TYPE_PNG);
     threadImage->Add(idx3);
-    wxBitmap idx4(threadNewImg, wxBITMAP_TYPE_PNG);
+    wxBitmap idx4(threadNewImg(), wxBITMAP_TYPE_PNG);
     threadImage->Add(idx4);
     this->AssignImageList(threadImage, wxIMAGE_LIST_SMALL);
 

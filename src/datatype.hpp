@@ -132,8 +132,11 @@ inline wxString GetJcExecutablePath() {
     return appPath;
 }
 
-// パッケージでインストールされるパス
-static const wxRegEx packageBinPath(_T("(/usr/bin|/usr/local/bin)"), wxRE_ADVANCED + wxRE_ICASE);
+// パッケージでインストールされるパス (遅延初期化)
+inline const wxRegEx& GetPackageBinPath() {
+    static wxRegEx s(_T("(/usr/bin|/usr/local/bin)"), wxRE_ADVANCED + wxRE_ICASE);
+    return s;
+}
 
 // リソースファイルのパス
 inline wxString GetResourcePath(wxString fileName) {
@@ -142,7 +145,7 @@ inline wxString GetResourcePath(wxString fileName) {
     wxFileName exePath = wxFileName::DirName(GetJcExecutablePath());
     wxFileName filePath;
 
-    if (packageBinPath.Matches(exePath.GetFullPath(wxPATH_UNIX))) {
+    if (GetPackageBinPath().Matches(exePath.GetFullPath(wxPATH_UNIX))) {
         // 実行ファイルが /usr 以下 の場合パッケージビルドとみなす
         filePath = wxFileName::DirName("/usr/share/pixmaps/janeclone");
     } else {
@@ -179,53 +182,129 @@ inline wxString GetResourcePath(wxString fileName) {
 static const wxString jsDir              = wxT("script/");
 static const wxString jsPath             = wxT("script/embedded.js");
 
-// ライセンスのデフォルトのパス
-// static const wxString licencePath        = GetResourcePath("gpl-2.0.txt");
-static const wxString licencePath        = GetResourcePath("gpl-3.0.txt");
+// ライセンスのデフォルトのパス (遅延初期化)
+inline const wxString& licencePath() {
+    static const wxString s = GetResourcePath("gpl-3.0.txt");
+    return s;
+}
 
-// 各ボタンに貼り付けられる画像
-static const wxString autoReloadImg      = GetResourcePath("appointment-new.png");
-static const wxString redResExtractImg	 = GetResourcePath("system-search.png");
-static const wxString refreshImg	 = GetResourcePath("view-refresh.png");
-static const wxString scrollToNewResImg	 = GetResourcePath("go-bottom.png");
-static const wxString stopImg		 = GetResourcePath("dialog-error.png");
-static const wxString resExtractImg	 = GetResourcePath("edit-find-replace.png");
-static const wxString newThreadImg	 = GetResourcePath("go-last.png");
-static const wxString goNextImg		 = GetResourcePath("go-next.png");
-static const wxString responseImg	 = GetResourcePath("page-edit.png");
-static const wxString bookMarkImg	 = GetResourcePath("bookmark-new.png");
-static const wxString deleteLogImg	 = GetResourcePath("edit-delete.png");
-static const wxString closeImg		 = GetResourcePath("emblem-unreadable.png");
-static const wxString normalSearchImg	 = GetResourcePath("system-search.png");
-static const wxString hideSearchBarImg	 = GetResourcePath("emblem-unreadable.png");
-static const wxString forwardImg	 = GetResourcePath("go-down.png");
-static const wxString backwardImg	 = GetResourcePath("go-up.png");
-static const wxString regexImg		 = GetResourcePath("emblem-regex.png");
+// 各ボタンに貼り付けられる画像 (遅延初期化)
+inline const wxString& autoReloadImg() {
+    static const wxString s = GetResourcePath("appointment-new.png"); return s;
+}
+inline const wxString& redResExtractImg() {
+    static const wxString s = GetResourcePath("system-search.png"); return s;
+}
+inline const wxString& refreshImg() {
+    static const wxString s = GetResourcePath("view-refresh.png"); return s;
+}
+inline const wxString& scrollToNewResImg() {
+    static const wxString s = GetResourcePath("go-bottom.png"); return s;
+}
+inline const wxString& stopImg() {
+    static const wxString s = GetResourcePath("dialog-error.png"); return s;
+}
+inline const wxString& resExtractImg() {
+    static const wxString s = GetResourcePath("edit-find-replace.png"); return s;
+}
+inline const wxString& newThreadImg() {
+    static const wxString s = GetResourcePath("go-last.png"); return s;
+}
+inline const wxString& goNextImg() {
+    static const wxString s = GetResourcePath("go-next.png"); return s;
+}
+inline const wxString& responseImg() {
+    static const wxString s = GetResourcePath("page-edit.png"); return s;
+}
+inline const wxString& bookMarkImg() {
+    static const wxString s = GetResourcePath("bookmark-new.png"); return s;
+}
+inline const wxString& deleteLogImg() {
+    static const wxString s = GetResourcePath("edit-delete.png"); return s;
+}
+inline const wxString& closeImg() {
+    static const wxString s = GetResourcePath("emblem-unreadable.png"); return s;
+}
+inline const wxString& normalSearchImg() {
+    static const wxString s = GetResourcePath("system-search.png"); return s;
+}
+inline const wxString& hideSearchBarImg() {
+    static const wxString s = GetResourcePath("emblem-unreadable.png"); return s;
+}
+inline const wxString& forwardImg() {
+    static const wxString s = GetResourcePath("go-down.png"); return s;
+}
+inline const wxString& backwardImg() {
+    static const wxString s = GetResourcePath("go-up.png"); return s;
+}
+inline const wxString& regexImg() {
+    static const wxString s = GetResourcePath("emblem-regex.png"); return s;
+}
 // ツールバー用アイコン
-static const wxString sideTreeImg        = GetResourcePath("application-side-tree.png");
-static const wxString twoPaneWinImg	 = GetResourcePath("application-tile-horizontal.png");
-static const wxString thrPaneWinImg	 = GetResourcePath("view-choose.png");
-static const wxString thrColumnWinImg	 = GetResourcePath("view-file-columns.png");
-static const wxString configImg		 = GetResourcePath("configure-2.png");
-static const wxString logSearchImg	 = GetResourcePath("system-search-5.png");
-static const wxString helpImg		 = GetResourcePath("help-browser.png");
+inline const wxString& sideTreeImg() {
+    static const wxString s = GetResourcePath("application-side-tree.png"); return s;
+}
+inline const wxString& twoPaneWinImg() {
+    static const wxString s = GetResourcePath("application-tile-horizontal.png"); return s;
+}
+inline const wxString& thrPaneWinImg() {
+    static const wxString s = GetResourcePath("view-choose.png"); return s;
+}
+inline const wxString& thrColumnWinImg() {
+    static const wxString s = GetResourcePath("view-file-columns.png"); return s;
+}
+inline const wxString& configImg() {
+    static const wxString s = GetResourcePath("configure-2.png"); return s;
+}
+inline const wxString& logSearchImg() {
+    static const wxString s = GetResourcePath("system-search-5.png"); return s;
+}
+inline const wxString& helpImg() {
+    static const wxString s = GetResourcePath("help-browser.png"); return s;
+}
 // スレッド一覧リスト用画像
-static const wxString threadCheckImg	 = GetResourcePath("dialog-accept.png");
-static const wxString threadAddImg	 = GetResourcePath("edit-add-3.png");
-static const wxString threadDropImg	 = GetResourcePath("go-down-4.png");
-static const wxString threadNewImg	 = GetResourcePath("download-3.png");
+inline const wxString& threadCheckImg() {
+    static const wxString s = GetResourcePath("dialog-accept.png"); return s;
+}
+inline const wxString& threadAddImg() {
+    static const wxString s = GetResourcePath("edit-add-3.png"); return s;
+}
+inline const wxString& threadDropImg() {
+    static const wxString s = GetResourcePath("go-down-4.png"); return s;
+}
+inline const wxString& threadNewImg() {
+    static const wxString s = GetResourcePath("download-3.png"); return s;
+}
 // スレタブ用画像
-static const wxString threadTabNewImg	 = GetResourcePath("document-new-7.png");
-static const wxString threadTabAddImg	 = GetResourcePath("document-new-8.png");
-static const wxString threadTabDrpImg	 = GetResourcePath("document-close-4.png");
+inline const wxString& threadTabNewImg() {
+    static const wxString s = GetResourcePath("document-new-7.png"); return s;
+}
+inline const wxString& threadTabAddImg() {
+    static const wxString s = GetResourcePath("document-new-8.png"); return s;
+}
+inline const wxString& threadTabDrpImg() {
+    static const wxString s = GetResourcePath("document-close-4.png"); return s;
+}
 // ツールバー用画像
-static const wxString folderImg          = GetResourcePath("folder.png");
-static const wxString textHtmlImg	 = GetResourcePath("text-html.png");
+inline const wxString& folderImg() {
+    static const wxString s = GetResourcePath("folder.png"); return s;
+}
+inline const wxString& textHtmlImg() {
+    static const wxString s = GetResourcePath("text-html.png"); return s;
+}
 // スレッド上のデフォルトの画像アイコン
-static const wxString defaultIconImg     = GetResourcePath("image-x-generic.png");
-static const wxString yahooIconImg	 = GetResourcePath("yahoo.png");
-static const wxString googleIconImg	 = GetResourcePath("google.png");
-static const wxString amazonIconImg	 = GetResourcePath("amazon.png");
+inline const wxString& defaultIconImg() {
+    static const wxString s = GetResourcePath("image-x-generic.png"); return s;
+}
+inline const wxString& yahooIconImg() {
+    static const wxString s = GetResourcePath("yahoo.png"); return s;
+}
+inline const wxString& googleIconImg() {
+    static const wxString s = GetResourcePath("google.png"); return s;
+}
+inline const wxString& amazonIconImg() {
+    static const wxString s = GetResourcePath("amazon.png"); return s;
+}
 
 
 /**

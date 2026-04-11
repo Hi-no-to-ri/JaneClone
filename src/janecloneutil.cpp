@@ -765,7 +765,7 @@ void JaneCloneUtil::AddImgTag(wxString& responseText) {
         wxBitmap bitmap;
 
         // load wxImage
-        if (!image.LoadFile(defaultIconImg)) {
+        if (!image.LoadFile(defaultIconImg())) {
             wxMessageBox(wxT("画像ファイルの読み出しに失敗しました"),
                          wxT("wxMemoryFSHandler"),
                          wxICON_ERROR);

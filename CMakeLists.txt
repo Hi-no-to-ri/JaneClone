@@ -30,6 +30,9 @@ add_definitions(-DPACKAGE_VERSION="${PROJECT_VERSION}")
 add_definitions(-DHAVE_CONFIG_H)
 configure_file(config.h.in config.h @ONLY)
 
+# Windows: place all executables and DLLs in the same directory
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/src")
+
 set(UPSTREAM_URL
     "https://github.com/hangingman/JaneClone"
     CACHE INTERNAL "")

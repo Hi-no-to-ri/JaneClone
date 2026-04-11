@@ -91,13 +91,13 @@ public:
 
         // リソースの更新
         wxBitmap* normalSearch = new wxBitmap();
-        if (normalSearch->LoadFile(normalSearchImg, wxBITMAP_TYPE_PNG))
+        if (normalSearch->LoadFile(normalSearchImg(), wxBITMAP_TYPE_PNG))
             normalSearchButton->SetBitmap(*normalSearch);
         wxBitmap* backward = new wxBitmap();
-        if (backward->LoadFile(backwardImg, wxBITMAP_TYPE_PNG))
+        if (backward->LoadFile(backwardImg(), wxBITMAP_TYPE_PNG))
             backwardButton->SetBitmap(*backward);
         wxBitmap* forward = new wxBitmap();
-        if (forward->LoadFile(forwardImg, wxBITMAP_TYPE_PNG))
+        if (forward->LoadFile(forwardImg(), wxBITMAP_TYPE_PNG))
             forwardButton->SetBitmap(*forward);
 
         searchWordCombo_choices = NULL;
@@ -105,7 +105,7 @@ public:
                                          wxDefaultSize, 0, searchWordCombo_choices, wxCB_DROPDOWN);
 
         wxBitmap* hideSearch = new wxBitmap();
-        if (hideSearch->LoadFile(hideSearchBarImg, wxBITMAP_TYPE_PNG))
+        if (hideSearch->LoadFile(hideSearchBarImg(), wxBITMAP_TYPE_PNG))
             hideSearchBarButton->SetBitmap(*hideSearch);
 
         horizonalSizer2->Add(normalSearchButton, 0, wxTOP|wxBOTTOM||wxALIGN_CENTER_VERTICAL, 5);

@@ -63,15 +63,15 @@ wxPanel(parent, wxWindowID, pos, size, wxDEFAULT_FRAME_STYLE) {
                                       wxAUI_TB_DEFAULT_STYLE | wxAUI_TB_OVERFLOW);
     threadToolbar1->SetToolBitmapSize(wxSize(32,32));
     threadToolbar1->AddTool(ID_TCBAutoReload, wxT("autoreload"),
-                            wxBitmap(autoReloadImg, wxBITMAP_TYPE_ANY),
+                            wxBitmap(autoReloadImg(), wxBITMAP_TYPE_ANY),
                             wxT("オートリロード・スクロール"));
     threadToolbar1->AddTool(ID_TCBRedResExtract, wxT("redresextract"),
-                            wxBitmap(redResExtractImg, wxBITMAP_TYPE_ANY),
+                            wxBitmap(redResExtractImg(), wxBITMAP_TYPE_ANY),
                             wxT("赤レス抽出"));
     // 新着チェックボタンは▼ボタンを押すとメニューが出る
     threadToolbar1->AddSeparator();
     threadToolbar1->AddTool(ID_TCBRefresh, wxT("refresh"),
-                            wxBitmap(refreshImg, wxBITMAP_TYPE_ANY),
+                            wxBitmap(refreshImg(), wxBITMAP_TYPE_ANY),
                             wxT("新着チェック/表示レス数/スレの再描画"));
     // メニューの設定
     wxAuiToolBarItemArray prepend_items1;
@@ -99,28 +99,28 @@ wxPanel(parent, wxWindowID, pos, size, wxDEFAULT_FRAME_STYLE) {
                                       wxAUI_TB_DEFAULT_STYLE | wxAUI_TB_OVERFLOW);
     threadToolbar2->SetToolBitmapSize(wxSize(32,32));
     threadToolbar2->AddTool(ID_TCBScrollToNewRes, wxT("scrolltonewres"),
-                            wxBitmap(scrollToNewResImg, wxBITMAP_TYPE_ANY),
+                            wxBitmap(scrollToNewResImg(), wxBITMAP_TYPE_ANY),
                             wxT("新着までスクロール"));
     threadToolbar2->AddTool(ID_TCBStop, wxT("stop"),
-                            wxBitmap(stopImg, wxBITMAP_TYPE_ANY),
+                            wxBitmap(stopImg(), wxBITMAP_TYPE_ANY),
                             wxT("中止"));
     threadToolbar2->AddTool(ID_TCBResExtract, wxT("resextract"),
-                            wxBitmap(resExtractImg, wxBITMAP_TYPE_ANY),
+                            wxBitmap(resExtractImg(), wxBITMAP_TYPE_ANY),
                             wxT("レス抽出"));
     threadToolbar2->AddTool(ID_TCBNewThread, wxT("newthread"),
-                            wxBitmap(newThreadImg, wxBITMAP_TYPE_ANY),
+                            wxBitmap(newThreadImg(), wxBITMAP_TYPE_ANY),
                             wxT("次スレ候補検索/次スレ候補を開く"));
     threadToolbar2->AddTool(ID_CallResponseWindow, wxT("response"),
-                            wxBitmap(responseImg, wxBITMAP_TYPE_ANY),
+                            wxBitmap(responseImg(), wxBITMAP_TYPE_ANY),
                             wxT("レス"));
     threadToolbar2->AddTool(ID_TCBBookMark, wxT("bookmark"),
-                            wxBitmap(bookMarkImg, wxBITMAP_TYPE_ANY),
+                            wxBitmap(bookMarkImg(), wxBITMAP_TYPE_ANY),
                             wxT("ブックマークに追加"));
     threadToolbar2->AddTool(ID_TCBDeleteLog, wxT("deletelog"),
-                            wxBitmap(deleteLogImg, wxBITMAP_TYPE_ANY),
+                            wxBitmap(deleteLogImg(), wxBITMAP_TYPE_ANY),
                             wxT("ログ削除"));
     threadToolbar2->AddTool(ID_TCBClose, wxT("close"),
-                            wxBitmap(closeImg, wxBITMAP_TYPE_ANY),
+                            wxBitmap(closeImg(), wxBITMAP_TYPE_ANY),
                             wxT("タブを閉じる/新着なしのタブを閉じる"));
 
     // メニューの設定
@@ -186,13 +186,13 @@ wxPanel(parent, wxWindowID, pos, size, wxDEFAULT_FRAME_STYLE) {
 
 #ifndef __WXMAC__ // Macでは子スレッドでの画像リソース更新は許されない
     wxBitmap* normalSearch = new wxBitmap();
-    if (normalSearch->LoadFile(normalSearchImg, wxBITMAP_TYPE_PNG))
+    if (normalSearch->LoadFile(normalSearchImg(), wxBITMAP_TYPE_PNG))
         normalSearchButton->SetBitmap(*normalSearch);
 #endif
 #else
     // 通常検索
     normalSearchButton = new wxBitmapButton(searchBarPanel, wxID_ANY,
-                                            wxBitmap(normalSearchImg, wxBITMAP_TYPE_PNG),
+                                            wxBitmap(normalSearchImg(), wxBITMAP_TYPE_PNG),
                                             wxDefaultPosition, threadContentBarImgSize);
 #endif
     // スレッド内検索用コンボボックス
@@ -207,23 +207,23 @@ wxPanel(parent, wxWindowID, pos, size, wxDEFAULT_FRAME_STYLE) {
     backwardButton = new wxButton(searchBarPanel, wxID_ANY, wxEmptyString, wxDefaultPosition, threadContentBarImgSize);
 #ifndef __WXMAC__
     wxBitmap* backward = new wxBitmap();
-    if (backward->LoadFile(backwardImg, wxBITMAP_TYPE_PNG))
+    if (backward->LoadFile(backwardImg(), wxBITMAP_TYPE_PNG))
         backwardButton->SetBitmap(*backward);
 #endif
 
     forwardButton  = new wxButton(searchBarPanel, wxID_ANY, wxEmptyString, wxDefaultPosition, threadContentBarImgSize);
 #ifndef __WXMAC__
     wxBitmap* forward = new wxBitmap();
-    if (forward->LoadFile(forwardImg, wxBITMAP_TYPE_PNG))
+    if (forward->LoadFile(forwardImg(), wxBITMAP_TYPE_PNG))
         forwardButton->SetBitmap(*forward);
 #endif
 
 #else
     // 引っかかった検索ワードを前後させる
-    backwardButton = new wxBitmapButton(searchBarPanel, wxID_ANY, wxBitmap(backwardImg, wxBITMAP_TYPE_PNG),
+    backwardButton = new wxBitmapButton(searchBarPanel, wxID_ANY, wxBitmap(backwardImg(), wxBITMAP_TYPE_PNG),
                                         wxDefaultPosition, threadContentBarImgSize,
                                         wxBU_AUTODRAW, wxDefaultValidator, wxT("前へ"));
-    forwardButton  = new wxBitmapButton(searchBarPanel, wxID_ANY, wxBitmap(forwardImg , wxBITMAP_TYPE_PNG),
+    forwardButton  = new wxBitmapButton(searchBarPanel, wxID_ANY, wxBitmap(forwardImg(), wxBITMAP_TYPE_PNG),
                                         wxDefaultPosition, threadContentBarImgSize,
                                         wxBU_AUTODRAW, wxDefaultValidator, wxT("次へ"));
 #endif
@@ -235,13 +235,13 @@ wxPanel(parent, wxWindowID, pos, size, wxDEFAULT_FRAME_STYLE) {
     hideSearchBarButton = new wxButton(searchBarPanel, ID_TCBHideSearchBar, wxEmptyString, wxDefaultPosition, threadContentBarImgSize);
 #ifndef __WXMAC__
     wxBitmap* hideSearch = new wxBitmap();
-    if (hideSearch->LoadFile(hideSearchBarImg, wxBITMAP_TYPE_PNG))
+    if (hideSearch->LoadFile(hideSearchBarImg(), wxBITMAP_TYPE_PNG))
         hideSearchBarButton->SetBitmap(*hideSearch);
 #endif
 
 #else
     // 検索バーを隠す
-    hideSearchBarButton = new wxBitmapButton(searchBarPanel, ID_TCBHideSearchBar, wxBitmap(hideSearchBarImg, wxBITMAP_TYPE_ANY),
+    hideSearchBarButton = new wxBitmapButton(searchBarPanel, ID_TCBHideSearchBar, wxBitmap(hideSearchBarImg(), wxBITMAP_TYPE_ANY),
                                              wxDefaultPosition, threadContentBarImgSize);
 #endif
     // スレッドの内容が乗るパネル

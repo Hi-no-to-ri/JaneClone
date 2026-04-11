@@ -56,6 +56,18 @@ class wxMain: public wxApp {
          virtual bool OnInit();
          virtual int OnExit();
 
+#if wxDEBUG_LEVEL
+         virtual void OnAssertFailure(const wxChar *file, int line, const wxChar *func,
+                                      const wxChar *cond, const wxChar *msg) wxOVERRIDE {
+             FILE* f = fopen("janeclone_assert.log", "a");
+             if (f) {
+                 fprintf(f, "%ls(%d): assert \"%ls\" failed in %ls(): %ls\n",
+                         file, line, cond, func, msg ? msg : L"(no message)");
+                 fclose(f);
+             }
+         }
+#endif
+
      private:
          virtual int FilterEvent(wxEvent& event);
 
@@ -90,7 +102,6 @@ class wxMain: public wxApp {
          }
 
          wxInitAllImageHandlers();
-         wxImage::AddHandler( new wxPNGHandler );
          wxFileSystem::AddHandler(new wxMemoryFSHandler);
 
          wxJaneClone = new JaneClone(NULL, ID_WxJaneClone, wxEmptyString);
