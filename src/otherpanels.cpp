@@ -1088,7 +1088,7 @@ void UserSettingPanel::set_properties()
                <span>２ちゃんねるビューア●に登録する　</span><a href=\"http://2ch.tora3.net\">http://2ch.tora3.net</a>\
                </body></html>");
     window_1->SetPage(text1);
-CHBBS_DOMAIN
+
     // BE
     const wxString text2 =
         wxT("<html><head><meta http-equiv=\"Content-Type\" content=\"text/html;\
