@@ -4,10 +4,10 @@
 Work with
 * Windows/Linux/Mac
 
-[![Build Status](https://travis-ci.org/hangingman/JaneClone.svg?branch=master)](https://travis-ci.org/hangingman/JaneClone)
+<!-- [![Build Status](https://travis-ci.org/hangingman/JaneClone.svg?branch=master)](https://travis-ci.org/hangingman/JaneClone) -->
 
 ### About
-  Cross Platform 2ch Browser
+  Cross Platform Browser for 5ch.io-like BBSs
 
 ### Build & Run
 ```
