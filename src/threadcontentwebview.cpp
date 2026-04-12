@@ -280,7 +280,7 @@ void ThreadContentWebView::OnClickOrdinaryLink(const wxString& link) {
     bool ret = JaneCloneUtil::SubstringURI(link, &uri);
 
     if (ret) {
-        if (uri.hostname.Contains(wxT("2ch.net"))) useDefaultBrowser = false;
+        if (uri.hostname.Contains(wxT(CHBBS_DOMAIN))) useDefaultBrowser = false;
     } else {
         // エラー、とりあえずブラウザで開く
         useDefaultBrowser = true;

@@ -133,7 +133,7 @@ int SocketCommunication::DownloadBoardListNew(const wxString& outputPath,
     PartOfURI uri;
     JaneCloneUtil::SubstringURI(link, &uri);
 
-    wxString server = uri.hostname == wxEmptyString ? wxT("menu.2ch.net") : uri.hostname;
+    wxString server = uri.hostname == wxEmptyString ? wxT("menu." CHBBS_DOMAIN) : uri.hostname;
     wxString path = uri.path == wxEmptyString ? wxT("/bbsmenu.html") : uri.path;
 
     // ヘッダの作成
@@ -1927,11 +1927,11 @@ void SocketCommunication::LoginBe2ch() {
     headers.push_back("Accept: */*");
     headers.push_back("User-Agent: " + CustomUserAgent());
     headers.push_back("Content-Type: application/x-www-form-urlencoded");
-    headers.push_back("Host: be.2ch.net");
+    headers.push_back("Host: be." CHBBS_DOMAIN);
     headers.push_back("Content-Length: " + kakikomiSize);
     headers.push_back("Connection: close");
 
-    std::string url = "be.2ch.net/test/login.php";
+    std::string url = "be." CHBBS_DOMAIN "/test/login.php";
 
     try {
 

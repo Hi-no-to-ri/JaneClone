@@ -504,7 +504,7 @@ void ThreadContentWindow::OnClickOrdinaryLink(const wxString& link)
 
     if (ret)
         {
-            if (uri.hostname.Contains(wxT("2ch.net"))) useDefaultBrowser = false;
+            if (uri.hostname.Contains(wxT(CHBBS_DOMAIN))) useDefaultBrowser = false;
         }
     else
         {

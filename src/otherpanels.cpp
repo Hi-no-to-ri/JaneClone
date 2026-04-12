@@ -172,7 +172,7 @@ NetworkSettingPanel::NetworkSettingPanel(wxWindow* parent, const wxPoint& pos, c
     label_5 = new wxStaticText(panel_3, wxID_ANY, wxT("接続タイムアウト（ミリ秒）"));
     connectTimeoutTC = new wxTextCtrl(panel_3, wxID_ANY, wxT("10000"));
     label_3 = new wxStaticText(panel_4, wxID_ANY, wxT("ボード一覧取得URL"));
-    boardListURLTC = new wxTextCtrl(panel_4, wxID_ANY, wxT("http://menu.2ch.net/bbsmenu.html"));
+    boardListURLTC = new wxTextCtrl(panel_4, wxID_ANY, wxT("http://menu." CHBBS_DOMAIN "/bbsmenu.html"));
     label_1 = new wxStaticText(panel_5, wxID_ANY, wxT("受信バッファサイズ（KB）"));
     receiveBufferSizeTC = new wxTextCtrl(panel_5, wxID_ANY, wxT("32"));
     label_2 = new wxStaticText(panel_5, wxID_ANY, wxT("最大接続数"));
@@ -1088,12 +1088,12 @@ void UserSettingPanel::set_properties()
                <span>２ちゃんねるビューア●に登録する　</span><a href=\"http://2ch.tora3.net\">http://2ch.tora3.net</a>\
                </body></html>");
     window_1->SetPage(text1);
-
+CHBBS_DOMAIN
     // BE
     const wxString text2 =
         wxT("<html><head><meta http-equiv=\"Content-Type\" content=\"text/html;\
 	       charset=UTF-8\"><title></title></head><body BGCOLOR=\"") + bgColorStr + wxT("\">\
-               <span>beユーザーに登録する　</span><a href=\"http://be.2ch.net\">http://be.2ch.net</a>\
+               <span>beユーザーに登録する　</span><a href=\"http://be." CHBBS_DOMAIN "\">http://be." CHBBS_DOMAIN "</a>\
                </body></html>");
     window_2->SetPage(text2);
 

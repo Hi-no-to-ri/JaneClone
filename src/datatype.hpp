@@ -53,6 +53,8 @@
 #define JANECLONE_DOWNLOADSITE wxT("http://hangingman.github.io/JaneClone/")
 /** ●公式サイトのURL */
 #define IICH_VIEWER_OFFICIAL   wxT("http://2ch.tora3.net/")
+/** BBS のドメイン */
+#define CHBBS_DOMAIN "5ch.io"
 /** JaneCloneの作業用隠しフォルダ名 */
 #define JANECLONE_DIR ".jc"
 /** コンフィグファイル名 */
