@@ -590,7 +590,7 @@ wxArrayString SQLiteAccessor::GetClosedBoardInfo() {
 /**
  * 板タブを閉じた際に情報をSQLiteに格納する
  */
-void SQLiteAccessor::SetClosedBoardInfo(URLvsBoardName* hash) {
+void SQLiteAccessor::SetClosedBoardInfo(BoardInfo* hash) {
 
     // ユーザが閉じた板のうち、データベースに保存されている数
     int userClosedBoardListNum = SQLiteAccessor::HowManyRecord(wxT("USER_CLOSED_BOARDLIST"));

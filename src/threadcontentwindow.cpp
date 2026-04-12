@@ -575,7 +575,7 @@ void ThreadContentWindow::OnClickOrdinaryLink(const wxString& link)
                     if (threadNoteBook && boardNoteBook) {
                         // 必要な構造体を宣言する
                         ThreadInfo threadInfoHash;
-                        URLvsBoardName boardInfoHash;
+                        BoardInfo boardInfoHash;
 
                         if (JaneClone* wxJaneClone = dynamic_cast<JaneClone*>(boardNoteBook->GetParent())) {
 
@@ -675,7 +675,7 @@ void ThreadContentWindow::CallResponseWindowWithAnchor(wxCommandEvent& event)
                 {
                     // 必要な構造体を宣言する
                     ThreadInfo threadInfoHash;
-                    URLvsBoardName boardInfoHash;
+                    BoardInfo boardInfoHash;
 
                     if (JaneClone* wxJaneClone = dynamic_cast<JaneClone*>(boardNoteBook->GetParent()))
                         {
@@ -725,7 +725,7 @@ void ThreadContentWindow::CallResponseWindowWithQuote(wxCommandEvent& event)
                 {
                     // 必要な構造体を宣言する
                     ThreadInfo threadInfoHash;
-                    URLvsBoardName boardInfoHash;
+                    BoardInfo boardInfoHash;
 
                     if (JaneClone* wxJaneClone = dynamic_cast<JaneClone*>(boardNoteBook->GetParent()))
                         {
@@ -883,7 +883,7 @@ void ThreadContentWindow::CopyTContentsToClipBoard(wxCommandEvent& event)
                 {
                     // 必要な構造体を宣言する
                     ThreadInfo threadInfoHash;
-                    URLvsBoardName boardInfoHash;
+                    BoardInfo boardInfoHash;
 
                     if (JaneClone* wxJaneClone = dynamic_cast<JaneClone*>(threadNoteBook->GetParent()))
                         {
@@ -926,7 +926,7 @@ void ThreadContentWindow::CopyTAllToClipBoard(wxCommandEvent& event)
 {
     // 必要な構造体を宣言する
     ThreadInfo     threadInfoHash;
-    URLvsBoardName boardInfoHash;
+    BoardInfo boardInfoHash;
     wxString       response;
     wxString       boardURL;
 

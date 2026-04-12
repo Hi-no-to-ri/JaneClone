@@ -1011,7 +1011,7 @@ size_t SocketCommunication::WriteBody(char *ptr, size_t size, size_t nmemb) {
  * @param 板名,URL,サーバー名
  * @return 書き込み結果
  */
-wxString SocketCommunication::PostFirstToThread(URLvsBoardName& boardInfoHash, ThreadInfo& threadInfoHash, const int status)
+wxString SocketCommunication::PostFirstToThread(BoardInfo& boardInfoHash, ThreadInfo& threadInfoHash, const int status)
 {
 
     /**
@@ -1143,7 +1143,7 @@ wxString SocketCommunication::PostFirstToThread(URLvsBoardName& boardInfoHash, T
  * @param 板名,URL,サーバー名
  * @return 書き込み結果
  */
-wxString SocketCommunication::PostConfirmToThread(URLvsBoardName& boardInfoHash, ThreadInfo& threadInfoHash, const int status)
+wxString SocketCommunication::PostConfirmToThread(BoardInfo& boardInfoHash, ThreadInfo& threadInfoHash, const int status)
 {
 
     /**
@@ -1287,7 +1287,7 @@ wxString SocketCommunication::PostConfirmToThread(URLvsBoardName& boardInfoHash,
  * @param 板名,URL,サーバー名
  * @return 書き込み結果
  */
-wxString SocketCommunication::PostResponseToThread(URLvsBoardName& boardInfoHash, ThreadInfo& threadInfoHash, const int status)
+wxString SocketCommunication::PostResponseToThread(BoardInfo& boardInfoHash, ThreadInfo& threadInfoHash, const int status)
 {
 
     /**

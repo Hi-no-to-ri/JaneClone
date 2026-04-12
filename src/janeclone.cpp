@@ -1171,7 +1171,7 @@ void JaneClone::SetPreviousUserLookedTab()
             wxString boardName = userLookedBoardList[i];
 
             // 板名に対応したURLを取ってくる
-            URLvsBoardName hash = retainHash[boardName];
+            BoardInfo hash = retainHash[boardName];
             wxString boardNameAscii = hash.boardNameAscii;
 
             if (!boardNameAscii.IsEmpty())
@@ -1306,7 +1306,7 @@ void JaneClone::OnGetBoardInfo(wxTreeEvent& event)
             wxString boardNameAscii;
 
             // 板名に対応したURLを取ってくる
-            URLvsBoardName hash = retainHash[boardName];
+            BoardInfo hash = retainHash[boardName];
             boardNameAscii = hash.boardNameAscii;
             boardURL = hash.boardURL;
 
@@ -1403,7 +1403,7 @@ void JaneClone::SetBoardNameToNoteBook(wxString& boardName, wxString& boardURL, 
 {
     // 以前ダウンロードしていたスレッドの情報をmap化する
     std::map<wxString, ThreadList> oldThreadMap;
-    URLvsBoardName boardInfo;
+    BoardInfo boardInfo;
     boardInfo.boardName      = boardName;
     boardInfo.boardURL       = boardURL;
     boardInfo.boardNameAscii = boardNameAscii;
@@ -1484,7 +1484,7 @@ void JaneClone::UpdateThreadTabIcons()
 {
     // 現在アクティブになっているタブの板名を取得する
     wxString boardName = boardNoteBook->GetPageText(boardNoteBook->GetSelection());
-    URLvsBoardName hash = retainHash[boardName];
+    BoardInfo hash = retainHash[boardName];
     wxString tabBoardNameAscii = hash.boardNameAscii;
 
     // スレッド一覧情報が入ったコンテナ
@@ -1704,7 +1704,7 @@ void JaneClone::OnAboutCloseBoardNoteBook(wxAuiNotebookEvent& event)
 {
     // 消されようとしているタブのタイトルを取得
     wxString boardName = boardNoteBook->GetPageText(boardNoteBook->GetSelection());
-    URLvsBoardName hash = retainHash[boardName];
+    BoardInfo hash = retainHash[boardName];
     SQLiteAccessor::SetClosedBoardInfo(&hash);
 }
 /**
@@ -1788,7 +1788,7 @@ void JaneClone::AllRightBoardTabClose(wxCommandEvent& event) {
 void JaneClone::OnOpenBoardByBrowser(wxCommandEvent& event) {
 
     wxString boardName = boardNoteBook->GetPageText(boardNoteBook->GetSelection());
-    URLvsBoardName hash = retainHash[boardName];
+    BoardInfo hash = retainHash[boardName];
     wxLaunchDefaultBrowser(hash.boardURL);
 }
 /**
@@ -1798,7 +1798,7 @@ void JaneClone::ReloadOneBoard(wxCommandEvent& event) {
 
     size_t page = boardNoteBook->GetSelection();
     wxString boardName = boardNoteBook->GetPageText(page);
-    URLvsBoardName hash = retainHash[boardName];
+    BoardInfo hash = retainHash[boardName];
     SetBoardNameToNoteBook(boardName, hash.boardURL, hash.boardNameAscii);
 }
 /**
@@ -1809,7 +1809,7 @@ void JaneClone::ReloadAllBoard(wxCommandEvent& event) {
     for ( size_t page = 0; page < boardNoteBook->GetPageCount(); page++ )
         {
             wxString boardName = boardNoteBook->GetPageText(page);
-            URLvsBoardName hash = retainHash[boardName];
+            BoardInfo hash = retainHash[boardName];
             SetBoardNameToNoteBook(boardName, hash.boardURL, hash.boardNameAscii);
         }
 }
@@ -1819,7 +1819,7 @@ void JaneClone::ReloadAllBoard(wxCommandEvent& event) {
 void JaneClone::CopyBURLToClipBoard(wxCommandEvent& event) {
 
     wxString boardName = boardNoteBook->GetPageText(boardNoteBook->GetSelection());
-    URLvsBoardName hash = retainHash[boardName];
+    BoardInfo hash = retainHash[boardName];
 
     if (wxTheClipboard->Open())
         {
@@ -1848,7 +1848,7 @@ void JaneClone::CopyBTitleToClipBoard(wxCommandEvent& event) {
 void JaneClone::CopyBBothDataToClipBoard(wxCommandEvent& event) {
 
     wxString boardName = boardNoteBook->GetPageText(boardNoteBook->GetSelection());
-    URLvsBoardName hash = retainHash[boardName];
+    BoardInfo hash = retainHash[boardName];
 
     if (wxTheClipboard->Open())
         {
@@ -1868,7 +1868,7 @@ void JaneClone::DeleteBSelectedDatFile(wxCommandEvent& event) {
 
     // ハッシュから英字の板名を探す
     NameURLHash::iterator it;
-    URLvsBoardName boardInfoHash;
+    BoardInfo boardInfoHash;
     for (it = retainHash.begin(); it != retainHash.end(); ++it)
         {
             wxString key = it->first;
@@ -1984,7 +1984,7 @@ void JaneClone::CopyTBothDataToClipBoard(wxCommandEvent& event)
     for (it = retainHash.begin(); it != retainHash.end(); ++it)
         {
             wxString key = it->first;
-            URLvsBoardName value = it->second;
+            BoardInfo value = it->second;
 
             if (value.boardNameAscii == boardNameAscii)
                 {
@@ -2378,7 +2378,7 @@ void JaneClone::ReloadThread(wxString& title)
     for (it = retainHash.begin(); it != retainHash.end(); ++it)
         {
             wxString key = it->first;
-            URLvsBoardName value = it->second;
+            BoardInfo value = it->second;
 
             if (value.boardNameAscii == boardNameAscii)
                 {
@@ -2420,7 +2420,7 @@ void JaneClone::CallResponseWindow(wxCommandEvent& event)
 {
     // 必要な構造体を宣言する
     ThreadInfo threadInfoHash;
-    URLvsBoardName boardInfoHash;
+    BoardInfo boardInfoHash;
 
     // 選択されたスレタブの情報を集める
     wxString title = threadNoteBook->GetPageText(threadNoteBook->GetSelection());
@@ -2524,7 +2524,7 @@ void JaneClone::Initialize2chBoardList() {
         m_tree_ctrl->SetItemImage(itemIdTemp, 1, wxTreeItemIcon_Normal);
 
         // 板名の配列に板名とURLを入れておく
-        URLvsBoardName urlVsName;
+        BoardInfo urlVsName;
         urlVsName.boardName = boardName;
         urlVsName.boardURL = url;
 
@@ -2542,7 +2542,7 @@ void JaneClone::Initialize2chBoardList() {
         // Hashに板情報を入れる
         if (!boardName.IsEmpty())
             retainHash[(const wxString) boardName]
-                = (const URLvsBoardName&) urlVsName;
+                = (const BoardInfo&) urlVsName;
         // Hashのキー値をインクリメントしておく
         hashID++;
     }
@@ -2719,7 +2719,7 @@ void JaneClone::SetBoardList(const bool updateHash)
         m_tree_ctrl->SetItemImage(tmp, 1, wxTreeItemIcon_Normal);
 
         // 板名の配列に板名とURLを入れておく
-        URLvsBoardName urlVsName;
+        BoardInfo urlVsName;
         urlVsName.boardName = boardName;
         urlVsName.boardURL = url;
 
@@ -2919,7 +2919,7 @@ void JaneClone::AddBoardFavorite(wxCommandEvent& event) {
     // 固有番号は「0」で登録
     wxString origNumber = wxT("0");
     // 板名を取得
-    URLvsBoardName hash = retainHash[title];
+    BoardInfo hash = retainHash[title];
     wxString boardNameAscii = hash.boardNameAscii;
 
     // 板の情報スレッドとしてをSQLiteに格納する
@@ -3026,7 +3026,7 @@ void JaneClone::OnLeftClickAtListCtrl2ch(wxListEvent& event) {
     }
 
     // Hashから情報を引き出す
-    URLvsBoardName hash = retainHash[boardName];
+    BoardInfo hash = retainHash[boardName];
     wxString boardURL = hash.boardURL;
     wxString boardNameAscii = hash.boardNameAscii;
 
@@ -3430,7 +3430,7 @@ wxString JaneClone::GetThreadURL(const wxString title,const wxString boardNameAs
 
     for (it = retainHash.begin(); it != retainHash.end(); ++it) {
         wxString key = it->first;
-        const URLvsBoardName value = it->second;
+        const BoardInfo value = it->second;
 
         if (value.boardNameAscii == boardNameAscii) {
             threadURL = value.boardURL;
@@ -3478,7 +3478,7 @@ void JaneClone::OnChangedBoardTab(wxAuiNotebookEvent& event) {
     if (wxEmptyString != boardNoteBook->GetPageText(event.GetSelection())) {
         // 板一覧タブの場合
         wxString boardName = boardNoteBook->GetPageText(boardNoteBook->GetSelection());
-        URLvsBoardName hash = retainHash[boardName];
+        BoardInfo hash = retainHash[boardName];
 
         if (hash.boardURL != wxT("test/read.cgi///"))
             m_url_input->SetValue(hash.boardURL);
@@ -3679,7 +3679,7 @@ void JaneClone::OnUserLastClosedBoardClick(wxCommandEvent& event)
     // メニューアイテムの項目番号を取得する
     wxString boardName = closeB->GetLabelText(event.GetId());
     // 板名に対応したURLを取ってくる
-    URLvsBoardName hash = retainHash[boardName];
+    BoardInfo hash = retainHash[boardName];
     wxString boardNameAscii = hash.boardNameAscii;
 
     // ファイルのパスを設定する
@@ -3810,7 +3810,7 @@ void JaneClone::OnUserFavoriteThreadClick(wxCommandEvent& event) {
 
     if ( threadInfo->origNumber == wxT("0") ) {
         // 板情報なので板を表示する
-        URLvsBoardName hash = retainHash[threadInfo->title];
+        BoardInfo hash = retainHash[threadInfo->title];
         wxString boardNameAscii = hash.boardNameAscii;
         wxString boardURL = hash.boardURL;
 
@@ -3909,7 +3909,7 @@ void JaneClone::NowReadingTreectrlUpdate(wxUpdateUIEvent& event) {
         NameURLHash::iterator itr;
         for (itr = retainHash.begin(); itr != retainHash.end(); ++itr) {
             wxString k = itr->first;
-            const URLvsBoardName v = itr->second;
+            const BoardInfo v = itr->second;
 
             // カテゴリ名検索用
             std::vector<wxString>::iterator memory = added.begin();

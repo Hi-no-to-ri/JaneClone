@@ -72,7 +72,7 @@ class ResponseWindow: public wxDialog {
 public:
     // begin wxGlade: ResponseWindow::ids
     // end wxGlade
-    ResponseWindow(wxWindow* parent, wxString& title, URLvsBoardName& boardInfoHash,
+    ResponseWindow(wxWindow* parent, wxString& title, BoardInfo& boardInfoHash,
                    ThreadInfo& threadInfoHash, wxPoint& point, wxTextCtrl* logCtrl);
     // レス投稿時にテキスト情報を付加する
     void AddKakikomiText(const wxString& text);
@@ -127,7 +127,7 @@ private:
     bool f_threadPost;
 
     // 内部で保持するスレッドや板情報
-    URLvsBoardName  m_boardInfo;
+    BoardInfo  m_boardInfo;
     ThreadInfo      m_threadInfo;
     /**
      * 投稿内容を保持するオブジェクトのインスタンス

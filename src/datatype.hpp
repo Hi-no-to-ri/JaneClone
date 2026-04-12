@@ -317,7 +317,7 @@ typedef struct
     wxString boardName;
     wxString boardURL;
     wxString boardNameAscii;
-} URLvsBoardName;
+} BoardInfo;
 
 // スレッド一覧用のクラス
 typedef struct
@@ -404,9 +404,9 @@ typedef struct
 } ImageFileInfo;
 
 // 板名とそのURLを保持するwxHashMap　JaneCloneが起動している間は保持される
-// URLvsBoardNameのHashMap（板名をkeyとしてBoardURLとascii文字の固有名を持つ）
+// BoardInfoのHashMap（板名をkeyとしてBoardURLとascii文字の固有名を持つ）
 WX_DECLARE_HASH_MAP( wxString, // type of the keys
-                     URLvsBoardName,      // type of the values
+                     BoardInfo,      // type of the values
                      wxStringHash ,       // hasher
                      wxStringEqual,       // key equality predicate
                      NameURLHash);	       // name of the class

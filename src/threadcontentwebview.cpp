@@ -341,7 +341,7 @@ void ThreadContentWebView::OnClickOrdinaryLink(const wxString& link) {
             if (threadNoteBook && boardNoteBook) {
                 // 必要な構造体を宣言する
                 ThreadInfo threadInfoHash;
-                URLvsBoardName boardInfoHash;
+                BoardInfo boardInfoHash;
 
                 if (JaneClone* wxJaneClone = dynamic_cast<JaneClone*>(boardNoteBook->GetParent())) {
 

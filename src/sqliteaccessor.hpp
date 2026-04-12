@@ -138,7 +138,7 @@ public:
     /**
      * 板タブを閉じた際に情報をSQLiteに格納する
      */
-    static void SetClosedBoardInfo(URLvsBoardName* hash);
+    static void SetClosedBoardInfo(BoardInfo* hash);
     /**
      * 最近閉じた板タブ名リストを取得する
      */

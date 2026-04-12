@@ -251,7 +251,7 @@ public:
      * @param map<wxString,ThreadList>& oldThreadMap 古いスレッドの情報を保持するコンテナ
      */
     static void GenerateOldThreadMap(std::map<wxString,ThreadList>& oldThreadMap,
-                                     URLvsBoardName& boardInfo);
+                                     BoardInfo& boardInfo);
     /**
      * プロパティファイルの指定されたKEYを指定されたVALUEで書き換える
      */

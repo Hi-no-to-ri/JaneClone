@@ -1295,7 +1295,7 @@ wxString JaneCloneUtil::CalcThreadMomentum(const wxString& itemResponse,
  */
 void JaneCloneUtil::GenerateOldThreadMap(
     std::map<wxString,ThreadList>& oldThreadMap,
-    URLvsBoardName& boardInfo
+    BoardInfo& boardInfo
 ) {
 
     // ファイルのパスを設定する

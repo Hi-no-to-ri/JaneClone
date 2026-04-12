@@ -119,19 +119,19 @@ public:
      * @param 板名,URL,サーバー名
      * @return 書き込み結果
      */
-    wxString PostFirstToThread(URLvsBoardName& boardInfoHash, ThreadInfo& threadInfoHash, const int status);
+    wxString PostFirstToThread(BoardInfo& boardInfoHash, ThreadInfo& threadInfoHash, const int status);
     /**
      * 投稿確認ボタンイベントの後にスレッドに書き込むメソッド
      * @param 板名,URL,サーバー名
      * @return 書き込み結果
      */
-    wxString PostConfirmToThread(URLvsBoardName& boardInfoHash, ThreadInfo& threadInfoHash, const int status);
+    wxString PostConfirmToThread(BoardInfo& boardInfoHash, ThreadInfo& threadInfoHash, const int status);
     /**
      * 通常の書き込みメソッド
      * @param 板名,URL,サーバー名
      * @return 書き込み結果
      */
-    wxString PostResponseToThread(URLvsBoardName& boardInfoHash, ThreadInfo& threadInfoHash, const int status);
+    wxString PostResponseToThread(BoardInfo& boardInfoHash, ThreadInfo& threadInfoHash, const int status);
 
     /**
      * 投稿内容をソケット通信クラスに設定する

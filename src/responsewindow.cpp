@@ -157,7 +157,7 @@ TAGS_MODULE_END(Form)
 // スレッドタイトル
 wxString ResponseWindow::threadTitle = wxEmptyString;
 
-ResponseWindow::ResponseWindow(wxWindow* parent, wxString& title, URLvsBoardName& boardInfoHash,
+ResponseWindow::ResponseWindow(wxWindow* parent, wxString& title, BoardInfo& boardInfoHash,
                                ThreadInfo& threadInfoHash, wxPoint& point, wxTextCtrl* logCtrl) :
     wxDialog(parent, wxID_ANY, wxEmptyString, point, wxDefaultSize, wxDEFAULT_DIALOG_STYLE|wxRESIZE_BORDER) {
 
