@@ -872,7 +872,7 @@ void JaneClone::SetProperties()
                         }
                     // 板一覧情報を展開し、SQLiteに設定する
                     wxString boardListPath = BOARD_LIST_PATH;
-                    new ExtractBoardList(boardListPath.mb_str());
+                    { ExtractBoardList ebl(boardListPath.mb_str()); }
 
                     *m_logCtrl << wxT("(ヽ´ん`) 板一覧更新完了\n");
                 }
@@ -1587,7 +1587,7 @@ void JaneClone::OnGetBoardList(wxCommandEvent&) {
             // 板一覧情報を展開し、SQLiteに設定する
             SQLiteAccessor::DeleteTableData(wxT("BOARD_INFO"));
             wxString boardListPath = BOARD_LIST_PATH;
-            new ExtractBoardList(boardListPath.mb_str());
+            { ExtractBoardList ebl(boardListPath.mb_str()); }
 
             // 板一覧更新
             SetBoardList();
@@ -1795,6 +1795,8 @@ void JaneClone::OnOpenBoardByBrowser(wxCommandEvent& event) {
  * アクティブなスレッド一覧をひとつ更新する
  */
 void JaneClone::ReloadOneBoard(wxCommandEvent& event) {
+
+    if (boardNoteBook->GetPageCount() == 0) return;
 
     size_t page = boardNoteBook->GetSelection();
     wxString boardName = boardNoteBook->GetPageText(page);

@@ -46,13 +46,21 @@ void JaneCloneUtil::DecompressFile(const wxString& inputPath,
     if (infile == Z_NULL) {
         std::cerr << "gzopen: "
                   << inputPath.mb_str()
-                  << "return Z_NULL"
+                  << " return Z_NULL"
                   << std::endl;
         wxRenameFile(inputPath, outputPath);
-    } else {
-        std::cerr << infile << std::endl;
+        return;
     }
+
     FILE *outfile = fopen(outputPath.mb_str(), "wb");
+    if (outfile == NULL) {
+        std::cerr << "fopen: "
+                  << outputPath.mb_str()
+                  << " failed"
+                  << std::endl;
+        gzclose(infile);
+        return;
+    }
 
     char buffer[2048];
     int num_read = 0;
