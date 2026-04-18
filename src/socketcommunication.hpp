@@ -75,6 +75,10 @@ public:
      * コンストラクタ
      */
     SocketCommunication();
+    /**
+     * デストラクタ
+     */
+    ~SocketCommunication();
 
     /**
      * 板一覧ファイルをダウンロードしてくるメソッド

@@ -87,6 +87,14 @@ SocketCommunication::SocketCommunication()
 
 }
 /**
+ * デストラクタ
+ */
+SocketCommunication::~SocketCommunication()
+{
+    delete this->writeHeaderFunc;
+    delete this->writeBodyFunc;
+}
+/**
  * 板一覧ファイルをダウンロードしてくるメソッド 引数は板一覧ファイル保存先、板一覧ファイルヘッダ保存先
  */
 int SocketCommunication::DownloadBoardList(const wxString& outputPath,
@@ -133,6 +141,7 @@ int SocketCommunication::DownloadBoardListNew(const wxString& outputPath,
     PartOfURI uri;
     JaneCloneUtil::SubstringURI(link, &uri);
 
+    wxString protocol = uri.protocol == wxEmptyString ? wxT("https") : uri.protocol;
     wxString server = uri.hostname == wxEmptyString ? wxT("menu." CHBBS_DOMAIN) : uri.hostname;
     wxString path = uri.path == wxEmptyString ? wxT("/bbsmenu.html") : uri.path;
 
@@ -144,7 +153,7 @@ int SocketCommunication::DownloadBoardListNew(const wxString& outputPath,
     headers.push_back("Accept-Language: ja");
     headers.push_back("User-Agent: " + CustomUserAgent());
 
-    const std::string url = std::string(uri.protocol.mb_str())
+    const std::string url = std::string(protocol.mb_str())
         + "://" + std::string(server.mb_str()) + std::string(path.mb_str());
 
     try {
@@ -156,7 +165,7 @@ int SocketCommunication::DownloadBoardListNew(const wxString& outputPath,
         myRequest.setOpt(new Url(url));
         myRequest.setOpt(new HttpHeader(headers));
         myRequest.setOpt(new Verbose(true));
-        myRequest.setOpt(this->writeHeaderFunc);
+        myRequest.setOpt(*this->writeHeaderFunc);
 
         // メインのデータ出力
         std::ofstream ofs(outputPath.mb_str() , std::ios::out | std::ios::trunc | std::ios::binary );
@@ -343,7 +352,7 @@ int SocketCommunication::DownloadThreadListNew(const wxString& gzipPath,
         myRequest.setOpt(new Url(url));
         myRequest.setOpt(new HttpHeader(headers));
         myRequest.setOpt(new Verbose(true));
-        myRequest.setOpt(this->writeHeaderFunc);
+        myRequest.setOpt(*this->writeHeaderFunc);
 
         std::ofstream ofs(gzipPath.mb_str() , std::ios::out | std::ios::trunc | std::ios::binary );
         WriteStream ws(&ofs);
@@ -433,7 +442,7 @@ int SocketCommunication::DownloadThreadListMod(const wxString& gzipPath,
         myRequest.setOpt(new Url(url));
         myRequest.setOpt(new HttpHeader(headers));
         myRequest.setOpt(new Verbose(true));
-        myRequest.setOpt(this->writeHeaderFunc);
+        myRequest.setOpt(*this->writeHeaderFunc);
 
         std::ofstream ofs(gzipPath.mb_str() , std::ios::out | std::ios::trunc | std::ios::binary );
         WriteStream ws(&ofs);
@@ -593,7 +602,7 @@ void SocketCommunication::DownloadThreadNew(const wxString& gzipPath,
         myRequest.setOpt(new Url(url));
         myRequest.setOpt(new HttpHeader(headers));
         myRequest.setOpt(new Verbose(true));
-        myRequest.setOpt(this->writeHeaderFunc);
+        myRequest.setOpt(*this->writeHeaderFunc);
 
         std::ofstream ofs(gzipPath.mb_str() , std::ios::out | std::ios::trunc | std::ios::binary );
         WriteStream ws(&ofs);
@@ -726,8 +735,8 @@ int SocketCommunication::DownloadThreadMod(const wxString& gzipPath,
         myRequest.setOpt(new Url(url));
         myRequest.setOpt(new HttpHeader(headers));
         myRequest.setOpt(new Verbose(true));
-        myRequest.setOpt(this->writeHeaderFunc);
-        myRequest.setOpt(this->writeBodyFunc);
+        myRequest.setOpt(*this->writeHeaderFunc);
+        myRequest.setOpt(*this->writeBodyFunc);
 
         wxString message = wxT("2chのスレッドを取得 (ん`　 )\n");
         message += server;
@@ -874,7 +883,7 @@ int SocketCommunication::DownloadThreadPast(const wxString& gzipPath, const wxSt
         myRequest.setOpt(new Url(url));
         myRequest.setOpt(new HttpHeader(headers));
         myRequest.setOpt(new Verbose(true));
-        myRequest.setOpt(this->writeHeaderFunc);
+        myRequest.setOpt(*this->writeHeaderFunc);
 
         // 何も見つからなかった時に備えてgzipPathは仮の値に
         const wxString pastTempPath = gzipPath + wxT("temp");
@@ -1103,7 +1112,7 @@ wxString SocketCommunication::PostFirstToThread(BoardInfo& boardInfoHash, Thread
         myRequest.setOpt(new PostFields(postField));
         myRequest.setOpt(new PostFieldSize(postField.length()));
         myRequest.setOpt(new Verbose(true));
-        myRequest.setOpt(this->writeHeaderFunc);
+        myRequest.setOpt(*this->writeHeaderFunc);
 
         std::ofstream ofs(headerPath.mb_str() , std::ios::out | std::ios::trunc );
         WriteStream ws(&ofs);
@@ -1248,7 +1257,7 @@ wxString SocketCommunication::PostConfirmToThread(BoardInfo& boardInfoHash, Thre
         myRequest.setOpt(new PostFields(postField));
         myRequest.setOpt(new PostFieldSize(postField.length()));
         myRequest.setOpt(new Verbose(true));
-        myRequest.setOpt(this->writeHeaderFunc);
+        myRequest.setOpt(*this->writeHeaderFunc);
 
         std::ofstream ofs(headerPath.mb_str() , std::ios::out | std::ios::trunc );
         WriteStream ws(&ofs);
@@ -1395,7 +1404,7 @@ wxString SocketCommunication::PostResponseToThread(BoardInfo& boardInfoHash, Thr
         myRequest.setOpt(new PostFields(postField));
         myRequest.setOpt(new PostFieldSize(postField.length()));
         myRequest.setOpt(new Verbose(true));
-        myRequest.setOpt(this->writeHeaderFunc);
+        myRequest.setOpt(*this->writeHeaderFunc);
 
         std::ofstream ofs(headerPath.mb_str() , std::ios::out | std::ios::trunc );
         WriteStream ws(&ofs);
@@ -1944,7 +1953,7 @@ void SocketCommunication::LoginBe2ch() {
         myRequest.setOpt(new PostFields(postField));
         myRequest.setOpt(new PostFieldSize(postField.length()));
         myRequest.setOpt(new Verbose(true));
-        myRequest.setOpt(this->writeHeaderFunc);
+        myRequest.setOpt(*this->writeHeaderFunc);
 
         wxString message = wxT("BEにログイン (ヽ´ん`)...\n");
         JaneCloneUiUtil::SendLoggingHelper(message);
