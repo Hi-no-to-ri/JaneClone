@@ -88,7 +88,7 @@ void ExtractBoardList::FindBoardInfo(xmlNode*& element) {
             /** もしノードの中身が「B」タグだったら:カテゴリ名 */
             if (xmlStrcasecmp(node->name, (const xmlChar*) "B") == 0) {
                 // 配列に要素を詰め込む
-                if (sizeof(node->children->content) > 0) {
+                if (node->children != NULL && node->children->content != NULL) {
                     // wx-2.8ではキャストの方法がこれしかない
                     wxString category((const char*) node->children->content,wxConvUTF8);
                     if (category == excludeCategory1 || category == excludeCategory2) continue;
@@ -100,8 +100,9 @@ void ExtractBoardList::FindBoardInfo(xmlNode*& element) {
                 for (xmlAttrPtr attr = node->properties; attr != NULL; attr = attr->next) {
                     if (xmlStrcasecmp(attr->name, (const xmlChar*) "HREF") == 0) {
                         // 配列に要素を詰め込む
-                        if (sizeof(node->children->content) > 0 &&
-                            sizeof(node->properties[0].children->content) > 0) {
+                        if (node->children != NULL && node->children->content != NULL &&
+                            node->properties != NULL && node->properties[0].children != NULL &&
+                            node->properties[0].children->content != NULL) {
                             // wx-2.8ではキャストの方法がこれしかない
                             wxString name((const char*) node->children->content, wxConvUTF8);
                             wxString url((const char*) node->properties[0].children->content, wxConvUTF8);

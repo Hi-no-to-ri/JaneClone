@@ -26,7 +26,7 @@
 // dbファイルの初期化
 std::function<void(DB&)> SQLiteAccessor::AutoCloseable(std::function<void(DB&)> block) {
 
-    return [&](DB& db) -> void {
+    return [block](DB& db) -> void {
         try {
             wxString dbFile = GetDBFilePath();
             DB::InitializeSQLite();
