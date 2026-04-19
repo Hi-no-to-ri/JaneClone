@@ -29,8 +29,6 @@
  */
 ExtractBoardList::ExtractBoardList(const char* file) {
 
-    // HTML読み込み用構造体
-    htmlDocPtr m_doc;
     // SQLiteAccessorのインスタンスを準備する
     SQLiteAccessor* accessor = new SQLiteAccessor();
     boardInfoArray = new wxArrayString();
@@ -55,6 +53,8 @@ ExtractBoardList::ExtractBoardList(const char* file) {
 
     if (NULL == root) {
         // NULLが返された場合その時点で終了する
+        xmlFreeDoc(m_doc);
+        m_doc = NULL;
         xmlCleanupParser();
         xmlCleanupCharEncodingHandlers();
         delete accessor;
@@ -63,6 +63,8 @@ ExtractBoardList::ExtractBoardList(const char* file) {
     } else {
         // 正常処理
         FindBoardInfo(root);
+        xmlFreeDoc(m_doc);
+        m_doc = NULL;
         xmlCleanupParser();
         xmlCleanupCharEncodingHandlers();
     }
