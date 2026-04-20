@@ -173,9 +173,8 @@ wxArrayString SQLiteAccessor::GetBoardInfo() {
 
         // SQL文を実行する
         rs = db.ExecuteQuery(sqlSe);
-        db.Close();
 
-        while (!rs.Eof()) {
+        while (rs.NextRow()) {
             wxString boardName = rs.GetAsString(wxT("BOARDNAME_KANJI"));
             wxString url = rs.GetAsString(wxT("BOARD_URL"));
             wxString category = rs.GetAsString(wxT("CATEGORY"));
@@ -186,8 +185,8 @@ wxArrayString SQLiteAccessor::GetBoardInfo() {
                 array.Add(url);
                 array.Add(category);
             }
-            rs.NextRow();
         }
+        db.Close();
         return array;
 
     } catch (wxSQLite3Exception& e) {
@@ -219,17 +218,16 @@ wxArrayString SQLiteAccessor::GetCategoryList() {
 
         // SQL文を実行する
         rs = db.ExecuteQuery(sqlSe);
-        db.Close();
 
-        while (!rs.Eof()) {
+        while (rs.NextRow()) {
             wxString category = rs.GetAsString(wxT("CATEGORY"));
 
             // 各項目がNULLで無ければArrayStringに詰める
             if (category.Length() > 0) {
                 array.Add(category);
             }
-            rs.NextRow();
         }
+        db.Close();
         return array;
 
     } catch (wxSQLite3Exception& e) {
@@ -260,17 +258,18 @@ bool SQLiteAccessor::TableHasData(const wxString tableName) {
 
         // SQL文を実行する
         rs = db.ExecuteQuery(SQL_QUERY);
-        db.Close();
 
         // SQL文を実行し結果を受け取る
         if (!rs.IsNull(0)) {
             int recordNum = rs.GetInt(0);
+            db.Close();
             if ( 0 == recordNum) {
                 return false;
             } else {
                 return true;
             }
         }
+        db.Close();
 
     } catch (wxSQLite3Exception& e) {
         wxMessageBox(e.GetMessage());
@@ -352,7 +351,6 @@ wxArrayString SQLiteAccessor::GetUserLookedBoardList() {
 
     // SQL文を実行する
     rs = db.ExecuteQuery(sqlSe);
-    db.Close();
 
     // リザルトセットをArrayStringに設定する
     wxArrayString array;
@@ -365,6 +363,7 @@ wxArrayString SQLiteAccessor::GetUserLookedBoardList() {
             array.Add(boardName);
         }
     }
+    db.Close();
     return array;
 }
 /**
@@ -417,7 +416,6 @@ wxArrayString SQLiteAccessor::GetUserLookedThreadList() {
 
     // SQL文を実行する
     rs = db.ExecuteQuery(sqlSe);
-    db.Close();
 
     // リザルトセットをArrayStringに設定する
     wxArrayString array;
@@ -434,6 +432,7 @@ wxArrayString SQLiteAccessor::GetUserLookedThreadList() {
             array.Add(boardNameAscii);
         }
     }
+    db.Close();
     return array;
 }
 
@@ -487,7 +486,6 @@ void SQLiteAccessor::GetUserFavoriteThreadList(std::vector<std::tuple<wxString, 
 
     // SQL文を実行する
     rs = db.ExecuteQuery(sqlSe);
-    db.Close();
 
     // リザルトセットをvectorに設定する
     while (rs.NextRow()) {
@@ -500,6 +498,7 @@ void SQLiteAccessor::GetUserFavoriteThreadList(std::vector<std::tuple<wxString, 
             favoriteList.push_back(std::make_tuple(title, origNumber, boardNameAscii));
         }
     }
+    db.Close();
 }
 
 /**
@@ -567,7 +566,6 @@ wxArrayString SQLiteAccessor::GetClosedBoardInfo() {
 
         // SQL文を実行する
         rs = db.ExecuteQuery(SQL_QUERY);
-        db.Close();
 
         while (rs.NextRow()) {
             wxString boardName = rs.GetAsString(wxT("BOARDNAME_KANJI"));
@@ -577,7 +575,7 @@ wxArrayString SQLiteAccessor::GetClosedBoardInfo() {
                 array.Add(boardName);
             }
         }
-
+        db.Close();
         return array;
 
     } catch (wxSQLite3Exception& e) {
@@ -653,7 +651,6 @@ wxArrayString SQLiteAccessor::GetThreadInfo(const wxWindowID id) {
 
         // SQL文を実行する
         rs = db.ExecuteQuery(SQL_QUERY);
-        db.Close();
 
         while (rs.NextRow()) {
             wxString title = rs.GetAsString(wxT("THREAD_TITLE"));
@@ -663,7 +660,7 @@ wxArrayString SQLiteAccessor::GetThreadInfo(const wxWindowID id) {
                 array.Add(title);
             }
         }
-
+        db.Close();
         return array;
 
     } catch (wxSQLite3Exception& e) {
@@ -711,13 +708,13 @@ void SQLiteAccessor::GetThreadFullInfo(const int number, std::unique_ptr<ThreadI
 
         // SQL文を実行する
         rs = db.ExecuteQuery(SQL_QUERY);
-        db.Close();
 
         while (rs.NextRow()) {
             threadInfo->title          = rs.GetAsString(wxT("THREAD_TITLE"));
             threadInfo->origNumber     = rs.GetAsString(wxT("THREAD_ORIG_NUM"));
             threadInfo->boardNameAscii = rs.GetAsString(wxT("BOARDNAME_ASCII"));
         }
+        db.Close();
 
     } catch (wxSQLite3Exception& e) {
         wxMessageBox(e.GetMessage());
@@ -745,13 +742,14 @@ int SQLiteAccessor::HowManyRecord(const wxString tableName) {
 
         // SQL文を実行する
         rs = db.ExecuteQuery(SQL_QUERY);
-        db.Close();
 
         // SQL文を実行し結果を受け取る
         if (!rs.IsNull(0)) {
             int recordNum = rs.GetInt(0);
+            db.Close();
             return recordNum;
         }
+        db.Close();
 
     } catch (wxSQLite3Exception& e) {
         wxMessageBox(e.GetMessage());
@@ -848,7 +846,6 @@ wxArrayString SQLiteAccessor::GetUserSearchedKeyword(const wxWindowID id) {
 
         // SQL文を実行する
         rs = db.ExecuteQuery(SQL_QUERY);
-        db.Close();
 
         while (rs.NextRow()) {
             wxString keyword = rs.GetAsString(wxT("KEYWORD"));
@@ -858,7 +855,7 @@ wxArrayString SQLiteAccessor::GetUserSearchedKeyword(const wxWindowID id) {
                 array.Add(keyword);
             }
         }
-
+        db.Close();
         return array;
 
     } catch (wxSQLite3Exception& e) {
@@ -890,11 +887,11 @@ wxArrayString SQLiteAccessor::GetShingetsuNodeList() {
 
         // SQL文を実行する
         rs = db.ExecuteQuery(SQL_QUERY);
-        db.Close();
 
         while (rs.NextRow()) {
             array.Add(rs.GetAsString(wxT("BOARD_URL")));
         }
+        db.Close();
 
     } catch (wxSQLite3Exception& e) {
         wxMessageBox(e.GetMessage());

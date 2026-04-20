@@ -1572,29 +1572,44 @@ void JaneClone::OnGetBoardList(wxCommandEvent&) {
     wxString message1 = wxT("三┏（ ；´ん｀）┛…板一覧更新\n");
     SendLogging(message1);
 
-    // ソケット通信を行う
-    std::unique_ptr<SocketCommunication> sock(new SocketCommunication());
-    int rc = sock->DownloadBoardList(BOARD_LIST_PATH, BOARD_LIST_HEADER_PATH);
+    try {
+        // ソケット通信を行う
+        std::cerr << "[BoardList] Step 1: DownloadBoardList start" << std::endl;
+        std::unique_ptr<SocketCommunication> sock(new SocketCommunication());
+        int rc = sock->DownloadBoardList(BOARD_LIST_PATH, BOARD_LIST_HEADER_PATH);
+        std::cerr << "[BoardList] Step 1: DownloadBoardList done, rc=" << rc << std::endl;
 
-
-    // 実行コード別のダイアログを出す
-    if (rc != 0)
+        // 実行コード別のダイアログを出す
+        if (rc != 0)
         {
             wxMessageBox(wxT("板一覧情報取得に失敗しました。ネットワークの接続状況を確認してください。"));
         }
-    else
+        else
         {
             // 板一覧情報を展開し、SQLiteに設定する
+            std::cerr << "[BoardList] Step 2: DeleteTableData" << std::endl;
             SQLiteAccessor::DeleteTableData(wxT("BOARD_INFO"));
+
+            std::cerr << "[BoardList] Step 3: ExtractBoardList" << std::endl;
             wxString boardListPath = BOARD_LIST_PATH;
             { ExtractBoardList ebl(boardListPath.mb_str()); }
 
             // 板一覧更新
+            std::cerr << "[BoardList] Step 4: SetBoardList" << std::endl;
             SetBoardList();
 
+            std::cerr << "[BoardList] Step 5: Done" << std::endl;
             wxString message2 = wxT("　　　(ヽ´ん`) 完了\n");
             SendLogging(message2);
         }
+    } catch (std::exception& e) {
+        std::cerr << "[BoardList] Exception: " << e.what() << std::endl;
+        wxMessageBox(wxString::Format(wxT("板一覧更新中にエラーが発生しました: %s"),
+                                      wxString(e.what(), wxConvUTF8)));
+    } catch (...) {
+        std::cerr << "[BoardList] Unknown exception" << std::endl;
+        wxMessageBox(wxT("板一覧更新中に不明なエラーが発生しました。"));
+    }
 }
 /**
  * HtmlWindow上でマウスホバーが起きた場合の処理

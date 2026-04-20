@@ -127,6 +127,7 @@ void JaneCloneUiUtil::QueueEventHelper(const wxWindowID type, const wxWindowID i
 #else
     wxWindow::FindWindowById(ID_WxJaneClone)->AddPendingEvent(*e);
 #endif
+    delete e;
 };
 
 

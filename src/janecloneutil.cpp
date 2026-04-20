@@ -81,11 +81,23 @@ void JaneCloneUtil::DecompressFile(const wxString& inputPath,
 void JaneCloneUtil::ConvertSJISToUTF8(const wxString& inputPath,
                                       const wxString& outputPath) {
     std::ifstream ifs(inputPath.mb_str());
+    if (!ifs.good()) {
+        std::cerr << "ConvertSJISToUTF8: failed to open " << inputPath.mb_str() << std::endl;
+        return;
+    }
     std::ofstream ofs(outputPath.mb_str());
+    if (!ofs.good()) {
+        std::cerr << "ConvertSJISToUTF8: failed to open " << outputPath.mb_str() << std::endl;
+        return;
+    }
     ifs >> std::noskipws; // 改行をスキップしない
 
     std::istream_iterator<char> ifsiter(ifs), eof;
     std::string buffer(ifsiter, eof);
+    if (buffer.empty()) {
+        std::cerr << "ConvertSJISToUTF8: input file is empty" << std::endl;
+        return;
+    }
     ofs << babel::sjis_to_utf8(buffer);
 }
 
@@ -97,11 +109,23 @@ void JaneCloneUtil::ConvertSJISToUTF8(const wxString& inputPath,
 void JaneCloneUtil::ConvertEUCJPToUTF8(const wxString& inputPath,
                                        const wxString& outputPath) {
     std::ifstream ifs(inputPath.mb_str());
+    if (!ifs.good()) {
+        std::cerr << "ConvertEUCJPToUTF8: failed to open " << inputPath.mb_str() << std::endl;
+        return;
+    }
     std::ofstream ofs(outputPath.mb_str());
+    if (!ofs.good()) {
+        std::cerr << "ConvertEUCJPToUTF8: failed to open " << outputPath.mb_str() << std::endl;
+        return;
+    }
     ifs >> std::noskipws; // 改行をスキップしない
 
     std::istream_iterator<char> ifsiter(ifs), eof;
     std::string buffer(ifsiter, eof);
+    if (buffer.empty()) {
+        std::cerr << "ConvertEUCJPToUTF8: input file is empty" << std::endl;
+        return;
+    }
     ofs << babel::euc_to_utf8(buffer);
 }
 
